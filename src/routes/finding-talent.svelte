@@ -199,7 +199,7 @@
 			</div>
 
 			<div class="navigation rounded box-shadow">
-				<h5>On this page</h5>
+				<h5>Contents</h5>
 				<ul>
 					<li><a href="#1">User research</a></li>
 					<li><a href="#2">Workshops with stakeholders</a></li>
