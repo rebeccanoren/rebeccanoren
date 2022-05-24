@@ -79,14 +79,15 @@ h1, h2, h3, h4 {
 }
 
 p, li {
-	line-height: 1.55;
+	line-height: 1.78;
 	font-size: 1.375rem;
 }
 
 
 a {
-	color: var(--text-color);
+	color: var(--accent-color);
 	text-decoration: none;
+
 }
 
 a:hover {
@@ -134,11 +135,11 @@ button:focus:not(:focus-visible) {
 }
 
 .box-shadow {
-	box-shadow: 0 16px 24px -8px rgba(68, 49, 29, 0.12), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 16px 24px -8px rgba(74, 48, 22, 0.12), 0px 0px 4px 0px rgba(66, 54, 23, 0.05);
 }
 
 .rounded {
-	border-radius: 15px;
+	border-radius: 16px;
 	}
 
 figure{
@@ -157,6 +158,7 @@ figcaption {
 	text-align: center;
 }
 
+html{scroll-behavior:smooth}
 
 @media (min-width: 720px) {
 	h1 {

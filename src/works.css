@@ -50,6 +50,35 @@ h3 {
     margin: 2rem 0rem;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.navigation {
+    background-color: var(--pure-white);
+    padding: 20px;
+    position: sticky;
+    top: 32px;
+}
+
+.navigation h5 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+.navigation li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
 @media (max-width: 1025px) {
     .container {
         flex-direction: column-reverse;
