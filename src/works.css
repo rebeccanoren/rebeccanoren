@@ -71,6 +71,7 @@ h3 {
 .navigation h5 {
     font-size: 1.2rem;
     margin: 0;
+    color: var(--text-color);
 }
 
 .navigation ul {
@@ -87,7 +88,7 @@ h3 {
 .infobox {
 background-color: var(--light-blue);
 padding: 64px;
-margin-top: 60px;
+margin-top: 120px;
 }
 
 .infobox  > *{

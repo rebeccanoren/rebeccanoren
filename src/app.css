@@ -32,7 +32,7 @@
 	--accent-color: #303f9f;
 	--heading-color: #000000;
 	--text-color: #292929;
-	--text-color-light: #757575;
+	--text-color-light: #2b2b30;
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -136,6 +136,7 @@ button:focus:not(:focus-visible) {
 
 .box-shadow {
 	box-shadow: 0 16px 24px -8px rgba(74, 48, 22, 0.12), 0px 0px 4px 0px rgba(66, 54, 23, 0.05);
+	outline: 1px white;
 }
 
 .rounded {
