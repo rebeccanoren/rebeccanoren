@@ -11,7 +11,9 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<a href="https://dribbble.com/rebeccanoren">Dribbble</a>
+	<a href="https://www.linkedin.com/in/rebecca-nor%C3%A9n-11473a93/">Linkedin</a>
+	<a href="https://github.com/rebeccanoren">Github</a>
 </footer>
 
 <style>
@@ -27,13 +29,15 @@
 	}
 
 	footer {
+		margin-top: 200px;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		gap: 16px;
 		padding: 40px;
-		color: var(--pure-white);
-		background-color: var(--dark);
+		color: var(--text-color);
+		background-color: var(--pure-white);
 	}
 
 	footer a {

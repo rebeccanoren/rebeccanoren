@@ -187,10 +187,11 @@
 
 		<div class="sidebar">
 			<h3>Keywords</h3>
-			<li>Consumer facing</li>
-			<li>Content design</li>
-			<li>User Story Mapping</li>
-			<li>User Test</li>
+			<ul>
+				<li>Consumer facing</li>
+				<li>Design Sprint</li>
+				<li>User Testing</li>
+			</ul>
 		</div>
 	</div>
 </section>

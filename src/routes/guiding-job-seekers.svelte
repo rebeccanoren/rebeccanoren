@@ -152,13 +152,24 @@
 
 		<div class="sidebar">
 			<h3>Keywords</h3>
-			<li>Consumer facing</li>
-			<li>Content design</li>
-			<li>User Story Mapping</li>
-			<li>User Test</li>
+			<ul>
+				<li>Consumer facing</li>
+				<li>Content design</li>
+				<li>User Story Mapping</li>
+				<li>User Testing</li>
+			</ul>
+
+			<h3>Link</h3>
+			<p>Try the soulution <a href="https://kit.svelte.dev">here</a></p>
 		</div>
 	</div>
 </section>
 
 <style>
+	.sidebar ul {
+		margin-bottom: 40px;
+	}
+	.sidebar a {
+		text-decoration: underline;
+	}
 </style>
