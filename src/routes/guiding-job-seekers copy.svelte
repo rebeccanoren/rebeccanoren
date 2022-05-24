@@ -10,7 +10,10 @@
 
 <svelte:head>
 	<title>Guiding job-seekers</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta
+		name="description"
+		content="UX Case Study: How I used design process methods to deliver results to TRR."
+	/>
 </svelte:head>
 
 <section>
