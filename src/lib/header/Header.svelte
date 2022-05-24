@@ -1,27 +1,24 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from './svelte-logo.svg';
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
-
 	<nav>
+		<a sveltekit:prefetch href="/">Rebecca Norén</a>
 		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+			<!-- <li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.url.pathname === '/guiding-job-seekers'}>
 				<a sveltekit:prefetch href="/guiding-job-seekers">Guiding job-seekers</a>
 			</li>
-			<li class:active={$page.url.pathname === '/about'}>
+			<li class:active={$page.url.pathname === '/finding-talent'}>
+				<a sveltekit:prefetch href="/finding-talent">Finding talent</a>
+			</li> -->
+			<!-- <li class:active={$page.url.pathname === '/about'}>
 				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
+			</li> -->
+			<!-- <li class:active={$page.url.pathname === '/todos'}>
 				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li>
+			</li> -->
 		</ul>
 	</nav>
 
@@ -33,33 +30,18 @@
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
-	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
+		padding: 10px;
 	}
 
 	nav {
+		flex: 1;
 		display: flex;
-		justify-content: center;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
-
 
 	ul {
 		position: relative;
@@ -84,16 +66,21 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 1em;
-		color: var(--heading-color);
-		font-weight: 700;
+		color: var(--text-color);
+
+		font-weight: 800;
 		font-size: 0.8rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
-		transition: color 0.2s linear;
+	}
+
+	nav > :first-child {
+		font-size: 1rem;
+		font-family: 'Grifter';
 	}
 
 	a:hover {
-		color: var(--accent-color);
+		color: var(--text-color);
 	}
 </style>

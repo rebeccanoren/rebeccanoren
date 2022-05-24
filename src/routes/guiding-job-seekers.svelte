@@ -5,6 +5,7 @@
 <script>
 	let srcHero = '/guiding-job-seekers/hero.jpg';
 	let srcAnchorLinks = '/guiding-job-seekers/anchor-links.png';
+	let srcMiro = '/guiding-job-seekers/miro.jpg';
 </script>
 
 <svelte:head>
@@ -77,6 +78,12 @@
 				to complete the job. This helped us to keep focused on what’s most important and saved us
 				from a lot of unnecessary content.
 			</p>
+
+			<figure>
+				<img src={srcMiro} class="box-shadow rounded" alt="Creating Jobs-to-be-done in Miro" />
+				<figcaption>Creating Jobs-to-be-done in Miro.</figcaption>
+			</figure>
+
 			<h3>4. Rapidly build something</h3>
 			<p>
 				I created prototypes and tested them iteratively with the target group to evaluate the
@@ -115,7 +122,7 @@
 				between steps and looked for keywords. A majority of the users scanned through the pages to
 				evaluate if the content were valuable to them.
 			</p>
-			<figure>
+			<figure class="small">
 				<img
 					src={srcAnchorLinks}
 					class="box-shadow rounded"
@@ -154,57 +161,4 @@
 </section>
 
 <style>
-	img {
-		max-width: 100%;
-	}
-
-	.container {
-		display: flex;
-		justify-content: center;
-		gap: 40px;
-	}
-
-	.description {
-		flex-grow: 1;
-		max-width: 768px;
-		/* background-color: aqua; */
-	}
-
-	.description h1 {
-		margin: 30px 0px 20px 0px;
-	}
-
-	.description h2,
-	h3 {
-		margin: 140px 0px 30px 0px;
-	}
-
-	.description h4 {
-		margin: 60px 0px 20px 0px;
-	}
-
-	.sidebar h3 {
-		margin: 30px 0px 20px 0px;
-	}
-
-	.container {
-		flex-basis: 0;
-		flex-grow: 999;
-		min-width: 320px;
-	}
-
-	.hero {
-		margin-bottom: 60px;
-	}
-
-	@media (max-width: 1025px) {
-		.container {
-			flex-direction: column-reverse;
-			justify-content: center;
-			padding: 24px;
-		}
-		.container > :first-child {
-			min-width: 100%;
-		}
-	}
 </style>

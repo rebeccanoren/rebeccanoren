@@ -25,28 +25,32 @@
 <section class="works">
 	<h2>Selected work</h2>
 	<div class="works-grid">
-		<figure class="item">
-			<img
-				src={srcGuidingJobSeekers}
-				class="rounded"
-				alt="Guiding content showing text and a video."
-			/>
-			<figcaption>
-				TRR (2020)<br />
-				<h3>Guiding job-seekers</h3>
-			</figcaption>
-		</figure>
-		<figure class="item">
-			<img
-				src={srcFindingTalent}
-				class="rounded"
-				alt="Search tool for finding candidates to recruit"
-			/>
-			<figcaption>
-				TRR (2019)<br />
-				<h3>Helping employers finding talent</h3>
-			</figcaption>
-		</figure>
+		<a sveltekit:prefetch href="/guiding-job-seekers">
+			<figure class="item">
+				<img
+					src={srcGuidingJobSeekers}
+					class="rounded"
+					alt="Guiding content showing text and a video."
+				/>
+				<figcaption>
+					<p>TRR (2020)</p>
+					<h3>Guiding job-seekers</h3>
+				</figcaption>
+			</figure>
+		</a>
+		<a sveltekit:prefetch href="/finding-talent">
+			<figure class="item">
+				<img
+					src={srcFindingTalent}
+					class="rounded"
+					alt="Search tool for finding candidates to recruit"
+				/>
+				<figcaption>
+					<p>TRR (2019)</p>
+					<h3>Helping employers finding talent</h3>
+				</figcaption>
+			</figure>
+		</a>
 	</div>
 </section>
 
@@ -75,7 +79,8 @@
 
 	.works h2 {
 		font-family: 'GT-America';
-		font-size: 1.5rem;
+		font-size: 1.3rem;
+		margin-bottom: 40px;
 	}
 
 	.works-grid .item {
@@ -85,6 +90,7 @@
 		width: auto;
 		flex-shrink: 1;
 		aspect-ratio: 1 / 1;
+		transition: transform 0.2s;
 	}
 
 	img {
@@ -108,6 +114,11 @@
 		color: var(--text-color);
 	}
 
+	figcaption p {
+		margin: 0;
+		font-size: 1rem;
+	}
+
 	figcaption {
 		text-align: left;
 	}
@@ -115,6 +126,13 @@
 	figcaption h3 {
 		margin-top: 10px;
 	}
+
+	/* Animations */
+	.works-grid .item:hover {
+		transform: scale(0.95);
+	}
+
+	/* Media Queries */
 
 	@media (max-width: 1025px) {
 		.works-grid {
@@ -125,6 +143,17 @@
 		.works-grid .item {
 			max-width: 550px;
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 1225px) {
+		.works-grid {
+			/* flex-direction: column; */
+			align-items: stretch;
+		}
+
+		.works-grid .item {
+			max-width: 400px;
 		}
 	}
 </style>
