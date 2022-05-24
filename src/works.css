@@ -65,6 +65,7 @@ h3 {
     padding: 20px;
     position: sticky;
     top: 32px;
+    max-width: 350px;
 }
 
 .navigation h5 {
