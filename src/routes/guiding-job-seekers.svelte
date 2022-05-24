@@ -174,7 +174,7 @@
 
 			<div class="Link">
 				<h3>Link</h3>
-				<p>Try the solution <a href="https://www.trr.se/">here.</a></p>
+				<p>Visit the <a href="https://www.trr.se/">website.</a></p>
 			</div>
 
 			<div class="navigation rounded box-shadow">
