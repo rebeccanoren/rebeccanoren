@@ -81,7 +81,7 @@
 				/>
 				<figcaption>Collaborating in a virtual Design Sprint session.</figcaption>
 			</figure>
-			<h2 id="4">The winning idea</h2>
+			<h2>The winning idea</h2>
 
 			<p>
 				The idea which got the most votes was to let employers search for jobseekers online based on
@@ -98,7 +98,7 @@
 				they reached the official labor market. We also found the idea popular among recruitment
 				agencies, they saw benefits with a unique access to a candidate pool.
 			</p>
-			<h2 id="6">Develop something small</h2>
+			<h2 id="5">Develop something small</h2>
 			<p>
 				Our goal was to develop a first iteration of the service with only the most important
 				features. Therefore, our work with evaluating and refining the ideas with the target users
@@ -145,7 +145,7 @@
 				consider the candidate.
 			</p>
 
-			<h2 id="8">Result</h2>
+			<h2 id="6">Result</h2>
 			<p>
 				We had a first basic version of the service almost ready to be released to the end users
 				when we ran into big trouble. The management team hit the pause button before release to
@@ -176,7 +176,7 @@
 				</li>
 
 				<div class="infobox rounded">
-					<h2 id="9">About TRR</h2>
+					<h2 id="7">About TRR</h2>
 					<p>
 						TRR works with employment transitions and working life, contributing to learning and
 						mobility in the Swedish labor market. Its activities are aimed at companies in the
@@ -201,15 +201,12 @@
 			<div class="navigation rounded box-shadow">
 				<h5>On this page</h5>
 				<ul>
-					<li><a href="#1">Start with the users</a></li>
-					<li><a href="#2">Identify the right opportunity</a></li>
-					<li><a href="#3">Explore and try out ideas</a></li>
-					<li><a href="#4">The winning idea</a></li>
-					<li><a href="#5">Get feedback, refine</a></li>
-					<li><a href="#6">Develop something small</a></li>
-					<li><a href="#7">Present the right candidates</a></li>
-					<li><a href="#8">Result</a></li>
-					<li><a href="#9">About TRR</a></li>
+					<li><a href="#1">User research</a></li>
+					<li><a href="#2">Workshops with stakeholders</a></li>
+					<li><a href="#3">Design Sprint</a></li>
+					<li><a href="#5">Development</a></li>
+					<li><a href="#6">Result</a></li>
+					<li><a href="#7">About TRR</a></li>
 				</ul>
 			</div>
 		</div>

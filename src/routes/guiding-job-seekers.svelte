@@ -17,13 +17,13 @@
 	<img src={srcHero} class="hero rounded" alt="People standing infront of whiteboard" />
 	<div class="container">
 		<div class="description">
-			<h1 id="1">Guiding job seekers</h1>
+			<h1>Guiding job seekers</h1>
 			<p>
 				TRR works with employment transitions. They help job-seekers taking the next step in their
 				careers. For example, they could help with creating a great resume and prepare you before
 				your job interview.
 			</p>
-			<h2 id="2">Covid hits the labor market</h2>
+			<h2>Covid hits the labor market</h2>
 			<p>
 				In 2020 when the pandemic hit the labor market, TRR found it necessary to enable the
 				job-seekers to do more independently and increase the level of self-service. TRR had a
@@ -36,7 +36,7 @@
 				<li>Outdated content</li>
 				<li>No personal approach</li>
 			</ul>
-			<h2 id="3">Creating guiding content</h2>
+			<h2 id="1">Creating guiding content</h2>
 			<p>
 				The amount of new job seekers at TRR was increasing every day, we were already short in time
 				and our deadline was only 6 months ahead.
@@ -93,8 +93,8 @@
 				insights. We also implemented more new components like:
 			</p>
 			<ul class="margin">
-				<li>In-page links to help the user find the content they are looking for quicker</li>
-				<li>Highlighted information and tips</li>
+				<li>In-page links to help the user find the content they are looking for quicker.</li>
+				<li>Highlighted information and tips.</li>
 				<li>
 					Links to tie with TRR’s digital tools, to create your resume, do a personality test or
 					search for jobs.
@@ -131,14 +131,14 @@
 				<figcaption>Anchor links to help readers to quickly find content</figcaption>
 			</figure>
 
-			<h2 id="4">Solution</h2>
+			<h2 id="2">Solution</h2>
 			<p>
 				We have created a guide that step-by-step describes how to create a resume and personal
 				letter, how to adapt these to an application, and tips for when preparing for a job
 				interview.
 			</p>
 
-			<h2 id="5">Result</h2>
+			<h2 id="3">Result</h2>
 			<p>
 				The most important result of this project is enabling users to be independent and more in
 				control of their journey to find a new job. This also resulted in a relief of workload for
@@ -150,7 +150,7 @@
 			</p>
 
 			<div class="infobox rounded">
-				<h2 id="9">About TRR</h2>
+				<h2 id="4">About TRR</h2>
 				<p>
 					TRR works with employment transitions and working life, contributing to learning and
 					mobility in the Swedish labor market. Its activities are aimed at companies in the private
@@ -178,14 +178,12 @@
 			</div>
 
 			<div class="navigation rounded box-shadow">
-				<h5>On this page</h5>
+				<h5>Contents</h5>
 				<ul>
-					<li><a href="#1">Guiding job seekers</a></li>
-					<li><a href="#2">Covid hits the labor market</a></li>
-					<li><a href="#3">Creating guiding content</a></li>
-					<li><a href="#4">Solution</a></li>
-					<li><a href="#5">Result</a></li>
-					<li><a href="#6">About TRR</a></li>
+					<li><a href="#1">Creating guiding content</a></li>
+					<li><a href="#2">Solution</a></li>
+					<li><a href="#3">Result</a></li>
+					<li><a href="#4">About TRR</a></li>
 				</ul>
 			</div>
 		</div>

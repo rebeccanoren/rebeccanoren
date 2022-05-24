@@ -29,7 +29,7 @@
 	--primary-color: #b9c6d2;
 	--secondary-color: #d0dde9;
 	--tertiary-color: #150061;
-	--accent-color: #3800FE;
+	--accent-color: #303f9f;
 	--heading-color: #000000;
 	--text-color: #292929;
 	--text-color-light: #757575;
@@ -81,7 +81,7 @@ h1, h2, h3, h4 {
 
 p, li {
 	line-height: 1.78;
-	font-size: 1.375rem;
+	font-size: 1.2rem;
 }
 
 

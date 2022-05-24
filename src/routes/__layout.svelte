@@ -36,12 +36,13 @@
 		align-items: center;
 		gap: 16px;
 		padding: 40px;
-		color: var(--text-color);
+
 		background-color: var(--pure-white);
 	}
 
 	footer a {
 		font-weight: bold;
+		color: var(--accent-color);
 	}
 
 	@media (min-width: 480px) {
