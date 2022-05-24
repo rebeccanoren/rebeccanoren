@@ -36,7 +36,7 @@
 				<li>Outdated content</li>
 				<li>No personal approach</li>
 			</ul>
-			<h2 id="1">Creating guiding content</h2>
+			<h2 id="">Creating guiding content</h2>
 			<p>
 				The amount of new job seekers at TRR was increasing every day, we were already short in time
 				and our deadline was only 6 months ahead.
@@ -174,7 +174,7 @@
 
 			<div class="Link">
 				<h3>Link</h3>
-				<p>Try the soulution <a href="https://kit.svelte.dev">here.</a></p>
+				<p>Try the solution <a href="https://www.trr.se/">here.</a></p>
 			</div>
 
 			<div class="navigation rounded box-shadow">
