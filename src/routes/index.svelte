@@ -150,6 +150,7 @@
 		.works-grid {
 			/* flex-direction: column; */
 			align-items: stretch;
+			gap: 64px;
 		}
 
 		.works-grid .item {

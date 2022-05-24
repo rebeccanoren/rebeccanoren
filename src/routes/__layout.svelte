@@ -12,7 +12,7 @@
 
 <footer>
 	<a href="https://dribbble.com/rebeccanoren">Dribbble</a>
-	<a href="https://www.linkedin.com/in/rebecca-nor%C3%A9n-11473a93/">Linkedin</a>
+	<a href="https://linkedin.com/in/rebecca-norén">LinkedIn</a>
 	<a href="https://github.com/rebeccanoren">Github</a>
 </footer>
 
