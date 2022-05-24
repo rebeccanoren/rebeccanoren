@@ -148,6 +148,17 @@
 				understanding of user-centered methods and contributed to the extended understanding of the
 				user’s needs within TRR.
 			</p>
+
+			<div class="infobox rounded">
+				<h2 id="9">About TRR</h2>
+				<p>
+					TRR works with employment transitions and working life, contributing to learning and
+					mobility in the Swedish labor market. Its activities are aimed at companies in the private
+					labor market, trade union representatives and company employees. TRR is a non-profit
+					foundation based on a collective agreement between the Confederation of Swedish Enterprise
+					and PTK.
+				</p>
+			</div>
 		</div>
 
 		<div class="sidebar">
@@ -174,6 +185,7 @@
 					<li><a href="#3">Creating guiding content</a></li>
 					<li><a href="#4">Solution</a></li>
 					<li><a href="#5">Result</a></li>
+					<li><a href="#6">About TRR</a></li>
 				</ul>
 			</div>
 		</div>

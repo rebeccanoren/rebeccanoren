@@ -23,11 +23,12 @@
 	--font-mono: 'Fira Mono', monospace;
 	--font-header: 'Grifter';
 	--pure-white: #ffffff;
+	--light-blue: #DFE5F9;
 	--light-yellow: #fef9f5;
 	--dark: #080808;
 	--primary-color: #b9c6d2;
 	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
+	--tertiary-color: #150061;
 	--accent-color: #3800FE;
 	--heading-color: #000000;
 	--text-color: #292929;
@@ -85,9 +86,8 @@ p, li {
 
 
 a {
-	color: var(--accent-color);
+	color: var(--text-color);
 	text-decoration: none;
-
 }
 
 a:hover {
@@ -162,6 +162,6 @@ html{scroll-behavior:smooth}
 
 @media (min-width: 720px) {
 	h1 {
-		font-size: 2.4rem;
+		font-size: 2.0rem;
 	}
 }

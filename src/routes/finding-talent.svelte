@@ -28,7 +28,7 @@
 				team was formed with the goal to identify these opportunities and execute on them. Our
 				process was something like the following:
 			</p>
-			<h2>Start with basic understanding of the users</h2>
+			<h2 id="1">Start with basic understanding of the users</h2>
 			<p>
 				At the time, TRR lacked an understanding of the employer’s most important needs and there
 				was no previous research to start from.
@@ -56,7 +56,7 @@
 				group TRR wanted to maintain good relationships with.
 			</p>
 
-			<h2>Identify the right opportunity</h2>
+			<h2 id="2">Identify the right opportunity</h2>
 			<p>
 				As a next step, I facilitated several workshops with stakholders to further explore the
 				needs of our primary persona in detail. I facilitated impact mapping sessions to define our
@@ -65,7 +65,7 @@
 				defined goals.
 			</p>
 
-			<h2>Explore and try out ideas</h2>
+			<h2 id="3">Explore and try out ideas</h2>
 			<p>
 				At this point we decided to focus on the key persona’s need to recruit new, qualified and
 				competent staff. To explore different ideas to meet this goal we decided to use the method
@@ -81,7 +81,7 @@
 				/>
 				<figcaption>Collaborating in a virtual Design Sprint session.</figcaption>
 			</figure>
-			<h2>The winning idea</h2>
+			<h2 id="4">The winning idea</h2>
 
 			<p>
 				The idea which got the most votes was to let employers search for jobseekers online based on
@@ -89,7 +89,7 @@
 				companies to search for competence among TRRs wide range of candidates.
 			</p>
 
-			<h2>Get feedback, refine</h2>
+			<h2 id="5">Get feedback, refine</h2>
 			<p>
 				We improved the prototypes and included more refined ideas as we went. When evaluating, we
 				found support for the idea was interesting to a couple of the employers. The idea was mostly
@@ -98,7 +98,7 @@
 				they reached the official labor market. We also found the idea popular among recruitment
 				agencies, they saw benefits with a unique access to a candidate pool.
 			</p>
-			<h2>Develop something small</h2>
+			<h2 id="6">Develop something small</h2>
 			<p>
 				Our goal was to develop a first iteration of the service with only the most important
 				features. Therefore, our work with evaluating and refining the ideas with the target users
@@ -127,7 +127,7 @@
 				</li>
 			</ul>
 			<p>The development of the service was conducted iteratively.</p>
-			<h2>Present the right candidates</h2>
+			<h2 id="7">Present the right candidates</h2>
 			<p>
 				A big challenge was to make sure the results of the search were perceived as relevant to
 				recruiters. We needed to figure out if we should present candidates which fulfilled:
@@ -145,7 +145,7 @@
 				consider the candidate.
 			</p>
 
-			<h2>Result</h2>
+			<h2 id="8">Result</h2>
 			<p>
 				We had a first basic version of the service almost ready to be released to the end users
 				when we ran into big trouble. The management team hit the pause button before release to
@@ -174,24 +174,44 @@
 					A great service to continue to develop together with the users. We found great support
 					from our user research that employers couldn’t wait to start using our service.
 				</li>
-				<h2>About TRR</h2>
-				<p>
-					About TRR TRR works with employment transitions and working life, contributing to learning
-					and mobility in the Swedish labor market. Its activities are aimed at companies in the
-					private labor market, trade union representatives and company employees. TRR is a
-					non-profit foundation based on a collective agreement between the Confederation of Swedish
-					Enterprise and PTK.
-				</p>
+
+				<div class="infobox rounded">
+					<h2 id="9">About TRR</h2>
+					<p>
+						TRR works with employment transitions and working life, contributing to learning and
+						mobility in the Swedish labor market. Its activities are aimed at companies in the
+						private labor market, trade union representatives and company employees. TRR is a
+						non-profit foundation based on a collective agreement between the Confederation of
+						Swedish Enterprise and PTK.
+					</p>
+				</div>
 			</ul>
 		</div>
 
 		<div class="sidebar">
-			<h3>Keywords</h3>
-			<ul>
-				<li>Consumer facing</li>
-				<li>Design Sprint</li>
-				<li>User Testing</li>
-			</ul>
+			<div class="keywords">
+				<h3>Keywords</h3>
+				<ul>
+					<li>Consumer facing</li>
+					<li>Design Sprint</li>
+					<li>User Testing</li>
+				</ul>
+			</div>
+
+			<div class="navigation rounded box-shadow">
+				<h5>On this page</h5>
+				<ul>
+					<li><a href="#1">Start with the users</a></li>
+					<li><a href="#2">Identify the right opportunity</a></li>
+					<li><a href="#3">Explore and try out ideas</a></li>
+					<li><a href="#4">The winning idea</a></li>
+					<li><a href="#5">Get feedback, refine</a></li>
+					<li><a href="#6">Develop something small</a></li>
+					<li><a href="#7">Present the right candidates</a></li>
+					<li><a href="#8">Result</a></li>
+					<li><a href="#9">About TRR</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>

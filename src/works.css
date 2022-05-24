@@ -28,6 +28,10 @@ h3 {
     margin: 60px 0px 20px 0px;
 }
 
+.sidebar a {
+    color: var(--accent-color);
+}
+
 .sidebar h3 {
     margin: 30px 0px 20px 0px;
 }
@@ -79,13 +83,32 @@ h3 {
     font-size: 1.3rem;
 }
 
+.infobox {
+background-color: var(--light-blue);
+padding: 64px;
+margin-top: 60px;
+}
+
+.infobox  > *{
+    color: var(--tertiary-color);
+}
+
+.infobox >:first-child{
+    padding: 0px 0px;
+    margin: 0px;
+}
+
 @media (max-width: 1025px) {
     .container {
         flex-direction: column-reverse;
         justify-content: center;
-        padding: 24px;
     }
     .container > :first-child {
         min-width: 100%;
     }
+
+    .infobox {
+        margin-top: 40px;
+        padding: 32px;
+        }
 }
