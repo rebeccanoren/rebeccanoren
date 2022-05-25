@@ -18,9 +18,9 @@
 <section class="case">
 	<div class="intro">
 		<p class="xs">TRR (2019)</p>
-		<h1 class="xl">Helping employers finding talent</h1>
+		<h1 class="xl">Helping employers hiring talent</h1>
 
-		<p class="xs">How we created helpful and user-centered content using design methods.</p>
+		<p class="xs">Identifying opportunities through Design Thinking.</p>
 	</div>
 	<img src={srcHero} class="hero rounded" alt="People standing infront of whiteboard" />
 

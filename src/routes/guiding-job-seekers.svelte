@@ -19,7 +19,7 @@
 <section class="case">
 	<div class="intro">
 		<p class="xs">TRR (2020)</p>
-		<h1 class="xl">Guiding job seekers</h1>
+		<h1 class="xl">Guiding job-seekers</h1>
 
 		<p class="xs">How we created helpful and user-centered content using design methods.</p>
 	</div>
