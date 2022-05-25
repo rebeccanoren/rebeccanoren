@@ -37,7 +37,7 @@
 				team was formed with the goal to identify these opportunities and execute on them. Our
 				process was something like the following:
 			</p>
-			<h2 id="1">Start with basic understanding of the users</h2>
+			<h2 class="m" id="1">Start with basic understanding of the users</h2>
 			<p>
 				At the time, TRR lacked an understanding of the employer’s most important needs and there
 				was no previous research to start from.
@@ -98,7 +98,7 @@
 				companies to search for competence among TRRs wide range of candidates.
 			</p>
 
-			<h2 class="m" id="5">Get feedback, refine</h2>
+			<h2 class="m">Get feedback, refine</h2>
 			<p>
 				We improved the prototypes and included more refined ideas as we went. When evaluating, we
 				found support for the idea was interesting to a couple of the employers. The idea was mostly
@@ -136,7 +136,7 @@
 				</li>
 			</ul>
 			<p>The development of the service was conducted iteratively.</p>
-			<h2 class="m" id="7">Present the right candidates</h2>
+			<h2 class="m">Present the right candidates</h2>
 			<p>
 				A big challenge was to make sure the results of the search were perceived as relevant to
 				recruiters. We needed to figure out if we should present candidates which fulfilled:
