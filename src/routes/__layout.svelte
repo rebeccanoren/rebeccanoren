@@ -2,6 +2,7 @@
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 	import '../works.css';
+	import '../typography.css';
 </script>
 
 <Header />

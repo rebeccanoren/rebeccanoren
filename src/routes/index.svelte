@@ -11,9 +11,8 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
-
 <section class="intro">
-	<h1>
+	<h1 class="l">
 		Hello, I'm Rebecca Norén. Product Designer in Stockholm. Currently working with messaging at <a
 			rel="external"
 			href="https://www.sinch.com/"
@@ -23,7 +22,7 @@
 </section>
 
 <section class="works">
-	<h2>Selected work</h2>
+	<h2 class="normal xs">Selected work</h2>
 	<div class="works-grid">
 		<a sveltekit:prefetch href="/guiding-job-seekers">
 			<figure class="item">
@@ -33,8 +32,8 @@
 					alt="Guiding content showing text and a video."
 				/>
 				<figcaption>
-					<p>TRR (2020)</p>
-					<h3>Guiding job-seekers</h3>
+					<p class="uppercase xxs">TRR (2020)</p>
+					<h3 class="m">Guiding job-seekers</h3>
 				</figcaption>
 			</figure>
 		</a>
@@ -46,8 +45,8 @@
 					alt="Search tool for finding candidates to recruit"
 				/>
 				<figcaption>
-					<p>TRR (2019)</p>
-					<h3>Helping employers finding talent</h3>
+					<p class="uppercase xxs">TRR (2019)</p>
+					<h3 class="m">Helping employers finding talent</h3>
 				</figcaption>
 			</figure>
 		</a>
@@ -67,6 +66,10 @@
 		margin-top: 100px;
 	}
 
+	.works a {
+		color: var(--text-color);
+	}
+
 	.works-grid {
 		display: flex;
 		flex-direction: row;
@@ -78,8 +81,6 @@
 	}
 
 	.works h2 {
-		font-family: 'GT-America';
-		font-size: 1.3rem;
 		margin-bottom: 40px;
 	}
 
@@ -104,19 +105,11 @@
 	}
 
 	.intro h1 {
-		max-width: 600px;
-		font-size: 2rem;
-		max-width: 600px;
-		line-height: 1.35;
+		max-width: 750px;
 	}
 
 	.intro a {
 		color: var(--text-color);
-	}
-
-	figcaption p {
-		margin: 0;
-		font-size: 1rem;
 	}
 
 	figcaption {
@@ -147,6 +140,10 @@
 	}
 
 	@media (max-width: 1225px) {
+		.works h2 {
+			text-align: center;
+		}
+
 		.works-grid {
 			/* flex-direction: column; */
 			align-items: stretch;

@@ -30,7 +30,7 @@
 <style>
 	header {
 		display: flex;
-		padding: 10px;
+		padding: 20px 10px;
 	}
 
 	nav {

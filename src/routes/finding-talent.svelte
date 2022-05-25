@@ -15,12 +15,18 @@
 	/>
 </svelte:head>
 
-<section>
+<section class="case">
+	<div class="intro">
+		<p class="xs">TRR (2019)</p>
+		<h1 class="xl">Helping employers finding talent</h1>
+
+		<p class="xs">How we created helpful and user-centered content using design methods.</p>
+	</div>
 	<img src={srcHero} class="hero rounded" alt="People standing infront of whiteboard" />
+
 	<div class="container">
 		<div class="description">
-			<h1>Helping employers finding talent</h1>
-			<p>
+			<p class="s">
 				TRR wanted to improve their current offerings to employers and explore opportunities in the
 				digital context.
 			</p>
@@ -59,7 +65,7 @@
 				group TRR wanted to maintain good relationships with.
 			</p>
 
-			<h2 id="2">Identify the right opportunity</h2>
+			<h2 class="m" id="2">Identify the right opportunity</h2>
 			<p>
 				As a next step, I facilitated several workshops with stakholders to further explore the
 				needs of our primary persona in detail. I facilitated impact mapping sessions to define our
@@ -68,7 +74,7 @@
 				defined goals.
 			</p>
 
-			<h2 id="3">Explore and try out ideas</h2>
+			<h2 class="m" id="3">Explore and try out ideas</h2>
 			<p>
 				At this point we decided to focus on the key persona’s need to recruit new, qualified and
 				competent staff. To explore different ideas to meet this goal we decided to use the method
@@ -84,7 +90,7 @@
 				/>
 				<figcaption>Collaborating in a virtual Design Sprint session.</figcaption>
 			</figure>
-			<h2>The winning idea</h2>
+			<h2 class="m">The winning idea</h2>
 
 			<p>
 				The idea which got the most votes was to let employers search for jobseekers online based on
@@ -92,7 +98,7 @@
 				companies to search for competence among TRRs wide range of candidates.
 			</p>
 
-			<h2 id="5">Get feedback, refine</h2>
+			<h2 class="m" id="5">Get feedback, refine</h2>
 			<p>
 				We improved the prototypes and included more refined ideas as we went. When evaluating, we
 				found support for the idea was interesting to a couple of the employers. The idea was mostly
@@ -101,7 +107,7 @@
 				they reached the official labor market. We also found the idea popular among recruitment
 				agencies, they saw benefits with a unique access to a candidate pool.
 			</p>
-			<h2 id="5">Develop something small</h2>
+			<h2 class="m" id="5">Develop something small</h2>
 			<p>
 				Our goal was to develop a first iteration of the service with only the most important
 				features. Therefore, our work with evaluating and refining the ideas with the target users
@@ -130,7 +136,7 @@
 				</li>
 			</ul>
 			<p>The development of the service was conducted iteratively.</p>
-			<h2 id="7">Present the right candidates</h2>
+			<h2 class="m" id="7">Present the right candidates</h2>
 			<p>
 				A big challenge was to make sure the results of the search were perceived as relevant to
 				recruiters. We needed to figure out if we should present candidates which fulfilled:
@@ -148,7 +154,7 @@
 				consider the candidate.
 			</p>
 
-			<h2 id="6">Result</h2>
+			<h2 class="m" id="6">Result</h2>
 			<p>
 				We had a first basic version of the service almost ready to be released to the end users
 				when we ran into big trouble. The management team hit the pause button before release to
@@ -179,7 +185,7 @@
 				</li>
 
 				<div class="infobox rounded">
-					<h2 id="7">About TRR</h2>
+					<h2 class="m" id="7">About TRR</h2>
 					<p>
 						TRR works with employment transitions and working life, contributing to learning and
 						mobility in the Swedish labor market. Its activities are aimed at companies in the
@@ -193,7 +199,7 @@
 
 		<div class="sidebar">
 			<div class="keywords">
-				<h3>Keywords</h3>
+				<h3 class="2">Keywords</h3>
 				<ul>
 					<li>Consumer facing</li>
 					<li>Design Sprint</li>
@@ -202,7 +208,7 @@
 			</div>
 
 			<div class="navigation rounded box-shadow">
-				<h5>Contents</h5>
+				<h5 class="xs">Contents</h5>
 				<ul>
 					<li><a href="#1">User research</a></li>
 					<li><a href="#2">Workshops with stakeholders</a></li>
