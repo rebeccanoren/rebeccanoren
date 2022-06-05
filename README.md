@@ -1,6 +1,6 @@
 # Hey There 👋
 
-I'm Rebecca. I a Product Designer who also loves coding.
+I'm Rebecca. I'm a Product Designer who also loves to code.
 
 ![Me](https://github.com/rebeccanoren/rebeccanoren/blob/main/static/rebecca-selfie.jpg?raw=true)
 
