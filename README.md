@@ -1,4 +1,4 @@
-# Hey There 👋
+# Hey, thanks for stopping by 👋
 
 I'm Rebecca. I'm a Product Designer who also loves to code.
 
