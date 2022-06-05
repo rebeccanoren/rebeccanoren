@@ -61,21 +61,7 @@
 				<figcaption>Workshop session to get to know our personas.</figcaption>
 			</figure>
 
-			<p>
-				It became clear that the possibilities were endless, and there was so much we could do to
-				bring value to employers. Now we needed to find the one thing that would make the biggest
-				impact on TRR's business. For us that meant narrowing our focus down to HR managers at
-				medium-to-large companies.
-			</p>
-
 			<h2 class="m" id="Explore-ideas">Part II: Explore ideas 💡</h2>
-			<p>
-				As a next step, I facilitated several workshops with stakholders to further explore the
-				needs of our primary persona in detail. I facilitated impact mapping sessions to define our
-				wanted effects. The idea was to visualize the reasoning from the effects we want to achieve
-				to the user's needs. In this way, we were able to explore what we could do to support the
-				defined goals.
-			</p>
 
 			<p>
 				At this point, we decided to address our primary persona's need for qualified employees. To
