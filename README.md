@@ -2,7 +2,7 @@
 # Hey, thanks for stopping by 👋
   
 
-  I'm Rebecca. I'm a Product Designer who also loves to code.</p>
+  I'm Rebecca, a Product Designer who also loves to code.</p>
 
 ![Me](https://github.com/rebeccanoren/rebeccanoren/blob/main/static/rebecca-selfie.jpg?raw=true)
 
