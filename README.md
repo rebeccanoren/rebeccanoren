@@ -1,8 +1,10 @@
 
   
-  <div align="center>Hey, thanks for stopping by 👋</h1>
+  <h1 align="center>Hey, thanks for stopping by 👋</h1>
+  
+  <p align="center">
 
-I'm Rebecca. I'm a Product Designer who also loves to code.
+  I'm Rebecca. I'm a Product Designer who also loves to code.</p>
 
 ![Me](https://github.com/rebeccanoren/rebeccanoren/blob/main/static/rebecca-selfie.jpg?raw=true)
 
