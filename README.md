@@ -1,4 +1,4 @@
-# Hey, thanks for stopping by 👋
+<h1 align='center'>Hey, thanks for stopping by 👋</h1>
 
 I'm Rebecca. I'm a Product Designer who also loves to code.
 
