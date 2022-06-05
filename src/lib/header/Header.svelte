@@ -6,25 +6,12 @@
 	<nav>
 		<a sveltekit:prefetch href="/">Rebecca Norén</a>
 		<ul>
-			<!-- <li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/guiding-job-seekers'}>
-				<a sveltekit:prefetch href="/guiding-job-seekers">Guiding job-seekers</a>
-			</li>
-			<li class:active={$page.url.pathname === '/finding-talent'}>
-				<a sveltekit:prefetch href="/finding-talent">Finding talent</a>
-			</li> -->
-			<!-- <li class:active={$page.url.pathname === '/about'}>
+			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+			<li class:active={$page.url.pathname === '/about'}>
 				<a sveltekit:prefetch href="/about">About</a>
-			</li> -->
-			<!-- <li class:active={$page.url.pathname === '/todos'}>
-				<a sveltekit:prefetch href="/todos">Todos</a>
-			</li> -->
+			</li>
 		</ul>
 	</nav>
-
-	<div class="corner">
-		<!-- TODO put something else here? github link? -->
-	</div>
 </header>
 
 <style>

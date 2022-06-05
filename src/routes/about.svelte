@@ -3,192 +3,107 @@
 </script>
 
 <script>
-	let srcHero = '/guiding-job-seekers/hero.jpg';
+	let srcRebecca = '/rebecca.jpg';
 	let srcAnchorLinks = '/guiding-job-seekers/anchor-links.png';
 	let srcMiro = '/guiding-job-seekers/miro.jpg';
 </script>
 
 <svelte:head>
-	<title>Guiding job-seekers</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>About Rebecca – Product Designer</title>
+	<meta
+		name="description"
+		content="I’m a Product Designer who enjoys translating thoughtful design strategies into beautiful and impactful experiences. 5+ years working with a range of different clients."
+	/>
 </svelte:head>
 
-<section>
-	<img src={srcHero} class="hero rounded" alt="People standing infront of whiteboard" />
+<section class="about">
 	<div class="container">
 		<div class="description">
-			<h1>Guiding job seekers</h1>
-			<p>
-				TRR works with employment transitions. They help job-seekers taking the next step in their
-				careers. For example, they could help with creating a great resume and prepare you before
-				your job interview.
+			<h1 class="xl">Hey, I'm Rebecca.</h1>
+			<p class="s">
+				I’m a Product Designer who enjoys translating thoughtful design strategies into beautiful
+				and impactful experiences. 5+ years working with a range of different clients.
 			</p>
-			<h2>Covid hits the labor market</h2>
+			<p class="s">I drink wine, spend time in the kitchen and love to travel whenever possible.</p>
+			<a href="#10-random-facts"><button>10 random facts about me</button></a>
+		</div>
+		<div class="image">
+			<img src={srcRebecca} class="rounded" alt="Rebecca" />
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="description">
+			<h2 class="l">It all started...</h2>
 			<p>
-				In 2020 when the pandemic hit the labor market, TRR found it necessary to enable the
-				job-seekers to do more independently and increase the level of self-service. TRR had a
-				pre-existing portal for users. So why did we redesign it?
-			</p>
-			<ul>
-				<li>Job-seekers didn’t find the content to be useful</li>
-				<li>Bad website navigation</li>
-				<li>Low use frequency</li>
-				<li>Outdated content</li>
-				<li>No personal approach</li>
-			</ul>
-			<h2 id="1">Creating guiding content</h2>
-			<p>
-				The amount of new job seekers at TRR was increasing every day, we were already short in time
-				and our deadline was only 6 months ahead.
-			</p>
-			<p>
-				We wanted to release something simple, yet helpful to a person who just lost their job. We
-				wanted to provide the users with a basic guide to help them find a job. The idea was to
-				provide them with digestible resources to enable them to take more control of their own
-				journey.
-			</p>
-			<p>
-				Me and my team with content producers and advisors at TRR accepted this challenge and our
-				process ended up like the following:
-			</p>
-			<h3>1. Sketching the User Story</h3>
-			<p>
-				We started by examining the current journey for our users together with advisors from TRR
-				with experience guiding job seekers. I facilitated User Story Mapping sessions with the
-				advisors to sketch the journey from the point when an individual lost their job, to setting
-				a goal and reaching it. TRR already had a process, but it was not common practice for all
-				advisors at TRR. We needed to align the process to present it to our users which required a
-				high level of collaboration.
+				When I was in high school. What I enjoyed the most was creating presentations, experimenting
+				with typography and my favorite project – creating the design for a news paper magazine. In
+				art class, I spent hours exploring the materials, textures and techniques. It took me to a
+				world of imagination – giving shape and colors to what is in your mind is challenging and
+				equally rewarding, all of it fascinated me.
 			</p>
 
-			<h3>2. Interview job-seekers and collect quantitative data</h3>
 			<p>
-				I interviewed current job-seekers about their experiences and pains during the process. Data
-				from Google Analytics provided us with an understanding which content was the most popular
-				in the pre-existing website. This gave us a good understanding of the biggest pain points
-				during the different phases of the journey. It also provided us with a basis for
-				prioritizing the most important needs to start with.
+				When my art teacher suggested that I apply to art school. I never considered it as a valid
+				career path. Instead, I persued studies in economics. It was great, but after one year I
+				missed being creative. I discovered the Bachelor program <a
+					href="https://www.hh.se/utbildning/program/digital-design-och-innovation.html"
+					>Digital Design and Innovation</a
+				>, created by <a href="http://warnestal.com/">Pontus Wärnestål</a> – an award-winning Service
+				Designer and Human-Computer Interaction researcher. I applied and got in. I had an aha-moment
+				when I realized that I could design methodology to solve business problems. The rest is history.
 			</p>
 
-			<h3>3. Define Jobs-to-be-done</h3>
 			<p>
-				For the next step, we created content in the form of text, video, and supporting images and
-				illustrations. I introduced the job-to-be-done method to help us specify a customer's
-				specific goal, or “job” through the process that would lead that job-seeker to “hire” a page
-				to complete the job. This helped us to keep focused on what’s most important and saved us
-				from a lot of unnecessary content.
+				My design training in combination with my studies in economics has shaped me into the
+				designer I am today. I’m obsessed with details that makes a design lovable but I don’t drift
+				away from the business values.
 			</p>
 
-			<figure>
-				<img src={srcMiro} class="box-shadow rounded" alt="Creating Jobs-to-be-done in Miro" />
-				<figcaption>Creating Jobs-to-be-done in Miro.</figcaption>
-			</figure>
-
-			<h3>4. Rapidly build something</h3>
-			<p>
-				I created prototypes and tested them iteratively with the target group to evaluate the
-				structure and the content. This made it possible for us to move fast, get feedback and
-				refine. As we advanced we updated to basic web pages filled with text and placeholders for
-				intended videos. We analyzed the feedback and updated the content as we gained more
-				insights. We also implemented more new components like:
-			</p>
+			<h2 class="l" id="10-random-facts">10 random facts about me</h2>
 			<ul class="margin">
-				<li>In-page links to help the user find the content they are looking for quicker.</li>
-				<li>Highlighted information and tips.</li>
+				<li>My cat’s name is Zelda, but I have never played the game.</li>
 				<li>
-					Links to tie with TRR’s digital tools, to create your resume, do a personality test or
-					search for jobs.
+					Favorite food: Barbecue. Nothing beats cooking food outside in fresh air and beautiful
+					weather
+				</li>
+				<li>I believe the best ideas are the simplest.</li>
+
+				<li>
+					I get easily obsessed with diving into and learning things on a regular basis. This
+					sometimes worries my partner who has to remind me to eat when I’m in hyper-focused.
+				</li>
+				<li>
+					I’ve always had difficult times learning new languages, it doesn’t come naturally to me.
+				</li>
+				<li>
+					I’ve always been interested in programming. That’s why I took a leave of absence in 2020
+					to attend a web development boot camp for 3 months. I loved every second of it.
+				</li>
+				<li>I’m highly influenced by the Lean Startup Methodology by Eric Ries and Steve Blank.</li>
+				<li>
+					I have a big interest in wine, my long-term goal is to become a sommelier. For the
+					short-term: I’m attending as many wine tasting events as possible.
+				</li>
+				<li>
+					I’m a self-proclaimed psychologist watching reality dating shows and giving relationship
+					advice to people I’ve never met.
 				</li>
 			</ul>
-
-			<h3>5. Guiding principles for guiding content</h3>
-			<p>
-				From my user tests I got a lot of insight about how users preferred to consume this type of
-				content. Based on them, I created general guiding principles to help the content creators.
-				Here are two examples:
-			</p>
-			<h4>Active words</h4>
-			<p>
-				The importance of using active words. The readers were generally not interested in any
-				background information – they only wanted to know what to do next. For more context my
-				recommendation was to provide expandable content or links to other pages with more details.
-			</p>
-
-			<h4>Keep it short and sweet</h4>
-			<p>
-				Use bullet lists, short and precise titles and highlighted important information to make it
-				easier for the user to scan the content. Even though the original idea was to create a guide
-				with connecting steps, many users didn’t start from the starting point but rather jumped
-				between steps and looked for keywords. A majority of the users scanned through the pages to
-				evaluate if the content were valuable to them.
-			</p>
-			<figure class="small">
-				<img
-					src={srcAnchorLinks}
-					class="box-shadow rounded"
-					alt="Anchor links to help readers to quickly find content"
-				/>
-				<figcaption>Anchor links to help readers to quickly find content</figcaption>
-			</figure>
-
-			<h2 id="2">Solution</h2>
-			<p>
-				We have created a guide that step-by-step describes how to create a resume and personal
-				letter, how to adapt these to an application, and tips for when preparing for a job
-				interview.
-			</p>
-
-			<h2 id="3">Result</h2>
-			<p>
-				The most important result of this project is enabling users to be independent and more in
-				control of their journey to find a new job. This also resulted in a relief of workload for
-				TRR's advisors who became able to focus their time on the individuals who needed personal
-				support. In addition, the project has involved a new way of collaborating cross-functionally
-				to create content within the organization. This has contributed to increasing the
-				understanding of user-centered methods and contributed to the extended understanding of the
-				user’s needs within TRR.
-			</p>
-
-			<div class="infobox rounded">
-				<h2 id="4">About TRR</h2>
-				<p>
-					TRR works with employment transitions and working life, contributing to learning and
-					mobility in the Swedish labor market. Its activities are aimed at companies in the private
-					labor market, trade union representatives and company employees. TRR is a non-profit
-					foundation based on a collective agreement between the Confederation of Swedish Enterprise
-					and PTK.
-				</p>
-			</div>
-		</div>
-
-		<div class="sidebar">
-			<div class="keywords">
-				<h3>Keywords</h3>
-				<ul>
-					<li>Consumer facing</li>
-					<li>Content design</li>
-					<li>User Story Mapping</li>
-					<li>User Testing</li>
-				</ul>
-			</div>
-
-			<div class="Link">
-				<h3>Link</h3>
-				<p>Visit the <a href="https://www.trr.se/">website.</a></p>
-			</div>
-
-			<div class="navigation rounded box-shadow">
-				<h5>Contents</h5>
-				<ul>
-					<li><a href="#1">Creating guiding content</a></li>
-					<li><a href="#2">Solution</a></li>
-					<li><a href="#3">Result</a></li>
-					<li><a href="#4">About TRR</a></li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </section>
 
 <style>
+	.container {
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media (max-width: 1025px) {
+		.container {
+			justify-content: center;
+			flex-direction: column;
+		}
+	}
 </style>

@@ -88,6 +88,15 @@ button {
 	font-family: inherit;
 }
 
+button {
+	padding: 20px;
+	background-color: var(--tertiary-color);
+	color: var(--pure-white);
+	border-radius: 40px;
+	border: none;
+cursor: pointer;
+}
+
 button:focus:not(:focus-visible) {
 	outline: none;
 }
