@@ -1,4 +1,6 @@
-<h1 align='center'>Hey, thanks for stopping by 👋</h1>
+
+  
+  <div align="center>Hey, thanks for stopping by 👋</h1>
 
 I'm Rebecca. I'm a Product Designer who also loves to code.
 
@@ -7,3 +9,4 @@ I'm Rebecca. I'm a Product Designer who also loves to code.
 Check out my [Portfolio](https://www.rebeccanoren.se), [Dribbble](https://dribbble.com/rebeccanoren) and [LinkedIn](https://linkedin.com/in/rebecca-norén).
 
 ![](https://komarev.com/ghpvc/?username=rebeccanoren&label=PROFILE+VIEWS&style=for-the-badge&color=red)
+  </div>
