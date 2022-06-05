@@ -83,7 +83,7 @@
 				<li>I’m highly influenced by the Lean Startup Methodology by Eric Ries and Steve Blank.</li>
 				<li>
 					I have a big interest in wine, my long-term goal is to become a sommelier. For the
-					short-term: I’m attending as many wine tasting events as possible.
+					short-term: Attending to as many wine tasting events as possible.
 				</li>
 				<li>
 					I’m a self-proclaimed psychologist watching reality dating shows and giving relationship

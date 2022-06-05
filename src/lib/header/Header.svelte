@@ -1,16 +1,12 @@
 <script>
 	import { page } from '$app/stores';
+	import FloatingActions from '$lib/floating-actions.svelte';
 </script>
 
 <header>
 	<nav>
-		<a sveltekit:prefetch href="/">Rebecca Norén</a>
-		<ul>
-			<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-		</ul>
+		<a sveltekit:prefetch href="/" id="top">Rebecca Norén</a>
+		<FloatingActions />
 	</nav>
 </header>
 

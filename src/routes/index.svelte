@@ -19,7 +19,7 @@
 			>Sinch.
 		</a>
 	</h1>
-	<p>My works are just a scroll away 👇</p>
+	<p>My works are just a scroll away.</p>
 </section>
 
 <section class="works">

@@ -1,5 +1,6 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
+
 	import '../app.css';
 	import '../works.css';
 	import '../typography.css';
@@ -12,9 +13,16 @@
 </main>
 
 <footer>
-	<a href="https://dribbble.com/rebeccanoren">Dribbble</a>
-	<a href="https://linkedin.com/in/rebecca-norén">LinkedIn</a>
-	<a href="https://github.com/rebeccanoren">Github</a>
+	<div class="social">
+		<a href="https://dribbble.com/rebeccanoren">Dribbble</a>
+		<a href="https://linkedin.com/in/rebecca-norén">LinkedIn</a>
+		<a href="https://github.com/rebeccanoren">Github</a>
+	</div>
+	<div class="contact">
+		<span>Want to get in touch?</span><a href="mailto: hello@rebeccanoren.com"
+			>hello@rebeccanoren.com</a
+		>
+	</div>
 </footer>
 
 <style>
@@ -30,25 +38,26 @@
 	}
 
 	footer {
-		margin-top: 200px;
+		padding: 60px;
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		gap: 16px;
-		padding: 40px;
-
+		flex-wrap: nowrap;
+		justify-content: space-between;
 		background-color: var(--pure-white);
 	}
 
 	footer a {
 		font-weight: bold;
 		color: var(--accent-color);
+		padding: 20px;
 	}
 
-	@media (min-width: 480px) {
+	@media (max-width: 1000px) {
 		footer {
-			padding: 40px 0;
+			padding: 130px 50px;
+			flex-direction: column;
+			gap: 50px;
+			align-items: center;
 		}
 	}
 </style>
