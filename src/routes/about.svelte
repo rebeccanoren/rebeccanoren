@@ -27,7 +27,7 @@
 
 			<p class="s">
 				Except for doing design, I’m currently into quantitative data analysis, improving my coding
-				skills and growing knowledge about wine (but not at the same time)..
+				skills and growing knowledge about wine (but not at the same time).
 			</p>
 			<a href="#10-random-facts"><button>10 random facts about me</button></a>
 		</div>
