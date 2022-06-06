@@ -117,7 +117,6 @@
 		}
 
 		.image {
-			background-color: red;
 			max-width: 400px;
 		}
 	}
