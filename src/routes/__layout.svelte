@@ -35,6 +35,7 @@
 		max-width: 1200px;
 		margin: 0 auto;
 		box-sizing: border-box;
+		margin-bottom: 100px;
 	}
 
 	footer {
@@ -52,11 +53,26 @@
 		padding: 20px;
 	}
 
+	.contact {
+		display: flex;
+		gap: 8px;
+	}
+
+	.contact a {
+		margin: 0;
+		padding: 0;
+	}
+
 	@media (max-width: 1000px) {
 		footer {
-			padding: 130px 50px;
+			padding: 130px 16px;
 			flex-direction: column;
 			gap: 50px;
+			align-items: center;
+		}
+
+		.contact {
+			flex-direction: column;
 			align-items: center;
 		}
 	}

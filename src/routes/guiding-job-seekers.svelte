@@ -168,11 +168,12 @@
 			<div class="infobox rounded">
 				<h2 class="m" id="About-TRR">About TRR</h2>
 				<p>
-					TRR works with employment transitions and working life, contributing to learning and
-					mobility in the Swedish labor market. Its activities are aimed at companies in the private
-					labor market, trade union representatives and company employees. TRR is a non-profit
-					foundation based on a collective agreement between the Confederation of Swedish Enterprise
-					and PTK.
+					TRR is a non-profit foundation. They are working with with employment transitions and
+					working life, contributing to learning and mobility within the Swedish labor market. Their
+					activities are aimed at companies in the private labor market, trade union
+					representatives, and company employees. <a href="https://www.trr.se/"
+						>Learn more about TRR.</a
+					>
 				</p>
 			</div>
 		</div>

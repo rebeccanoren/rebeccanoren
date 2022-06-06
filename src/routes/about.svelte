@@ -24,7 +24,11 @@
 				I’m a Product Designer who enjoys translating thoughtful design strategies into beautiful
 				and impactful experiences. 5+ years working with a range of different clients.
 			</p>
-			<p class="s">I drink wine, spend time in the kitchen and love to travel whenever possible.</p>
+
+			<p class="s">
+				Except for doing design, I’m currently into quantitative data analysis, improving my coding
+				skills and growing knowledge about wine (but not at the same time).
+			</p>
 			<a href="#10-random-facts"><button>10 random facts about me</button></a>
 		</div>
 		<div class="image">
@@ -37,14 +41,14 @@
 			<h2 class="l">It all started...</h2>
 			<p>
 				When I was in high school. What I enjoyed the most was creating presentations, experimenting
-				with typography and my favorite project – creating the design for a news paper magazine. In
+				with typography and my favorite project: creating the design for a news paper magazine. In
 				art class, I spent hours exploring the materials, textures and techniques. It took me to a
 				world of imagination – giving shape and colors to what is in your mind is challenging and
 				equally rewarding, all of it fascinated me.
 			</p>
 
 			<p>
-				When my art teacher suggested that I apply to art school. I never considered it as a valid
+				When my art teacher suggested that I apply to art school, I never considered it as a valid
 				career path. Instead, I persued studies in economics. It was great, but after one year I
 				missed being creative. I discovered the Bachelor program <a
 					href="https://www.hh.se/utbildning/program/digital-design-och-innovation.html"
@@ -65,13 +69,13 @@
 				<li>My cat’s name is Zelda, but I have never played the game.</li>
 				<li>
 					Favorite food: Barbecue. Nothing beats cooking food outside in fresh air and beautiful
-					weather
+					weather.
 				</li>
 				<li>I believe the best ideas are the simplest.</li>
 
 				<li>
 					I get easily obsessed with diving into and learning things on a regular basis. This
-					sometimes worries my partner who has to remind me to eat when I’m in hyper-focused.
+					sometimes worries my partner who reminds me to eat when I’m in hyper-focused.
 				</li>
 				<li>
 					I’ve always had difficult times learning new languages, it doesn’t come naturally to me.
@@ -89,6 +93,7 @@
 					I’m a self-proclaimed psychologist watching reality dating shows and giving relationship
 					advice to people I’ve never met.
 				</li>
+				<li>If it tells you anything I’m an ESTJ, an Executive.</li>
 			</ul>
 		</div>
 	</div>
@@ -100,10 +105,20 @@
 		align-items: center;
 	}
 
+	.image img {
+		max-width: 100%;
+		width: 100%;
+	}
+
 	@media (max-width: 1025px) {
 		.container {
 			justify-content: center;
 			flex-direction: column;
+		}
+
+		.image {
+			background-color: red;
+			max-width: 400px;
 		}
 	}
 </style>

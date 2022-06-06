@@ -94,11 +94,16 @@ button {
 	color: var(--pure-white);
 	border-radius: 40px;
 	border: none;
-cursor: pointer;
+	cursor: pointer;
+	padding: 16px 32px;
 }
 
 button:focus:not(:focus-visible) {
 	outline: none;
+}
+
+button:hover {
+		background-color: var(--accent-color);
 }
 
 .box-shadow {
