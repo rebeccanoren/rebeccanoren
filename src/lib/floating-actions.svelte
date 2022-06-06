@@ -45,10 +45,6 @@
 		border-radius: 40px;
 		font-size: 16px;
 	}
-	.hidden {
-		top: -100%;
-		user-select: none;
-	}
 
 	a:hover {
 		background-color: var(--pure-white);
