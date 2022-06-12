@@ -38,6 +38,7 @@
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
+		scroll-margin-top: 20px;
 	}
 
 	nav > :first-child {
