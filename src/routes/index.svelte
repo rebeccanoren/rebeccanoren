@@ -47,7 +47,7 @@
 				/>
 				<figcaption>
 					<p class="uppercase xxs">TRR (2019)</p>
-					<h3 class="m">Helping employers finding talent</h3>
+					<h3 class="m">Matching employers with job-seekers</h3>
 				</figcaption>
 			</figure>
 		</a>

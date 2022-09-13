@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Helping employers finding talent</title>
+	<title>Matching employers with job-seekers</title>
 	<meta
 		name="description"
 		content="UX Case Study: How I used design methods to deliver results to TRR."
@@ -18,7 +18,7 @@
 <section class="case">
 	<div class="intro">
 		<p class="xs">TRR (2019)</p>
-		<h1 class="xl">Helping employers hiring talent</h1>
+		<h1 class="xl">Matching employers with job-seekers</h1>
 
 		<p class="xs">Identifying opportunities through Design Thinking.</p>
 	</div>
@@ -36,8 +36,8 @@
 
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
-				I started with the basics: doing research. First months of the project, I interviewed 20
-				representatives of the employers side. Then I analyzed those interviews to create five
+				I started with the basics: research. First months of the project, I interviewed 20
+				representatives of the employers side. I analyzed those interviews to create five
 				personas to describe users' needs, goals, attitudes and behavior patterns.
 			</p>
 			<p>

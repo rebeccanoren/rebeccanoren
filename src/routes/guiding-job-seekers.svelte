@@ -29,15 +29,15 @@
 		<div class="description">
 			<p class="s">
 				TRR is a personal job coach. They are not looking for people to jump from job to job; they
-				want to find the career that works best for you and helps you blossom into a new version of
-				yourself. TRR can help you meet your goals with personalized coaching, guidance and
+				want you to find the career that works best for you and help you blossom into a new version of
+				yourself. TRR achieves this through personalized coaching, guidance and
 				training.
 			</p>
 			<h2 class="m">Covid hits the labor market</h2>
 			<p>
 				Our journey started in 2020 when the covid pandemic hit the job market. TRR realized they
 				needed to enable job-seekers with more independence. They already had a pre-existing web
-				application, but it had grown organically, and as a result, it was difficult to navigate.
+				application, but it had grown organically, and as a result, it was difficult to navigate. It was also inaccessible, locked behind a login.
 				With more and more job-seekers relying on TRR to reach their career goals, we knew that
 				redesigning the website would increase its efficacy. The other issues identified from our
 				research were:
@@ -55,7 +55,7 @@
 				know what to do next and how to get back on your feet. The aim of this project was to create
 				a product that helps professionals find work after losing theirs. We wanted to provide the
 				users with a basic guide to help them; a guide that provides easily-digestible resources and
-				enables them to take more control of their own journey. The process went like this:
+				enables them to take more control of their own journey. The process went like the following.
 			</p>
 
 			<h3 class="s">1. Sketching the User Story ✍️</h3>
@@ -66,14 +66,14 @@
 				setting a goal and ultimately reaching it.
 			</p>
 
-			<h3 class="s">2. Research 🕵️‍♀️</h3>
+			<h3 class="s">2. Research</h3>
 			<p>
 				I interviewed current job-seekers and collected quantitative data from the website itself in
 				order to understand the biggest pain points during the different phases of the job-search
 				process and prioritize what to start with first.
 			</p>
 
-			<h3 class="s">3. Define Jobs 💼</h3>
+			<h3 class="s">3. Define Jobs</h3>
 			<p>
 				For the next step, I introduced the <a href="https://strategyn.com/jobs-to-be-done"
 					>Jobs-to-be-done method</a
@@ -94,7 +94,7 @@
 				helped us get feedback and refine with rapid speed.
 			</p>
 
-			<h3 class="s">5. Guiding principles ⭐️</h3>
+			<h3 class="s">5. Guiding principles</h3>
 			<p>
 				Based on my user tests and the results, it seemed like users didn’t tend to start from the
 				very beginning when they arrived on a page. Most of them jumped around and only read parts
