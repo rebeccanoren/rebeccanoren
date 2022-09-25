@@ -13,11 +13,9 @@
 </svelte:head>
 <section class="intro">
 	<h1 class="l">
-		Hello, I'm Rebecca Norén. Product Designer in Stockholm. Currently working with messaging at <a
-			rel="external"
-			href="https://www.sinch.com/"
-			>Sinch.
-		</a>
+		Hello, hi 🙋‍♀️ </h1>
+
+		<h1 class="m">I'm Rebecca Norén, a strategic Product Designer in Stockholm.
 	</h1>
 	<p>My works are just a scroll away.</p>
 </section>
