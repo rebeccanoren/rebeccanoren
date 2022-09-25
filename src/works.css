@@ -8,6 +8,7 @@ h1 {
 .case img {
 max-width: 100%;
 width: 100%;
+box-shadow: 0 0 200px -30px rgb(20 3 35 / 20%);
 }
 
 .container {
