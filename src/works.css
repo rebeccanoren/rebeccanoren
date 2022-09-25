@@ -24,7 +24,6 @@ width: 100%;
 .description {
     flex-grow: 1;
     max-width: 768px;
-    /* background-color: aqua; */
 }
 
 .description h1 {
@@ -61,7 +60,6 @@ h3 {
 .hero {
     align-items: center;
     margin-bottom: 60px;
-    background-color: aqua;
 }
 
 
