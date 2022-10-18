@@ -85,6 +85,9 @@
 		flex: 1;
 	}
 
+	figure {
+		width: 100%;
+	}
 	figure img {
 		background-color: rgba(16, 16, 56, 0.03);
 	}
@@ -144,6 +147,7 @@
 
 	.tags {
 		display: flex;
+		flex-wrap: wrap;
 		margin: 6px;
 		gap: 8px;
 	}
@@ -182,6 +186,10 @@
 		.works-grid .item {
 			max-width: 550px;
 			width: 100%;
+		}
+
+		span {
+			font-size: 12px;
 		}
 	}
 
