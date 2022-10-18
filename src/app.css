@@ -66,9 +66,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
 
 pre {
 	font-size: 18px;
@@ -106,7 +103,8 @@ button:hover {
 }
 
 .box-shadow {
-	box-shadow: 0 16px 24px -8px rgba(74, 48, 22, 0.12), 0px 0px 4px 0px rgba(66, 54, 23, 0.05);
+	box-shadow: 0px 0px 0px 0px rgba(53, 7, 69, 0.03), 0px 9px 19px 0px rgba(53, 7, 69, 0.03), -2px 34px 34px 0px rgba(53, 7, 69, 0.03), -4px 77px 46px 0px rgba(53, 7, 69, 0.02), -6px 136px 54px 0px rgba(53, 7, 69, 0), -10px 213px 60px 0px rgba(53, 7, 69, 0);
+	
 	outline: 1px white;
 }
 

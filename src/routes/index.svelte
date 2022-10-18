@@ -5,6 +5,10 @@
 <script>
 	let srcGuidingJobSeekers = '/guiding-job-seekers/guding-job-seekers.png';
 	let srcFindingTalent = '/finding-talent/finding-talent.png';
+	let hoverClass = 'noUnderline';
+
+	let enter1 = false;
+	let enter2 = false;
 </script>
 
 <svelte:head>
@@ -12,11 +16,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="l">
-		Hello, hi 🙋‍♀️ </h1>
+	<h1 class="l">Hello, hi 🙋‍♀️</h1>
 
-		<h1 class="m">I'm Rebecca Norén, a strategic Product Designer in Stockholm.
-	</h1>
+	<h1 class="m">I'm Rebecca Norén, a strategic Product Designer in Stockholm.</h1>
 	<p>My works are just a scroll away.</p>
 </section>
 
@@ -24,28 +26,46 @@
 	<h2 class="normal xs">Selected work</h2>
 	<div class="works-grid">
 		<a sveltekit:prefetch href="/guiding-job-seekers">
-			<figure class="item">
+			<figure
+				on:mouseenter={() => {
+					enter1 = !enter1;
+				}}
+				on:mouseleave={() => {
+					enter1 = false;
+				}}
+				class="item"
+			>
 				<img
 					src={srcGuidingJobSeekers}
 					class="rounded"
 					alt="Guiding content showing text and a video."
 				/>
 				<figcaption>
-					<p class="uppercase xxs">TRR (2020)</p>
-					<h3 class="m">Guiding job-seekers</h3>
+					<p class="uppercase xxs {enter1 ? 'underline' : ''}">TRR (2020)</p>
+					<h3 class="m {enter1 ? 'underline' : ''}">Guiding job-seekers</h3>
+					<span>JTBD</span> <span>User Story Mapping</span> <span>User Test</span>
 				</figcaption>
 			</figure>
 		</a>
-		<a sveltekit:prefetch href="/finding-talent">
-			<figure class="item">
+		<a sveltekit:prefetch href="/matching-employers-job-seekers">
+			<figure
+				on:mouseenter={() => {
+					enter2 = !enter2;
+				}}
+				on:mouseleave={() => {
+					enter2 = false;
+				}}
+				class="item"
+			>
 				<img
 					src={srcFindingTalent}
 					class="rounded"
-					alt="Search tool for finding candidates to recruit"
+					alt="Searching tool to find candidates to recruit"
 				/>
 				<figcaption>
-					<p class="uppercase xxs">TRR (2019)</p>
-					<h3 class="m">Matching employers with job-seekers</h3>
+					<p class="uppercase xxs {enter2 ? 'underline' : ''}">TRR (2019)</p>
+					<h3 class="m {enter2 ? 'underline' : ''}">Matching employers with job-seekers</h3>
+					<span>User Research</span> <span>Impact Mapping</span> <span>Design Sprint</span>
 				</figcaption>
 			</figure>
 		</a>
@@ -59,6 +79,10 @@
 		justify-content: center;
 		align-items: left;
 		flex: 1;
+	}
+
+	figure img {
+		background-color: rgba(16, 16, 56, 0.03);
 	}
 
 	.works {
@@ -95,8 +119,6 @@
 
 	img {
 		object-fit: cover;
-		width: 100%;
-		height: 100%;
 	}
 
 	.intro {
@@ -107,10 +129,6 @@
 		max-width: 750px;
 	}
 
-	.intro a {
-		color: var(--text-color);
-	}
-
 	figcaption {
 		text-align: left;
 	}
@@ -119,9 +137,26 @@
 		margin-top: 10px;
 	}
 
+	span {
+		background-color: var(--dark);
+		color: var(--pure-white);
+		padding: 8px 16px;
+		border-radius: 20px;
+		font-size: 12px;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	.underline {
+		text-decoration: underline;
+	}
+
 	/* Animations */
 	.works-grid .item:hover {
 		transform: scale(0.95);
+		text-decoration: none;
 	}
 
 	/* Media Queries */

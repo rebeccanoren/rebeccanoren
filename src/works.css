@@ -1,3 +1,5 @@
+
+
 .intro {
 margin: 120px 0 120px 0;}
 
@@ -6,9 +8,13 @@ h1 {
 }
 
 .case img {
-max-width: 100%;
 width: 100%;
-box-shadow: 0 0 200px -30px rgb(20 3 35 / 20%);
+border: 1px solid rgb(213, 213, 213, 0.5);
+
+}
+
+video {
+    max-width: 100%;
 }
 
 .container {
@@ -33,7 +39,7 @@ box-shadow: 0 0 200px -30px rgb(20 3 35 / 20%);
 
 .description h2,
 h3 {
-    margin: 140px 0px 30px 0px;
+    margin: 80px 0px 30px 0px;
 }
 
 .description h4 {
@@ -69,7 +75,7 @@ h3 {
 }
 
 .margin li {
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
 }
 
 .sidebar {
@@ -128,6 +134,23 @@ max-width: 600px;
     text-decoration: underline;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+.description ul {
+    margin: 30px 0px 50px 0px;
+    }
+
+.description p {
+        margin: 40px 0px 0px 0px;
+}
+
+.description h2,
+h3 {
+    margin: 40px 0px 30px 0px;
+}
+
 @media (max-width: 1025px) {
 .case {
     padding: 8px;
@@ -147,16 +170,12 @@ max-width: 600px;
     
         }
 
-.description p {
-            margin: 10px 0px 30px 0px;
-}
 
-.description h2,
-h3 {
-    margin: 80px 0px 30px 0px;
-}
+
 
 .case img {
-    margin: 0;
+    margin: 30px 0 20px 0;
 }
+
+
 }

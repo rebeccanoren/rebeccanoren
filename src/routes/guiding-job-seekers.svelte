@@ -6,6 +6,7 @@
 	let srcHero = '/guiding-job-seekers/hero.jpg';
 	let srcAnchorLinks = '/guiding-job-seekers/anchor-links.png';
 	let srcMiro = '/guiding-job-seekers/miro.jpg';
+	let srcVideo = '/guiding-job-seekers/trr-tour.mov';
 </script>
 
 <svelte:head>
@@ -29,18 +30,22 @@
 		<div class="description">
 			<p class="s">
 				TRR is a personal job coach. They are not looking for people to jump from job to job; they
-				want you to find the career that works best for you and help you blossom into a new version of
-				yourself. TRR achieves this through personalized coaching, guidance and
-				training.
+				want you to find the career that works best for you and help you blossom into a new version
+				of yourself. TRR achieves this through personalized coaching, guidance and training.
 			</p>
 			<h2 class="m">Covid hits the labor market</h2>
 			<p>
-				Our journey started in 2020 when the covid pandemic hit the job market. TRR realized they
-				needed to enable job-seekers with more independence. They already had a pre-existing web
-				application, but it had grown organically, and as a result, it was difficult to navigate. It was also inaccessible, locked behind a login.
-				With more and more job-seekers relying on TRR to reach their career goals, we knew that
-				redesigning the website would increase its efficacy. The other issues identified from our
-				research were:
+				This project with TRR started in 2020 when the Covid pandemic hit the job market. TRR
+				realized they needed to enable job-seekers with more independence. They already had a
+				pre-existing web application but as it had grown organically it was difficult to navigate.
+				We started off with conducting user research and looked into the quantitative data to learn
+				about the user needs and how the current website was performing.
+			</p>
+
+			<p>
+				With more and more job-seekers relying on TRR to reach their next step in their career, we
+				knew that redesigning the website would increase its efficacy. The issues identified from
+				our research were:
 			</p>
 			<ul>
 				<li>Job-seekers didn’t find the content to be useful</li>
@@ -52,34 +57,39 @@
 			<h2 class="m" id="Creating-guiding-content">Creating guiding content</h2>
 			<p>
 				It's not easy to go through a job loss. With so much uncertainty in the air, you want to
-				know what to do next and how to get back on your feet. The aim of this project was to create
-				a product that helps professionals find work after losing theirs. We wanted to provide the
-				users with a basic guide to help them; a guide that provides easily-digestible resources and
-				enables them to take more control of their own journey. The process went like the following.
+				know what to do next and how to get back on your feet. The aim of this project was to guide
+				job-seekers to take the next step in their careers. We wanted to provide the users with a
+				basic guide to help them; a guide that provides easily-digestible resources and enables them
+				to take more control of their own journey. The process went like this:
 			</p>
 
-			<h3 class="s">1. Sketching the User Story ✍️</h3>
+			<h3 class="s">1. Sketching the user story from best practise ✍️</h3>
 			<p>
-				We started by examining the current journey for our users together with advisors from TRR
-				whom have experience guiding job-seekers. I facilitated user story mapping sessions together
-				with the advisors to sketch the journey from the point when an individual lost their job, to
-				setting a goal and ultimately reaching it.
+				The first thing we did was to examine the current journey for our users together with
+				advisors from TRR who have experience guiding job-seekers. I facilitated <a
+					href="https://www.nngroup.com/articles/user-story-mapping/">User Story Mapping</a
+				>
+				sessions together with the advisors to sketch the journey from the point when an individual lost
+				their job, to setting a goal and ultimately reaching it.
 			</p>
 
-			<h3 class="s">2. Research</h3>
+			<h3 class="s">2. Interview job-seekers and collect quantitative data</h3>
 			<p>
-				I interviewed current job-seekers and collected quantitative data from the website itself in
-				order to understand the biggest pain points during the different phases of the job-search
-				process and prioritize what to start with first.
+				I interviewed current job-seekers and collected quantitative data from Google Analytics in
+				order to better understand the biggest pain points during the different phases of the
+				job-search process. These insights were used by the team to prioritize what to start with
+				first.
 			</p>
 
-			<h3 class="s">3. Define Jobs</h3>
+			<h3 class="s">3. Define Jobs-to-be-done</h3>
 			<p>
 				For the next step, I introduced the <a href="https://strategyn.com/jobs-to-be-done"
 					>Jobs-to-be-done method</a
-				>. Job-seekers hire a page to get things done. And the content acts like a tour guide to
-				guide help them accomplish their goals. Through this method we were able to keep focused on
-				what's most important and cut out unnecessary content.
+				>. The method is best defined as a perspective, a lens through which you can define user
+				goals. Job-seekers use our product to get a job done. In our case, examples of goals are to
+				create the perfect resume or Linkedin profile. The content we created is intended to help
+				them accomplish their goals. Through this method we were able to keep focused on what's most
+				important and cut out unnecessary content.
 			</p>
 
 			<figure>
@@ -87,7 +97,7 @@
 				<figcaption class="xxs light">Creating Jobs-to-be-done in Miro.</figcaption>
 			</figure>
 
-			<h3 class="s">4. Rapidly build something 🛠</h3>
+			<h3 class="s">4. Rapidly build something</h3>
 			<p>
 				We needed to quickly build something to test our ideas, so we did. I made prototypes which I
 				regularly tested with the target group to evaluate the structure and content. Doing so
@@ -96,14 +106,14 @@
 
 			<h3 class="s">5. Guiding principles</h3>
 			<p>
-				Based on my user tests and the results, it seemed like users didn’t tend to start from the
-				very beginning when they arrived on a page. Most of them jumped around and only read parts
-				of the pieces that were relevant to their current situation.
+				My results indicated that the users didn't tend to start from the very beginning when they
+				arrived on a page. Most of them jumped around and only read what information was relevant to
+				them.
 			</p>
 			<p>
-				They also skipped large parts; they searched for certain keywords to get an overview of what
-				would be covered in further paragraphs. Therefore, I came up with guiding principles for the
-				team. Here are a few examples:
+				They also skipped large parts: they searched for certain keywords to get an overview of what
+				would be covered in further paragraphs. With this in mind, I came up with guiding principles
+				for my team. Here are a few examples:
 			</p>
 			<ul class="margin">
 				<li>
@@ -111,28 +121,24 @@
 					to do next and how they can accomplish it.
 				</li>
 				<li>
-					Provide links to additional information on other pages if necessary and make sure the
+					Provide links to other pages with additional information if necessary and make sure the
 					headlines are clear and direct.
 				</li>
 				<li>
-					Links to tie with TRR’s digital tools, to create your resume, do a personality test or
-					search for jobs.
-				</li>
-				<li>
-					Use bullet lists and highlight important information. It makes it much easier for users to
-					scan the content, find what they are looking for and determine if it's valuable to them.
+					Use bullet points and highlight important information and make sure headlines are clear
+					and direct.
 				</li>
 			</ul>
 
 			<h2 class="m" id="Solution">Solution</h2>
 			<p>
-				We have created a guide that step-by-step describes how to create a resume and personal
+				We have created a step-by-step guide that describes how to create a resume and personal
 				letter, how to adapt these to an application, and tips for when preparing for a job
 				interview. Some of the new components included:
 			</p>
 
 			<ul class="margin">
-				<li>In-page links to help the user find the content they are looking for quicker.</li>
+				<li>In-page links to help the user find the content they are searching for.</li>
 				<li>Highlighted information and tips.</li>
 				<li>
 					Links to tie with TRR’s digital tools, to create your resume, do a personality test or
@@ -151,16 +157,27 @@
 				</figcaption>
 			</figure>
 
+			<figure>
+				<video controls src={srcVideo} alt="Video showing the final product" autoplay muted>
+					<track kind="captions" />
+				</video>
+				<figcaption class="xxs light">
+					Demo of the final result, visit the <a href="https://www.trr.se/uppsagd/sok-jobb/"
+						>website
+					</a> (only in Swedish 🇸🇪)
+				</figcaption>
+			</figure>
+
 			<h2 class="m" id="Result">Result</h2>
 			<p>
-				The result of this project has been very positive in two directions: One of the greatest
-				results of this project is improving the independence and control of people who struggle
-				with their job search. It has resulted in a relief of workloads for TRR's advisors, who are
-				now able to focus their time on the individuals who need personal support.
+				The result of this project has been very positive in two directions: this project is
+				improving the independence and control of people who struggle with their job search. It has
+				resulted in a relief of workloads for TRR's advisors, who are now able to focus their time
+				on the individuals who need personal support.
 			</p>
 
 			<p>
-				Our second impact was a culture change at TRR. We started to collaborate across functions,
+				The second impact was a culture change at TRR. We started to collaborate across functions,
 				using an agile approach to content creation. This taught the team how to use user-centered
 				methods and brought non-designers closer to the users.
 			</p>
@@ -184,6 +201,7 @@
 				<ul>
 					<li>Consumer facing</li>
 					<li>Content design</li>
+					<li>Jobs-to-be-done</li>
 					<li>User Story Mapping</li>
 					<li>User Testing</li>
 				</ul>
@@ -191,7 +209,9 @@
 
 			<div class="Link">
 				<h3 class="s">Link</h3>
-				<p>Visit the <a href="https://www.trr.se/">website.</a></p>
+				<p>
+					Visit the <a href="https://www.trr.se/uppsagd/sok-jobb/">website </a>(Only in Swedish 🇸🇪)
+				</p>
 			</div>
 
 			<div class="navigation rounded box-shadow">
