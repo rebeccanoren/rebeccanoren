@@ -127,7 +127,9 @@ max-width: 600px;
 
 .infobox p {
     margin: 0;
+    font-size: 1rem;
 }
+
 
 .infobox a {
     color: var(--tertiary-color);
@@ -143,7 +145,7 @@ a:hover {
     }
 
 .description p {
-        margin: 40px 0px 0px 0px;
+        margin: 16px 0px 0px 0px;
 }
 
 .description h2,

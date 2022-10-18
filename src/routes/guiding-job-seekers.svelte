@@ -190,14 +190,12 @@
 			</p>
 
 			<div class="infobox rounded">
-				<h2 class="m" id="About-TRR">About TRR</h2>
+				<h2 class="xs" id="About-TRR">About TRR</h2>
 				<p>
-					TRR is a non-profit foundation. They are working with with employment transitions and
-					working life, contributing to learning and mobility within the Swedish labor market. Their
-					activities are aimed at companies in the private labor market, trade union
-					representatives, and company employees. <a href="https://www.trr.se/"
-						>Learn more about TRR.</a
-					>
+					TRR is a non-profit foundation. They work with with employment transitions and working
+					life, contributing to learning and mobility in the Swedish labor market. Their activities
+					are aimed at companies in the private labor market, trade union representatives, and
+					company employees. <a href="https://www.trr.se/">Learn more about TRR.</a>
 				</p>
 			</div>
 		</div>
