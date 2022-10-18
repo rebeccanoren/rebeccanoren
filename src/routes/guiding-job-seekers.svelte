@@ -158,7 +158,7 @@
 			</figure>
 
 			<figure>
-				<video controls src={srcVideo} alt="Video showing the final product" autoplay muted>
+				<video controls src={srcVideo} alt="Video showing the final product" muted>
 					<track kind="captions" />
 				</video>
 				<figcaption class="xxs light">
