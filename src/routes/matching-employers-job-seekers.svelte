@@ -30,29 +30,32 @@
 	<div class="container">
 		<div class="description">
 			<p class="s">
-				TRR wanted to improve their current digital offerings to employers. In 2019, TRR mostly
-				helped with redundancy handling and recruiting candidates. However, TRR realized they could
-				do more with their knowledge about the labor market and being experts in employment
-				transitions. Therefore, my team was formed with the goal to identify these opportunities and
+				In 2019, TRR mostly helped employers during redundancies and recruiting candidates. But TRR
+				realized they could extend their offering to employers by improving their current digital
+				offerings. Therefore, my team was formed with the goal to identify these opportunities and
 				execute on them.
 			</p>
 
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
-				I started with the basics: research. First months of the project, I interviewed 20
-				representatives of the employers side. I analyzed those interviews to create five personas
+				I started with the basics: research. In the first months of the project, I interviewed 20
+				representatives of the employers side to, based on these interviews created 5 <a
+					href="https://www.nngroup.com/articles/persona/">personas</a
+				>
 				to describe users' needs, goals, attitudes and behavior patterns.
 			</p>
 			<p>
-				It became clear that the possibilities were endless, and there was so much we could do to
-				bring value to employers. Now we needed to find the one thing that would make the biggest
-				impact on TRR's business. For us that meant narrowing our focus down to HR managers at
+				From my research, we understood that there was a lot of room for improvement to bring more
+				value to employers. Now we needed to find the one thing that would have the biggest impact
+				on TRR's business. For us, that meant narrowing our focus down to HR managers at
 				medium-to-large companies.
 			</p>
 			<p>
 				As a next step, I facilitated a series of workshops to delve deeply into the desires and
-				needs of our primary persona. I facilitated impact mapping sessions to define our wanted
-				effects and what we could do: how could we support their goals?
+				needs of our primary persona. I facilitated <a
+					href="https://www.inuse.se/read/many-faces-impact-mapping/">Impact Mapping</a
+				> sessions to define our wanted effects and what we could do, with the main question being: how
+				might we support their goals?
 			</p>
 
 			<figure>
@@ -95,9 +98,9 @@
 			<p>
 				I revised the prototypes based on the feedback and included more refined ideas as we went. I
 				continued to test the prototype with employers, who found it useful for recruiting
-				competencies that are hard to find. HR managers saw a great benefit in getting in touch with
-				candidates through TRR before they reached the official labor market. Recruitment agencies
-				also found value in a unique access to potential candidates.
+				competencies which are hard to find. HR managers saw a great benefit in getting in touch
+				with candidates through TRR before they reached the official labor market. Recruitment
+				agencies also found value in a unique access to potential candidates.
 			</p>
 
 			<p>
@@ -112,8 +115,8 @@
 
 			<ul class="margin">
 				<li>
-					Employers wanted candidates with industry specific competencies. For example, programming
-					languages or industry specific software.
+					Make employers able to find candidates with industry specific competencies. For example,
+					programming languages or industry specific software.
 				</li>
 				<li>
 					Make it possible for recruiters to quickly evaluate if the candidate is a good fit for the
@@ -121,8 +124,8 @@
 					of the candidates before considering contacting them.
 				</li>
 				<li>
-					We needed to provide the search results at high speed, not keeping the user waiting when
-					adding and removing search filters.
+					Provide the search results at high speed, not keeping the user waiting when adding and
+					removing search filters.
 				</li>
 			</ul>
 
@@ -132,14 +135,14 @@
 				recruiters. We needed to figure out if we should present candidates who fulfills:
 			</p>
 			<ul>
-				<li>All of the criterias</li>
-				<li>At least one criteria from each category</li>
-				<li>Any of the criterias</li>
+				<li>All of the criterias.</li>
+				<li>At least one criteria from each category.</li>
+				<li>Any of the criterias.</li>
 			</ul>
 			<p>
 				We explored different solutions to this challenge and talked to our target users. From my
 				research we got the insight about recruiters often have a perfect profile with all the
-				competencies required in the job description. In reality, it's difficult to find a candidat
+				competencies required in the job description. In reality, it's difficult to find candidates
 				who checks all the boxes.
 			</p>
 

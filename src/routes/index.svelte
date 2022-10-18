@@ -5,7 +5,6 @@
 <script>
 	let srcGuidingJobSeekers = '/guiding-job-seekers/guding-job-seekers.png';
 	let srcFindingTalent = '/finding-talent/finding-talent.png';
-	let hoverClass = 'noUnderline';
 
 	let enter1 = false;
 	let enter2 = false;
@@ -18,7 +17,7 @@
 <section class="intro">
 	<h1 class="l">Hello, hi 🙋‍♀️</h1>
 
-	<h1 class="m">I'm Rebecca Norén, a strategic Product Designer in Stockholm.</h1>
+	<h1 class="m">I'm Rebecca Norén, a strategic & hands-on Product Designer in Stockholm.</h1>
 	<p>My works are just a scroll away.</p>
 </section>
 
