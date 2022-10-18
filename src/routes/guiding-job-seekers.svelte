@@ -148,8 +148,7 @@
 				<li>In-page links to help the user find the content they are searching for.</li>
 				<li>Highlighted information and tips.</li>
 				<li>
-					Links to tie with TRR’s digital tools, to create your resume, do a personality test or
-					search for jobs.
+					CTAs to products behind login, to create resumes, personality tests or finding job ads.
 				</li>
 			</ul>
 
