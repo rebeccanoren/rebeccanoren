@@ -99,42 +99,49 @@
 
 			<h3 class="s">4. Rapidly build something</h3>
 			<p>
-				We needed to quickly build something to test our ideas, so we did. I made prototypes which I
-				regularly tested with the target group to evaluate the structure and content. Doing so
-				helped us get feedback and refine with rapid speed.
+				We needed to quickly build something to test our ideas, so we did. We had no ideas of
+				groundbreaking interaction design in this project. Instead, our challenge was to keep the
+				content relevant and easily-digestible. But also to make sure users found the right content
+				to solve their tasks.
+			</p>
+
+			<p>
+				As soon as we had the first drafts of content, I started to make prototypes Figma which I
+				regularly tested with users. This created a feedback loop and helped us evaluate the
+				structure and content with rapid speed.
 			</p>
 
 			<h3 class="s">5. Guiding principles</h3>
 			<p>
-				My results indicated that the users didn't tend to start from the very beginning when they
-				arrived on a page. Most of them jumped around and only read what information was relevant to
-				them.
+				My research results indicated that users don't start reading from the beginning of page.
+				Readers skim content rather than read every word.
 			</p>
 			<p>
-				They also skipped large parts: they searched for certain keywords to get an overview of what
-				would be covered in further paragraphs. With this in mind, I came up with guiding principles
-				for my team. Here are a few examples:
+				They search for certain keywords to get an overview of what is covered in the paragraph.
+				With this in mind, I came up with guiding principles for the content creators in my team.
+				Here are a few examples:
 			</p>
 			<ul class="margin">
 				<li>
-					Don’t bore the audience. Use active language, and describe exactly what the reader needs
-					to do next and how they can accomplish it.
+					Make sure headlines are clear and direct. Use bullet points and highlight important
+					information.
 				</li>
 				<li>
-					Provide links to other pages with additional information if necessary and make sure the
-					headlines are clear and direct.
+					Don’t bore the audience. Use active language, describe exactly what the reader needs to do
+					next and how they can accomplish it.
 				</li>
 				<li>
-					Use bullet points and highlight important information and make sure headlines are clear
-					and direct.
+					Provide links to other pages with additional information for readers who want to learn
+					more about at topic.
 				</li>
 			</ul>
 
 			<h2 class="m" id="Solution">Solution</h2>
 			<p>
-				We have created a step-by-step guide that describes how to create a resume and personal
+				We have developed a step-by-step guide that describes how to create a resume and personal
 				letter, how to adapt these to an application, and tips for when preparing for a job
-				interview. Some of the new components included:
+				interview. To support a smooth skimming and reading experience, we introduced a few UI
+				components in the design system:
 			</p>
 
 			<ul class="margin">
@@ -162,7 +169,8 @@
 					<track kind="captions" />
 				</video>
 				<figcaption class="xxs light">
-					Demo of the final result, visit the <a href="https://www.trr.se/uppsagd/sok-jobb/"
+					Demo of the final result and the new components. Visit the <a
+						href="https://www.trr.se/uppsagd/sok-jobb/"
 						>website
 					</a> (only in Swedish 🇸🇪)
 				</figcaption>
