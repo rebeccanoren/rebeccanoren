@@ -30,19 +30,18 @@
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 1em;
+		padding: 0 0.5em;
 		color: var(--text-color);
-
 		font-weight: 800;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.05em;
 		text-decoration: none;
 		scroll-margin-top: 20px;
 	}
 
 	nav > :first-child {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		font-family: 'Grifter';
 	}
 
