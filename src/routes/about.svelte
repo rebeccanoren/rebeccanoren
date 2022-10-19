@@ -71,7 +71,12 @@
 					Favorite food: Barbecue. Nothing beats cooking food outside in fresh air and beautiful
 					weather.
 				</li>
-				<li>I believe the best ideas are the simplest.</li>
+				<li>
+					I've never been in a project where I haven’t done user research. Qualitative research is a
+					key method in my toolbox. Talking to real users is my bread and butter. been working in a
+					design project where I haven’t performed user research. Qualitative research is a key
+					method in my toolbox. Talking to real users is my bread and butter.
+				</li>
 
 				<li>
 					I get easily obsessed with diving into and learning things on a regular basis. This
@@ -108,6 +113,10 @@
 	.image img {
 		max-width: 100%;
 		width: 100%;
+	}
+
+	button {
+		margin-top: 40px;
 	}
 
 	@media (max-width: 1025px) {
