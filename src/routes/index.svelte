@@ -5,24 +5,23 @@
 <script>
 	let srcGuidingJobSeekers = '/guiding-job-seekers/guding-job-seekers.png';
 	let srcFindingTalent = '/finding-talent/finding-talent.png';
+	let srcMeetings = '/book-meetings/book-meetings.png';
+	let srcSinch = '/sinch/sinch.png';
 
 	let enter1 = false;
 	let enter2 = false;
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Rebecca Norén – Product Designer</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="l">Hello, hi 🙋‍♀️</h1>
-
-	<h1 class="m">I'm Rebecca Norén, a strategic & hands-on Product Designer in Stockholm.</h1>
+	<h1 class="xl">I'm strategic & hands-on Product Designer. Based in France, working globally.</h1>
 	<p>My works are just a scroll away.</p>
 </section>
 
 <section class="works">
-	<h2 class="normal xs">Selected work</h2>
 	<div class="works-grid">
 		<a sveltekit:prefetch href="/guiding-job-seekers">
 			<figure
@@ -36,18 +35,20 @@
 			>
 				<img
 					src={srcGuidingJobSeekers}
-					class="rounded"
+					class="box-shadow"
 					alt="Guiding content showing text and a video."
 				/>
 				<figcaption>
-					<p class="uppercase xxs {enter1 ? 'underline' : ''}">TRR (2020)</p>
-					<h3 class="m {enter1 ? 'underline' : ''}">Guiding job-seekers</h3>
+					<p class="uppercase xxs">TRR (2020)</p>
+					<h3 class="l nomargin {enter1 ? 'underline' : ''}">Guiding job-seekers</h3>
+					<p>A new experience to enable job-seekers to take the next step in their career.</p>
 					<div class="tags">
-						<span>JTBD</span> <span>User Story Mapping</span> <span>User Test</span>
+						<div><span>JTBD</span> <span>User Story Mapping</span> <span>User Test</span></div>
 					</div>
 				</figcaption>
 			</figure>
 		</a>
+
 		<a sveltekit:prefetch href="/matching-employers-job-seekers">
 			<figure
 				on:mouseenter={() => {
@@ -58,20 +59,44 @@
 				}}
 				class="item"
 			>
-				<img
-					src={srcFindingTalent}
-					class="rounded"
-					alt="Searching tool to find candidates to recruit"
-				/>
+				<img src={srcFindingTalent} class="" alt="Searching tool to find candidates to recruit" />
 				<figcaption>
-					<p class="uppercase xxs {enter2 ? 'underline' : ''}">TRR (2019)</p>
-					<h3 class="m {enter2 ? 'underline' : ''}">Matching employers with job-seekers</h3>
+					<p class="uppercase xxs">TRR (2019)</p>
+					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
+						Matching employers with job-seekers
+					</h3>
+					<p>
+						Unlocking customer value by identifying and acting on opportunities and refining ideas.
+					</p>
 					<div class="tags">
 						<span>User Research</span> <span>Impact Mapping</span> <span>Design Sprint</span>
 					</div>
 				</figcaption>
 			</figure>
 		</a>
+
+		<figure class="item">
+			<img src={srcMeetings} class="" alt="Screenshot of Insights in Miro" />
+			<figcaption>
+				<p class="uppercase xxs ">TRR (2021)</p>
+				<h3 class="l  nomargin">Defining a best practice for meetings</h3>
+				<p>Performing interviews and analysis to learn.</p>
+				<div class="tags">
+					<span>User Research</span>
+				</div>
+			</figcaption>
+		</figure>
+
+		<figure class="item">
+			<img src={srcSinch} class="" alt="Design of Sinch Vision" />
+			<figcaption>
+				<p class="uppercase xxs">Sinch (2023)</p>
+				<h3 class="l nomargin {enter2 ? 'underline' : ''}">Redesigning the Sinch Platform</h3>
+				<div class="tags">
+					<span>Design Strategy</span> <span>User research</span> <span>SaaS</span>
+				</div>
+			</figcaption>
+		</figure>
 	</div>
 </section>
 
@@ -87,12 +112,9 @@
 	figure {
 		width: 100%;
 	}
-	figure img {
-		background-color: rgba(16, 16, 56, 0.03);
-	}
 
 	.works {
-		margin-top: 100px;
+		padding: 32px;
 	}
 
 	.works a {
@@ -101,31 +123,30 @@
 
 	.works-grid {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
+		flex-direction: column;
 		flex: auto;
-		gap: 20px;
-		max-width: 100%;
-	}
-
-	.works h2 {
-		margin-bottom: 40px;
+		width: 100%;
+		gap: 200px;
 	}
 
 	.works-grid .item {
+		display: flex;
+		gap: 48px;
+		justify-content: left;
+		flex-direction: row;
 		padding: 0px;
 		margin: 0px;
-		max-width: 570px;
-		width: auto;
-		flex-shrink: 1;
-		aspect-ratio: 1 / 1;
+		width: 100%;
 		transition: transform 0.2s;
 	}
 
 	img {
-		object-fit: cover;
-		max-width: 100%;
+		max-width: 500px;
+		border-radius: 20px;
+		object-fit: fill;
+		box-shadow: 0px 0px 0px 0px rgba(53, 7, 69, 0.1), 0px 9px 19px 0px rgba(53, 7, 69, 0.1),
+			-2px 34px 34px 0px rgba(53, 7, 69, 0.06), -4px 77px 46px 0px rgba(53, 7, 69, 0.1),
+			-6px 136px 54px 0px rgba(53, 7, 69, 0.02), -10px 213px 60px 0px rgba(53, 7, 69, 0.05);
 	}
 
 	.intro {
@@ -133,11 +154,16 @@
 	}
 
 	.intro h1 {
-		max-width: 750px;
+		max-width: 100%;
 	}
 
 	figcaption {
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 		text-align: left;
+		min-width: 350px;
 	}
 
 	figcaption h3 {
@@ -145,19 +171,20 @@
 	}
 
 	.tags {
+		margin: 28px 0;
 		display: flex;
 		flex-wrap: wrap;
-		margin: 6px;
-		gap: 8px;
+		gap: 12px;
 	}
 
 	span {
-		background-color: #e7f0ff;
+		background-color: var(--light-blue);
 		color: var(--accent-color);
 		padding: 8px 16px;
 		border-radius: 20px;
 		font-size: 14px;
 		white-space: nowrap;
+		box-shadow: 0 15px 30px 0 rgb(0 42 102 / 4%), inset 1px 1px 1px 0 hsl(0deg 0% 100% / 90%);
 	}
 
 	a:hover {
@@ -178,33 +205,28 @@
 
 	@media (max-width: 1025px) {
 		.works-grid {
-			/* flex-direction: column; */
+			flex-direction: column;
 			align-items: center;
+			gap: 100px;
 		}
 
 		.works-grid .item {
-			max-width: 550px;
-			width: 100%;
+			flex-direction: column;
+			align-content: center;
+		}
+
+		figure {
+			display: flex;
+			align-items: center;
+		}
+
+		img {
+			max-width: 90%;
+			border-radius: 15px;
 		}
 
 		span {
 			font-size: 12px;
-		}
-	}
-
-	@media (max-width: 1225px) {
-		.works h2 {
-			text-align: center;
-		}
-
-		.works-grid {
-			/* flex-direction: column; */
-			align-items: stretch;
-			gap: 64px;
-		}
-
-		.works-grid .item {
-			max-width: 400px;
 		}
 	}
 </style>
