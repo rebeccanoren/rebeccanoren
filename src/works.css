@@ -4,8 +4,9 @@
 margin: 120px 0 120px 0;}
 
 h1 {
-    margin: 20px 0;
+    margin: 40px 0;
 }
+
 
 .case img {
 width: 100%;
@@ -21,7 +22,7 @@ video {
     margin-top: 64px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .container img {
@@ -46,16 +47,27 @@ h3 {
     margin: 60px 0px 20px 0px;
 }
 
+.divider img {
+    max-height: 10px;
+    padding: 48px 0;
+    fill: #4700d8;
+    border: 0;
+}
+
 .description p {
     margin: 10px 0px 60px 0px;
 }
 
 .sidebar a {
-    color: var(--accent-color);
+    color: var(--tertiary-color);
 }
 
-.sidebar h3 {
+.sidebar h5 {
     margin: 20px 0px 0px 0px;
+    font-family: "GT-America";
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
 }
 
 .container {
@@ -85,8 +97,11 @@ h3 {
 }
 
 .navigation {
-    background-color: var(--pure-white);
-    padding: 20px;
+    background-color: var(--light-blue);
+    box-shadow:  inset 1px 1px 1px 0 hsl(0deg 0% 100% / 50%), 0 15px 30px 0 rgb(22 13 61 / 4%) 0px 0px 0px 0px rgb(53 7 69 / 3%), 0px 9px 19px 0px rgb(53 7 69 / 3%), -2px 34px 34px 0px rgb(53 7 69 / 3%), -4px 77px 46px 0px rgb(53 7 69 / 2%), -6px 136px 54px 0px rgb(53 7 69 / 0%), -10px 213px 60px 0px rgb(53 7 69 / 0%); 
+    backdrop-filter: blur(20px);
+    opacity: 80%;
+    padding: 16px;
     position: sticky;
     top: 32px;
     max-width: 350px;
@@ -106,12 +121,13 @@ h3 {
 .navigation li {
     list-style: none;
     text-decoration: none;
-    /* font-size: 1.2rem; */
+    font-size: 1.2rem;
+    line-height: 3rem;
 }
 
 .infobox {
 background-color: var(--light-blue);
-padding: 64px;
+padding: 32px;
 margin-top: 120px;
 max-width: 600px;
 }
@@ -150,8 +166,10 @@ a:hover {
 
 .description h2,
 h3 {
-    margin: 40px 0px 30px 0px;
+    margin: 64px 0px 30px 0px;
 }
+
+
 
 @media (max-width: 1025px) {
 .case {
@@ -168,6 +186,7 @@ h3 {
 
     .infobox {
         margin-top: 40px;
+        margin: auto;
         padding: 32px;
     
         }

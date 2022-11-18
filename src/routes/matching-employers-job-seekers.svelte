@@ -5,6 +5,10 @@
 <script>
 	let srcHero = '/finding-talent/personas-ws.jpg';
 	let srcDesignSprint = '/finding-talent/design.gif';
+	let srcCandidates = '/finding-talent/present-candidates.svg';
+	let srcWireframes = '/finding-talent/wireframes.svg';
+	let srcCandidate = '/finding-talent/candidate.svg';
+	let srcDivider = 'divider.svg';
 </script>
 
 <svelte:head>
@@ -16,19 +20,10 @@
 </svelte:head>
 
 <section class="case">
-	<div class="intro">
-		<p class="xs">TRR (2019)</p>
-		<h1 class="xl">Matching employers with job-seekers</h1>
-
-		<p class="xs">
-			How we developed a new service for a new target group by identifying opportunities and
-			refining ideas.
-		</p>
-	</div>
-	<img src={srcHero} class="hero rounded" alt="People standing infront of whiteboard" />
-
 	<div class="container">
 		<div class="description">
+			<p class="xs">TRR (2019)</p>
+			<h1 class="xl">Matching employers with job-seekers</h1>
 			<p class="s">
 				In 2019, TRR mostly helped employers during redundancies and recruiting candidates. But TRR
 				realized they could extend their offering to employers by improving their current digital
@@ -38,7 +33,7 @@
 
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
-				I started with the basics: research. In the first months of the project, I interviewed 20
+				I started with the basics: research. In the first months of the project, I interviewed 20+
 				representatives of the employers side to, based on these interviews created 5 <a
 					href="https://www.nngroup.com/articles/persona/">personas</a
 				>
@@ -67,6 +62,9 @@
 				<figcaption>Workshop session to get to know our personas.</figcaption>
 			</figure>
 
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
 			<h2 class="m" id="Explore-ideas">Part II: Explore ideas 💡</h2>
 
 			<p>
@@ -93,6 +91,10 @@
 				from the TRR's wide range of job-seekers. Leaving the design sprint, we had a tested
 				prototype and a bunch of fresh hypotheses which we needed to evaluate further.
 			</p>
+
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
 
 			<h2 class="m" id="Refinements">Part III: Refinements ♻️</h2>
 			<p>
@@ -148,26 +150,38 @@
 
 			<p>
 				Therefore we decided to separate the search results list in two, one with candidates who
-				fulfilled all of the criteria and a second where we included the candidates who were missing
-				some criterias. In the second one, the missing criterias were also highlighted to allow the
-				user to quickly evaluate the profiles.
+				fulfilled all of the criterias and a second where we included the candidates who were
+				missing some criterias. In the second one, the missing criterias were also highlighted to
+				allow the user to quickly evaluate the profiles.
 			</p>
+
+			<figure class="small">
+				<img
+					src={srcCandidates}
+					class="box-shadow rounded"
+					alt="Gif showing collaboration in Miro."
+				/>
+				<figcaption>Illustration of how the search results list.</figcaption>
+			</figure>
+
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
 
 			<h2 class="m" id="Result">Result</h2>
 			<p>
 				Although we had a first basic version of the service almost ready to be released, we hit
-				some big trouble. Instead of releasing it to employers right away — which was our original
-				plan — the management team postponed the launch. The reason was because the functionality
-				for employers to sign in to TRR wasn't yet ready. A huge learning for me has been the
-				importance of identifying all dependencies early on. Instead of relasing it right away to
-				our target group, the management team decided to make it available as an internal tool. This
-				was a set back for us, but I know that we did a lot of good work, and are proud of what we
-				achieved:
+				some trouble. Instead of releasing it to employers right away — which was our original plan
+				— the management team postponed the launch. The reason was because the functionality for
+				employers to sign in to TRR wasn't yet ready. A huge learning for me has been the importance
+				of identifying all dependencies early on. Instead of relasing it right away to our target
+				group, the management team decided to make it available as an internal tool. This was a set
+				back for us, but I know that we did a lot of good work, and are proud of what we achieved:
 			</p>
 			<ul class="margin">
 				<li>
-					A recruitment tool to continue to develop together with the users. We found great support
-					from our user research that employers couldn’t wait to start using our service.
+					A simle and smooth UI for searching for candidates. The user research showed that
+					employers couldn’t wait to start using our service.
 				</li>
 				<li>
 					A base of extensive user research to build upon. A huge part of the work I did was
@@ -184,6 +198,24 @@
 				</li>
 			</ul>
 
+			<figure class="small">
+				<img
+					src={srcWireframes}
+					class="box-shadow rounded"
+					alt="Wireframes showing search UI with filters"
+				/>
+				<figcaption>Wireframe of the final product's basic functionality.</figcaption>
+			</figure>
+
+			<figure class="small">
+				<img
+					src={srcCandidate}
+					class="box-shadow rounded"
+					alt="Wireframes showing presentation of a candidate"
+				/>
+				<figcaption>Presentation of a candidate's profile.</figcaption>
+			</figure>
+
 			<div class="infobox rounded">
 				<h2 class="xs" id="About-TRR">About TRR</h2>
 				<p>
@@ -196,18 +228,7 @@
 		</div>
 
 		<div class="sidebar">
-			<div class="keywords">
-				<h3 class="2">Keywords</h3>
-				<ul>
-					<li>Consumer facing</li>
-					<li>User Interviews</li>
-					<li>Design Sprint</li>
-					<li>User Testing</li>
-				</ul>
-			</div>
-
 			<div class="navigation rounded box-shadow">
-				<h5 class="xs">Contents</h5>
 				<ul>
 					<li><a href="#Talk-to-employers">Part I: Talk to employers</a></li>
 					<li><a href="#Explore-ideas">Part II: Explore ideas</a></li>

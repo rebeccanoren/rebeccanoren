@@ -32,7 +32,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 1200px;
+		max-width: 1440px;
 		margin: 0 auto;
 		box-sizing: border-box;
 		margin-bottom: 100px;
@@ -44,7 +44,8 @@
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
-		background-color: var(--pure-white);
+		background-color: var(--light-blue);
+		box-shadow: 0 15px 30px 0 rgb(0 42 102 / 4%), inset 1px 1px 1px 0 hsl(0deg 0% 100% / 90%);
 	}
 
 	footer a {

@@ -8,7 +8,6 @@
 	let srcMiro = '/guiding-job-seekers/miro.jpg';
 	let srcPopcorn = '/guiding-job-seekers/popcorn-session.png';
 	let srcVideo = '/guiding-job-seekers/trr-tour.mov';
-	let srcDivider = 'divider.svg';
 </script>
 
 <svelte:head>
@@ -20,11 +19,16 @@
 </svelte:head>
 
 <section class="case">
+	<div class="intro">
+		<p class="xs">TRR (2020)</p>
+		<h1 class="xl">Guiding job-seekers</h1>
+
+		<p class="xs">How we created helpful and user-centered content using design methods.</p>
+	</div>
+	<img src={srcHero} class="rounded" alt="People standing infront of whiteboard" />
+
 	<div class="container">
 		<div class="description">
-			<p class="xs">TRR (2020)</p>
-			<h1 class="xl">Guiding job-seekers</h1>
-
 			<p class="s">
 				TRR is a personal job coach. They are not looking for people to jump from job to job; they
 				want you to find the career that works best for you and help you blossom into a new version
@@ -51,10 +55,6 @@
 				<li>Outdated content</li>
 				<li>No personal approach</li>
 			</ul>
-
-			<div class="divider">
-				<img src={srcDivider} alt="Divider svg" />
-			</div>
 			<h2 class="m" id="Creating-guiding-content">Creating Guiding Content</h2>
 			<p>
 				It's not easy to go through a job loss. With so much uncertainty in the air, you want to
@@ -73,11 +73,6 @@
 				sessions together with the advisors to sketch the journey from the point when an individual lost
 				their job, to setting a goal and ultimately reaching it.
 			</p>
-			<figure>
-				<img src={srcHero} class="rounded" alt="People standing infront of whiteboard" />
-
-				<figcaption class="xxs light">Workshop with the team and stakeholders.</figcaption>
-			</figure>
 
 			<h3 class="s">2. Interview job-seekers and collect Quantitative data</h3>
 			<p>
@@ -242,14 +237,26 @@
 		</div>
 
 		<div class="sidebar">
+			<div class="keywords">
+				<h3 class="s">Keywords</h3>
+				<ul>
+					<li>Consumer facing</li>
+					<li>Content design</li>
+					<li>Jobs-to-be-done</li>
+					<li>User Story Mapping</li>
+					<li>User Testing</li>
+				</ul>
+			</div>
+
 			<div class="Link">
 				<h3 class="s">Link</h3>
 				<p>
-					<a href="https://www.trr.se/uppsagd/sok-jobb/">Visit the website </a>(Only in Swedish 🇸🇪)
+					Visit the <a href="https://www.trr.se/uppsagd/sok-jobb/">website </a>(Only in Swedish 🇸🇪)
 				</p>
 			</div>
 
 			<div class="navigation rounded box-shadow">
+				<h5 class="xs">Contents</h5>
 				<ul>
 					<li><a href="#Creating-guiding-content">Creating guiding content</a></li>
 					<li><a href="#Solution">Solution</a></li>

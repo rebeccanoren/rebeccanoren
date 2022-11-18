@@ -21,6 +21,7 @@
 		background-color: var(--dark);
 		bottom: 32px;
 		border-radius: 40px;
+
 		box-shadow: 0 1px 18px 0 rgb(0 0 0 / 12%), 0 6px 10px 0 rgb(0 0 0 / 14%),
 			0 3px 5px -1px rgb(0 0 0 / 20%);
 		left: 50%;
@@ -30,25 +31,25 @@
 	ul {
 		display: flex;
 		list-style-type: none;
-		padding: 0 24px;
+		padding: 0 12px;
 	}
 
 	li {
 		text-decoration: none;
-		padding: 5px;
+		padding: 3px;
 	}
 
 	a {
 		color: var(--pure-white);
 		text-decoration: none;
-		padding: 16px;
+		padding: 12px;
 		border-radius: 40px;
 		font-size: 16px;
 	}
 
 	a:hover {
-		background-color: var(--pure-white);
-		color: var(--dark);
+		background-color: var(--text-color);
+		color: var(--pure-white);
 		text-decoration: none;
 	}
 </style>

@@ -1,6 +1,6 @@
 :root {
 	font-family: 'GT-America', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, "raleway";
 	--font-mono: 'Fira Mono', monospace;
 	--font-header: 'Grifter';
 }
@@ -9,6 +9,9 @@
   text-transform: uppercase;
 }
 
+.nomargin {
+  margin: 0;
+}
 
 a {
   color:var(--accent-color);
@@ -23,6 +26,7 @@ h6 {
 font-family: 'GRIFTER';
   color: var(--text-color);
   font-weight: 500;
+  scroll-margin-top: 20px;
 }
 
 hr {
@@ -35,7 +39,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.78;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   li {
@@ -98,7 +102,7 @@ p {
 
 @media (max-width: 1025px) {
     .xl {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         line-height: 1.3;
 
        }
