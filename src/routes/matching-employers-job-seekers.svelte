@@ -161,7 +161,7 @@
 					class="box-shadow rounded"
 					alt="Gif showing collaboration in Miro."
 				/>
-				<figcaption>Illustration of how the search results list.</figcaption>
+				<figcaption>Wireframe of the divided search results list.</figcaption>
 			</figure>
 
 			<div class="divider">
