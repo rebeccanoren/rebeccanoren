@@ -34,14 +34,14 @@
 		align-items: center;
 		padding: 0 1em;
 		color: var(--text-color);
-		font-size: 0.8rem;
+		font-size: 0.6rem;
 		letter-spacing: 0.02em;
 		text-decoration: none;
 		scroll-margin-top: 20px;
 	}
 
 	nav span {
-		background-color: #907cff;
+		background-color: var(--light-purple);
 		color: white;
 		padding: 6px;
 		border-radius: 4px;
