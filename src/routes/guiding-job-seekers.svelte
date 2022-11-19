@@ -35,9 +35,8 @@
 				<h3>Summary</h3>
 				<p>
 					I was in a team of content creators producing web content to guide job seekers through the
-					job seeking processto take the next step in their career. My role in the team was to make
-					ensure the content was digestable and findable by making the team empathizing with their
-					readers.
+					job seeking process to take the next step in their career. My role was to make ensure the
+					content was digestable and findable by making the team empathizing with their readers.
 				</p>
 			</div>
 
@@ -133,7 +132,7 @@
 			</p>
 
 			<p>
-				As soon as we had the first drafts of content, I started to make prototypes Figma which I
+				As soon as we had the first drafts of content, I started to make prototypes in Figma which I
 				regularly tested with users. This created a feedback loop and helped us evaluate the
 				structure and content with rapid speed.
 			</p>
@@ -162,7 +161,7 @@
 					information.
 				</li>
 				<li>
-					Don’t bore the audience. Use active language, describe exactly what the reader needs to do
+					Don’t bore the audience. Use an active voice, describe exactly what the reader needs to do
 					next and how they can accomplish it.
 				</li>
 				<li>
