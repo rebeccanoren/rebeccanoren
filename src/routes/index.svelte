@@ -17,7 +17,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="xl">I'm strategic & hands-on Product Designer. Based in France, working globally.</h1>
+	<h1 class="xl">
+		I'm a strategic & hands-on Product Designer. Based in France, working globally.
+	</h1>
 	<p>My works are just a scroll away.</p>
 </section>
 
