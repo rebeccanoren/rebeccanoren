@@ -40,6 +40,14 @@
 		scroll-margin-top: 20px;
 	}
 
+	nav span {
+		background-color: #907cff;
+		color: white;
+		padding: 6px;
+		border-radius: 4px;
+		margin-top: 20px;
+	}
+
 	nav > :first-child {
 		font-size: 1.2rem;
 		font-family: 'GT-America';
