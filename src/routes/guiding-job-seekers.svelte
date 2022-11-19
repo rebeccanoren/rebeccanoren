@@ -35,8 +35,8 @@
 				<h3>Summary</h3>
 				<p>
 					I was in a team of content creators producing web content to guide job seekers through the
-					job seeking process to take the next step in their career. My role was to make ensure the
-					content was digestable and findable by making the team empathizing with their readers.
+					process to take the next step in their career. My role was to make ensure the content was
+					digestable and findable by making the team empathizing with their readers.
 				</p>
 			</div>
 
@@ -269,6 +269,7 @@
 
 		<div class="sidebar">
 			<div class="navigation rounded box-shadow">
+				<h3>Content</h3>
 				<ul>
 					<li><a href="#Creating-guiding-content">Part I: Creating guiding content</a></li>
 					<li><a href="#Solution">Part II: Solution</a></li>
