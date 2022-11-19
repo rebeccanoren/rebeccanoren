@@ -31,6 +31,16 @@
 				execute on them.
 			</p>
 
+			<div class="summary rounded ">
+				<h3>Summary</h3>
+				<p>
+					Working as the sole UX Designer in a team of developers and a product manager we created a
+					search tool for recruiters to find qualified and competent staff. I had a leading role and
+					facilitated the design process with the team. I did extensive user research, prototypes,
+					UI and user tests.
+				</p>
+			</div>
+
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
 				I started with the basics: research. In the first months of the project, I interviewed 20+
@@ -161,7 +171,7 @@
 					class="box-shadow rounded"
 					alt="Gif showing collaboration in Miro."
 				/>
-				<figcaption>Illustration of how the search results list.</figcaption>
+				<figcaption>Wireframe of the divided search results list.</figcaption>
 			</figure>
 
 			<div class="divider">
@@ -171,12 +181,12 @@
 			<h2 class="m" id="Result">Result</h2>
 			<p>
 				Although we had a first basic version of the service almost ready to be released, we hit
-				some trouble. Instead of releasing it to employers right away — which was our original plan
-				— the management team postponed the launch. The reason was because the functionality for
-				employers to sign in to TRR wasn't yet ready. A huge learning for me has been the importance
-				of identifying all dependencies early on. Instead of relasing it right away to our target
-				group, the management team decided to make it available as an internal tool. This was a set
-				back for us, but I know that we did a lot of good work, and are proud of what we achieved:
+				some trouble. Instead of releasing it to employers right away, the management team postponed
+				the launch. The reason was because the functionality for employers to sign in to TRR wasn't
+				yet ready. A huge learning for me has been the importance of identifying all dependencies
+				early on. Instead of releasing it right away to our target group, the management team
+				decided to make it available as an internal tool. This was a set back for us, but I know
+				that we did a lot of good work, and are proud of what we achieved:
 			</p>
 			<ul class="margin">
 				<li>

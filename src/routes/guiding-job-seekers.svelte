@@ -30,6 +30,16 @@
 				want you to find the career that works best for you and help you blossom into a new version
 				of yourself. TRR achieves this through personalized coaching, guidance and training.
 			</p>
+
+			<div class="summary rounded ">
+				<h3>Summary</h3>
+				<p>
+					I was in a team of content creators producing web content to guide job seekers through the
+					job seeking process to take the next step in their career. My role was to make ensure the
+					content was digestable and findable by making the team empathizing with their readers.
+				</p>
+			</div>
+
 			<h2 class="m">Covid hits the labor market</h2>
 			<p>
 				This project with TRR started in 2020 when the Covid pandemic hit the job market. TRR
@@ -55,7 +65,7 @@
 			<div class="divider">
 				<img src={srcDivider} alt="Divider svg" />
 			</div>
-			<h2 class="m" id="Creating-guiding-content">Creating Guiding Content</h2>
+			<h2 class="m" id="Creating-guiding-content">Part I: Creating Guiding Content</h2>
 			<p>
 				It's not easy to go through a job loss. With so much uncertainty in the air, you want to
 				know what to do next and how to get back on your feet. The aim of this project was to guide
@@ -64,7 +74,7 @@
 				to take more control of their own journey. The process went like this:
 			</p>
 
-			<h3 class="s">1. Sketching the User Story from Best Practise</h3>
+			<h3 class="s">1) Sketching the User Story from Best Practise</h3>
 			<p>
 				The first thing we did was to examine the current journey for our users together with
 				advisors from TRR who have experience guiding job-seekers. I facilitated <a
@@ -79,7 +89,11 @@
 				<figcaption class="xxs light">Workshop with the team and stakeholders.</figcaption>
 			</figure>
 
-			<h3 class="s">2. Interview job-seekers and collect Quantitative data</h3>
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
+
+			<h3 class="s">2) Interview job-seekers and collect Quantitative data</h3>
 			<p>
 				I interviewed current job-seekers and collected quantitative data from Google Analytics in
 				order to better understand the biggest pain points during the different phases of the
@@ -87,7 +101,7 @@
 				first.
 			</p>
 
-			<h3 class="s">3. Define Jobs-to-be-done</h3>
+			<h3 class="s">3) Define Jobs-to-be-done</h3>
 			<p>
 				For the next step, I introduced the <a href="https://strategyn.com/jobs-to-be-done"
 					>Jobs-to-be-done method</a
@@ -105,7 +119,11 @@
 				</figcaption>
 			</figure>
 
-			<h3 class="s">4. Rapidly build something</h3>
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
+
+			<h3 class="s">4) Rapidly build something</h3>
 			<p>
 				We needed to quickly build something to test our ideas, so we did. We had no ideas of
 				groundbreaking interaction design in this project. Instead, our challenge was to keep the
@@ -114,7 +132,7 @@
 			</p>
 
 			<p>
-				As soon as we had the first drafts of content, I started to make prototypes Figma which I
+				As soon as we had the first drafts of content, I started to make prototypes in Figma which I
 				regularly tested with users. This created a feedback loop and helped us evaluate the
 				structure and content with rapid speed.
 			</p>
@@ -127,7 +145,7 @@
 				</figcaption>
 			</figure>
 
-			<h3 class="s">5. Guiding Principles</h3>
+			<h3 class="s">5) Guiding Principles</h3>
 			<p>
 				My research results indicated that users don't start reading from the beginning of page.
 				Readers skim content rather than read every word.
@@ -143,7 +161,7 @@
 					information.
 				</li>
 				<li>
-					Don’t bore the audience. Use active language, describe exactly what the reader needs to do
+					Don’t bore the audience. Use an active voice, describe exactly what the reader needs to do
 					next and how they can accomplish it.
 				</li>
 				<li>
@@ -152,7 +170,11 @@
 				</li>
 			</ul>
 
-			<h2 class="m" id="Solution">Solution</h2>
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
+
+			<h2 class="m" id="Solution">Part II: Solution</h2>
 			<p>
 				We have developed a step-by-step guide that describes how to create a resume and personal
 				letter, how to adapt these to an application, and tips for when preparing for a job
@@ -193,7 +215,11 @@
 				</figcaption>
 			</figure>
 
-			<h2 class="m" id="Result">Result and Key Takeways</h2>
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
+
+			<h2 class="m" id="Result">Part III: Result and Key Takeways</h2>
 			<p>
 				The result of this project has been very positive in two directions: this project is
 				improving the independence and control of people who struggle with their job search. It has
@@ -213,8 +239,8 @@
 			<ul class="margin">
 				<li>
 					<strong>How to apply Jobs-to-be-done to keep focused and scope the challenge.</strong>
-					<br />At first, it was difficult for the content writers to get a hang of how to define
-					the jobs. But it was effective when we got the hang of it as a team.
+					<br />It was difficult for the content writers to get a hang of how to define the jobs at
+					first. But once we got a hang of it in the team it was incredible effective.
 				</li>
 
 				<li>
@@ -225,7 +251,7 @@
 				</li>
 				<li>
 					<strong>The power of engaging the team in UX research.</strong> <br />I invited
-					non-designer team members to take notes during the tests and when analyzing. This
+					non-designer team members to participate during the user tests and analysis. This
 					increased the team's intrest to act on the learnings.
 				</li>
 			</ul>
@@ -242,20 +268,20 @@
 		</div>
 
 		<div class="sidebar">
+			<div class="navigation rounded box-shadow">
+				<ul>
+					<li><a href="#Creating-guiding-content">Part I: Creating guiding content</a></li>
+					<li><a href="#Solution">Part II: Solution</a></li>
+					<li><a href="#Result">Part III: Result and Key Takeways</a></li>
+					<li><a href="#About-TRR">About TRR</a></li>
+				</ul>
+			</div>
+
 			<div class="Link">
 				<h3 class="s">Link</h3>
 				<p>
 					<a href="https://www.trr.se/uppsagd/sok-jobb/">Visit the website </a>(Only in Swedish 🇸🇪)
 				</p>
-			</div>
-
-			<div class="navigation rounded box-shadow">
-				<ul>
-					<li><a href="#Creating-guiding-content">Creating guiding content</a></li>
-					<li><a href="#Solution">Solution</a></li>
-					<li><a href="#Result">Result and Key Takeways</a></li>
-					<li><a href="#About-TRR">About TRR</a></li>
-				</ul>
 			</div>
 		</div>
 	</div>
