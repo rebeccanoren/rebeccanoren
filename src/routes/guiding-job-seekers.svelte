@@ -3,6 +3,7 @@
 </script>
 
 <script>
+	import { isOverlayOpen } from '../stores/OverlayStore.js';
 	let srcHero = '/guiding-job-seekers/hero.jpg';
 	let srcAnchorLinks = '/guiding-job-seekers/anchor-links.png';
 	let srcMiro = '/guiding-job-seekers/miro.jpg';
