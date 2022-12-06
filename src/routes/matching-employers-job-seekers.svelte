@@ -239,7 +239,7 @@
 
 		<div class="sidebar">
 			<div class="navigation rounded box-shadow">
-				<h3>Content</h3>
+				<h3>Table of contents</h3>
 				<ul>
 					<li><a href="#Talk-to-employers">Part I: Talk to employers</a></li>
 					<li><a href="#Explore-ideas">Part II: Explore ideas</a></li>

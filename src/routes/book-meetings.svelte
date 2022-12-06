@@ -256,7 +256,7 @@
 			</div>
 
 			<div class="navigation rounded box-shadow">
-				<h5 class="xs">Contents</h5>
+				<h5 class="xs">Table of contents</h5>
 				<ul>
 					<li><a href="#Creating-guiding-content">Creating guiding content</a></li>
 					<li><a href="#Solution">Solution</a></li>
