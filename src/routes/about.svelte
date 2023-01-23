@@ -73,9 +73,9 @@
 				</li>
 				<li>
 					I've never been in a project where I haven’t done user research. Qualitative research is a
-					key method in my toolbox. Talking to real users is my bread and butter. been working in a
-					design project where I haven’t performed user research. Qualitative research is a key
-					method in my toolbox. Talking to real users is my bread and butter.
+					key method in my toolbox, I have never been in a design project where I haven’t conduct
+					user research. Qualitative research is a key method in my toolbox, talking to real users
+					is my bread and butter.
 				</li>
 
 				<li>
@@ -92,7 +92,7 @@
 				<li>I’m highly influenced by the Lean Startup Methodology by Eric Ries and Steve Blank.</li>
 				<li>
 					I have a big interest in wine, my long-term goal is to become a sommelier. For the
-					short-term: Attending to as many wine tasting events as possible.
+					short-term: Attending as many wine tasting events as possible.
 				</li>
 				<li>
 					I’m a self-proclaimed psychologist watching reality dating shows and giving relationship

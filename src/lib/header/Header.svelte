@@ -108,7 +108,7 @@
 			transform: translate(-10px, 3px);
 		}
 		20% {
-			-webkit-transform: translate(10px, -10px);
+			-webkit-transform: translate(10px, 110px);
 			transform: translate(-7px, 6px);
 		}
 		40% {
@@ -117,12 +117,12 @@
 		}
 
 		50% {
-			-webkit-transform: translate(10px, -10px);
-			transform: translate(-5px, 3px);
+			-webkit-transform: translate(10px, 10px);
+			transform: translate(-5px, 500px);
 		}
 		60% {
 			-webkit-transform: translate(-2px, 2px);
-			transform: translate(-10px, 15px);
+			transform: translate(-10px, 799px);
 		}
 		70% {
 			-webkit-transform: translate(-2px, 2px);
