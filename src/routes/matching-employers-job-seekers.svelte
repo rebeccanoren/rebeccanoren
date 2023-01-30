@@ -238,7 +238,7 @@
 		</div>
 
 		<div class="sidebar">
-			<div class="navigation rounded box-shadow">
+			<div class="navigation rounded box-shadow blur">
 				<h3>Table of contents</h3>
 				<ul>
 					<li><a href="#Talk-to-employers">Part I: Talk to employers</a></li>
