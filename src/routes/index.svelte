@@ -77,7 +77,7 @@
 			</figure>
 		</a>
 
-		<figure class="item">
+		<!-- <figure class="item">
 			<img src={srcMeetings} class="" alt="Screenshot of Insights in Miro" />
 			<figcaption>
 				<p class="uppercase xxs ">TRR (2021)</p>
@@ -98,7 +98,7 @@
 					<span>Design Strategy</span> <span>User research</span> <span>SaaS</span>
 				</div>
 			</figcaption>
-		</figure>
+		</figure> -->
 	</div>
 </section>
 
