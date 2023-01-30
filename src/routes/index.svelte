@@ -183,7 +183,7 @@
 		background-color: var(--light-blue);
 		color: var(--accent-color);
 		padding: 8px 16px;
-		border-radius: 20px;
+		border-radius: 8px;
 		font-size: 14px;
 		white-space: nowrap;
 		box-shadow: 0 15px 30px 0 rgb(0 42 102 / 4%), inset 1px 1px 1px 0 hsl(0deg 0% 100% / 90%);

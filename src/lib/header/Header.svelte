@@ -118,11 +118,11 @@
 
 		50% {
 			-webkit-transform: translate(10px, 10px);
-			transform: translate(-5px, 500px);
+			transform: translate(-5px, 20px);
 		}
 		60% {
 			-webkit-transform: translate(-2px, 2px);
-			transform: translate(-10px, 799px);
+			transform: translate(-10px, 2px);
 		}
 		70% {
 			-webkit-transform: translate(-2px, 2px);

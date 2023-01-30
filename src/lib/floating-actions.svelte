@@ -20,7 +20,7 @@
 		z-index: 14;
 		background-color: var(--dark);
 		bottom: 32px;
-		border-radius: 40px;
+		border-radius: 16px;
 
 		box-shadow: 0 1px 18px 0 rgb(0 0 0 / 12%), 0 6px 10px 0 rgb(0 0 0 / 14%),
 			0 3px 5px -1px rgb(0 0 0 / 20%);
@@ -43,7 +43,7 @@
 		color: var(--pure-white);
 		text-decoration: none;
 		padding: 12px;
-		border-radius: 40px;
+		border-radius: 12px;
 		font-size: 16px;
 	}
 
