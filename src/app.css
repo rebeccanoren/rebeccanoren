@@ -30,14 +30,14 @@
 	--heading-color: #000000;
 	--text-color: #292929;
 	--text-color-light: #2b2b30;
-	--background-with-opacity: rgba(255, 255, 255, 0.2);
+	--background-with-opacity: rgba(255, 255, 255, 0.8);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 }
 
 body {
 	min-height: 100vh;
-	background: linear-gradient(-45deg, #D0DFFC, #EFD9F8, #B8A7F4, #f2e3ff, #D6C8FD, #CDC4FD);
+	background: linear-gradient(-45deg, #eef4ff, #fbf2fe, #eae4ff, #f9f3ff, #e9e1ff, #e5e1fc);
 	animation: gradient 15s ease infinite;
 	background-size: 400% 400%;
 	margin: 0;
@@ -117,7 +117,7 @@ button:hover {
 }
 
 .rounded {
-	border-radius: 20px;
+	border-radius: 8px;
 	}
 
 figure{
@@ -153,7 +153,9 @@ html{scroll-behavior:smooth}
 		font-size: 2.0rem;
 	}
 
-	
+	.rounded {
+		border-radius: 16px;
+		}
 }
 
 

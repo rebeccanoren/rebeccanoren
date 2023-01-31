@@ -22,10 +22,10 @@
 <section class="case">
 	<div class="container">
 		<div class="description">
-			<p class="xs">TRR (2020)</p>
+			<p class="xxs">TRR (2020)</p>
 			<h1 class="xl">Guiding job-seekers</h1>
 
-			<p class="s">
+			<p class="xs">
 				TRR is a personal job coach. They are not looking for people to jump from job to job; they
 				want you to find the career that works best for you and help you blossom into a new version
 				of yourself. TRR achieves this through personalized coaching, guidance and training.
@@ -34,9 +34,10 @@
 			<div class="summary rounded ">
 				<h3>Summary</h3>
 				<p>
-					I was in a team of content creators producing web content to guide job seekers through the
-					process to take the next step in their career. My role was to make ensure the content was
-					digestable and findable by making the team empathizing with their readers.
+					I was UX Designer in a team of content creators producing web content to guide job seekers
+					through the process to take the next step in their career. My responsibility was to make
+					ensure the content was digestible and findable by making the team empathizing with their
+					readers.
 				</p>
 			</div>
 
@@ -93,7 +94,7 @@
 				<img src={srcDivider} alt="Divider svg" />
 			</div>
 
-			<h3 class="s">2) Interview job-seekers and collect Quantitative data</h3>
+			<h3 class="s">2) Interview job-seekers and collect quantitative data</h3>
 			<p>
 				I interviewed current job-seekers and collected quantitative data from Google Analytics in
 				order to better understand the biggest pain points during the different phases of the
@@ -257,7 +258,7 @@
 			</ul>
 
 			<div class="infobox rounded">
-				<h2 class="xs" id="About-TRR">About TRR</h2>
+				<h3 id="About-TRR">About TRR</h3>
 				<p>
 					TRR is a non-profit foundation. They work with with employment transitions and working
 					life, contributing to learning and mobility in the Swedish labor market. Their activities

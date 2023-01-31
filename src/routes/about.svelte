@@ -20,12 +20,12 @@
 	<div class="container">
 		<div class="description">
 			<h1 class="xl">Hey, I'm Rebecca.</h1>
-			<p class="s">
+			<p class="xs">
 				I’m a Product Designer who enjoys translating thoughtful design strategies into beautiful
 				and impactful experiences. 5+ years working with a range of different clients.
 			</p>
 
-			<p class="s">
+			<p class="xs">
 				Except for doing design, I’m currently into quantitative data analysis, improving my coding
 				skills and growing knowledge about wine (but not at the same time).
 			</p>
@@ -40,11 +40,11 @@
 		<div class="description">
 			<h2 class="l">It all started...</h2>
 			<p>
-				When I was in high school. What I enjoyed the most was creating presentations, experimenting
-				with typography and my favorite project: creating the design for a news paper magazine. In
-				art class, I spent hours exploring the materials, textures and techniques. It took me to a
-				world of imagination – giving shape and colors to what is in your mind is challenging and
-				equally rewarding, all of it fascinated me.
+				In high school. What I enjoyed the most was creating presentations, experimenting with
+				typography and my favorite project: creating a design for a news paper magazine. In art
+				class, I spent hours exploring the materials, textures and techniques. It took me to a world
+				of imagination – giving shape and colors to what is in your mind is challenging and equally
+				rewarding, all of it fascinated me.
 			</p>
 
 			<p>

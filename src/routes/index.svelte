@@ -17,9 +17,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="xl">
-		I'm a strategic & hands-on Product Designer. Based in France, working globally.
-	</h1>
+	<h1 class="l">I'm a strategic & hands-on Product Designer. Based in France, working globally.</h1>
 	<p>My works are just a scroll away.</p>
 </section>
 
@@ -156,7 +154,7 @@
 	}
 
 	.intro h1 {
-		max-width: 100%;
+		max-width: 900px;
 	}
 
 	figcaption {
@@ -182,8 +180,8 @@
 	span {
 		background-color: var(--background-with-opacity);
 		/* backdrop-filter: blur(8px); */
-		color: var(--accent-color);
-		padding: 8px 16px;
+		color: var(--dark);
+		padding: 8px 8px;
 		border-radius: 8px;
 		font-size: 14px;
 		white-space: nowrap;

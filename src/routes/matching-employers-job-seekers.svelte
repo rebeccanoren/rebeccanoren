@@ -44,24 +44,29 @@
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
 				I started with the basics: research. In the first months of the project, I interviewed 20+
-				representatives of the employers side to, based on these interviews created 5 <a
+				representatives from the employers side. Based on these interviews defined 5 <a
 					href="https://www.nngroup.com/articles/persona/">personas</a
 				>
 				to describe users' needs, goals, attitudes and behavior patterns.
 			</p>
 			<p>
 				From my research, we understood that there was a lot of room for improvement to bring more
-				value to employers. Now we needed to find the one thing that would have the biggest impact
-				on TRR's business. For us, that meant narrowing our focus down to HR managers at
-				medium-to-large companies.
+				value to employers and their employees. Now we needed to find the one thing that would have
+				the biggest impact on TRR's business. Our product manager decided to prioritize HR managers
+				at medium-to-large companies who was represented by one of the personas.
 			</p>
 			<p>
 				As a next step, I facilitated a series of workshops to delve deeply into the desires and
 				needs of our primary persona. I facilitated <a
 					href="https://www.inuse.se/read/many-faces-impact-mapping/">Impact Mapping</a
 				> sessions to define our wanted effects and what we could do, with the main question being: how
-				might we support their goals?
+				might we support their goals? Some of the challenges expressed in the persona was:
 			</p>
+			<ul>
+				<li>Reskilling and upskilling employees</li>
+				<li>Manage organizational changes</li>
+				<li>Recruitment and finding the right candidates</li>
+			</ul>
 
 			<figure>
 				<img
@@ -98,8 +103,26 @@
 			<p>
 				We voted and the idea that received the most votes was an idea about a recruitment tool for
 				employers. The goal was to match employers' need for competencies with qualified candidates
-				from the TRR's wide range of job-seekers. Leaving the design sprint, we had a tested
-				prototype and a bunch of fresh hypotheses which we needed to evaluate further.
+				from the TRR's wide range of job-seekers.
+			</p>
+
+			<p>
+				Next, I tested the prototype with 5 HR managers. We wanted to evaluate the main concept and
+				its viability. Our riskiest assumptions was that HR managers would be interested in
+				recruiting job-seekers from TRR. Therefore, the focus with the test was to evaluate if HR
+				managers would actually use the recruitment tool in their daily work.
+			</p>
+
+			<p>
+				Great new to us, they were excited about our proposed concept. They said they found it
+				especially useful to find competencies which are hard to find. HR managers saw a great
+				benefit in getting in touch with candidates through TRR before they reached the official
+				labor market.
+			</p>
+
+			<p>
+				Leaving the Design Sprint, we had a tested prototype and a bunch of fresh hypotheses which
+				we needed to evaluate further.
 			</p>
 
 			<div class="divider">
@@ -109,16 +132,14 @@
 			<h2 class="m" id="Refinements">Part III: Refinements ♻️</h2>
 			<p>
 				I revised the prototypes based on the feedback and included more refined ideas as we went. I
-				continued to test the prototype with employers, who found it useful for recruiting
-				competencies which are hard to find. HR managers saw a great benefit in getting in touch
-				with candidates through TRR before they reached the official labor market. Recruitment
-				agencies also found value in a unique access to potential candidates.
+				continued to test the prototype with employers. We also learned that recruitment agencies
+				was interested to get access to TRR's candidates.
 			</p>
 
 			<p>
-				We developed a first iteration of the service with only the most important features. We
-				continued to refine the functionality in parallel with development. We wanted to know what
-				features were the most important and how the service would fit in the user's daily work.
+				We developed a first iteration with only the most important features. In parallel with
+				development, we continued to refine the functionality. We wanted to know what features were
+				the most important and how the service would fit in the user's daily work.
 			</p>
 			<p>
 				The hypotheses was evaluated iteratively through user tests with prototypes and user
@@ -227,7 +248,7 @@
 			</figure>
 
 			<div class="infobox rounded">
-				<h2 class="xs" id="About-TRR">About TRR</h2>
+				<h3>About TRR</h3>
 				<p>
 					TRR is a non-profit foundation. They work with with employment transitions and working
 					life, contributing to learning and mobility in the Swedish labor market. Their activities

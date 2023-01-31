@@ -1,14 +1,19 @@
-.summary {
+.infobox {
     background-color: rgba(0, 0, 0, 0.05);
-    padding: 32px;
-margin-top: 120px;
+    padding: 24px;
+margin: 80px 0;
 max-width: 100%;
 }
 
-.summary h3 {
-    margin: 16px 0;
-    color: 	(--tertiary-color);
+.infobox a {
+    color: var(--tertiary-color);
+    text-decoration: underline;
 }
+
+.infobox h3 {
+    margin-top: 8px;
+}
+
 
 .intro {
 margin: 120px 0 120px 0;}
@@ -32,7 +37,7 @@ video {
     margin-top: 64px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
 }
 
 .container img {
@@ -45,16 +50,22 @@ video {
 }
 
 .description h1 {
-    margin: 30px 0px 20px 0px;
+    margin: 30px 0px 8px 0px;
 }
 
 .description h2,
 h3 {
-    margin: 80px 0px 30px 0px;
+    margin: 40px 0px 8px 0px;
 }
 
+.description h2,
+h3 {
+    margin: 32px 0px 8px 0px;
+}
+
+
 .description h4 {
-    margin: 60px 0px 20px 0px;
+    margin: 40px 0px 8px 0px;
 }
 
 .divider img {
@@ -138,28 +149,25 @@ margin: 40px 0 10px 0;
     line-height: 3rem;
 }
 
-.infobox {
+.summary {
 background-color: var(--light-blue);
-padding: 32px;
-margin-top: 120px;
+padding: 24px;
+margin: 80px 0;
 }
 
-.infobox  > *{
-    color: var(--tertiary-color);
-}
 
-.infobox >:first-child{
+.summary >:first-child{
     padding: 0px 0px;
     margin: 0px;
 }
 
-.infobox p {
+.summary p {
     margin: 0;
     font-size: 1rem;
 }
 
 
-.infobox a {
+.summary a {
     color: var(--tertiary-color);
     text-decoration: underline;
 }
@@ -175,12 +183,6 @@ a:hover {
 .description p {
         margin: 16px 0px 0px 0px;
 }
-
-.description h2,
-h3 {
-    margin: 64px 0px 30px 0px;
-}
-
 
 
 @media (max-width: 1025px) {
@@ -199,12 +201,8 @@ h3 {
     .infobox {
         margin-top: 40px;
         margin: auto;
-        padding: 32px;
-    
+        padding: 16px;
         }
-
-
-
 
 .case img {
     margin: 30px 0 20px 0;
