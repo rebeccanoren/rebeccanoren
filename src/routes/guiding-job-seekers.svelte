@@ -32,7 +32,7 @@
 			</p>
 
 			<div class="summary rounded ">
-				<h3>Summary</h3>
+				<p>Summary</p>
 				<p>
 					I was UX Designer in a team of content creators producing web content to guide job seekers
 					through the process to take the next step in their career. My responsibility was to make
@@ -257,8 +257,8 @@
 				</li>
 			</ul>
 
-			<div class="infobox rounded">
-				<h3 id="About-TRR">About TRR</h3>
+			<div class="infobox rounded" id="About-TRR">
+				<p>About TRR</p>
 				<p>
 					TRR is a non-profit foundation. They work with with employment transitions and working
 					life, contributing to learning and mobility in the Swedish labor market. Their activities
@@ -270,7 +270,7 @@
 
 		<div class="sidebar">
 			<div class="navigation rounded box-shadow blur">
-				<h3>Table of contents</h3>
+				<p>Table of contents</p>
 				<ul>
 					<li><a href="#Creating-guiding-content">Part I: Creating guiding content</a></li>
 					<li><a href="#Solution">Part II: Solution</a></li>

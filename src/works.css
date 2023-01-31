@@ -10,10 +10,14 @@ max-width: 100%;
     text-decoration: underline;
 }
 
-.infobox h3 {
-    margin-top: 8px;
+.infobox >:first-child{
+    padding: 0px 0px;
+    margin: 0px;
 }
 
+.infobox p {
+    font-size: 1rem;
+}
 
 .intro {
 margin: 120px 0 120px 0;}
@@ -150,7 +154,7 @@ margin: 40px 0 10px 0;
 }
 
 .summary {
-background-color: var(--light-blue);
+background-color: var(--background-with-opacity);
 padding: 24px;
 margin: 80px 0;
 }

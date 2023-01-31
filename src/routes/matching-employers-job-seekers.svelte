@@ -31,8 +31,8 @@
 				execute on them.
 			</p>
 
-			<div class="summary rounded ">
-				<h3>Summary</h3>
+			<div class="summary rounded">
+				<p>Summary</p>
 				<p>
 					Working as the sole UX Designer in a team of developers and a product manager we created a
 					search tool for recruiters to find qualified and competent staff. I had a leading role and
@@ -247,8 +247,8 @@
 				<figcaption>Presentation of a candidate's profile.</figcaption>
 			</figure>
 
-			<div class="infobox rounded">
-				<h3>About TRR</h3>
+			<div class="infobox rounded" id="About-TRR">
+				<p>About TRR</p>
 				<p>
 					TRR is a non-profit foundation. They work with with employment transitions and working
 					life, contributing to learning and mobility in the Swedish labor market. Their activities
@@ -260,7 +260,7 @@
 
 		<div class="sidebar">
 			<div class="navigation rounded box-shadow blur">
-				<h3>Table of contents</h3>
+				<p>Table of contents</p>
 				<ul>
 					<li><a href="#Talk-to-employers">Part I: Talk to employers</a></li>
 					<li><a href="#Explore-ideas">Part II: Explore ideas</a></li>
