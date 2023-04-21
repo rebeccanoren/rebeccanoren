@@ -43,29 +43,26 @@
 
 			<h2 class="m" id="Talk-to-employers">Part I: Talk to employers 🕵️‍♀️</h2>
 			<p>
-				I started with the basics: research. In the first months of the project, I interviewed 20+
-				representatives from the employers side. Based on these interviews defined 5 <a
-					href="https://www.nngroup.com/articles/persona/">personas</a
-				>
-				to describe users' needs, goals, attitudes and behavior patterns.
+				Initially, I conducted research by interviewing over 20 representatives from the employer
+				side and developed 5 <a href="https://www.nngroup.com/articles/persona/">personas</a> based on
+				their needs, goals, attitudes, and behavior patterns. From this research, it became clear that
+				there was significant potential for improvement to increase the value delivered to employers
+				and their employees.
 			</p>
 			<p>
-				From my research, we understood that there was a lot of room for improvement to bring more
-				value to employers and their employees. Now we needed to find the one thing that would have
-				the biggest impact on TRR's business. Our product manager decided to prioritize HR managers
-				at medium-to-large companies who was represented by one of the personas.
-			</p>
-			<p>
-				As a next step, I facilitated a series of workshops to delve deeply into the desires and
-				needs of our primary persona. I facilitated <a
+				To prioritize our efforts, our product manager identified HR managers at medium-to-large
+				companies as the primary target represented by one of the personas. I then facilitated
+				workshops to further explore the needs and desires of this persona, using <a
 					href="https://www.inuse.se/read/many-faces-impact-mapping/">Impact Mapping</a
-				> sessions to define our wanted effects and what we could do, with the main question being: how
-				might we support their goals? Some of the challenges expressed in the persona was:
+				>
+				sessions to identify key objectives and actions. Some of the challenges expressed in the persona
+				was:
 			</p>
+
 			<ul>
 				<li>Reskilling and upskilling employees</li>
-				<li>Manage organizational changes</li>
-				<li>Recruitment and finding the right candidates</li>
+				<li>Managing organizational changes</li>
+				<li>Recruitment of the right candidates</li>
 			</ul>
 
 			<figure>
@@ -83,12 +80,13 @@
 			<h2 class="m" id="Explore-ideas">Part II: Explore ideas 💡</h2>
 
 			<p>
-				At this point, the Product Manager decided to address our primary persona's need to find and
-				hire qualified employees. To explore what we could to solve the problem, I facilitated a
-				Remote <a href="http://www.gv.com/sprint/">Design Sprint.</a> I invited the developers in
-				the team, the Product Manager and stakeholders in the organization who had insight about the
-				challenge. We decided to use <a href="http://www.gv.com/sprint/">Miro</a> because we had participants
-				from remote locations and wanted everyone to be able to contribute on equal terms.
+				The Product Manager determined that our primary persona's need for hiring qualified
+				employees required a solution. To address this challenge, I facilitated a remote
+				<a href="http://www.gv.com/sprint/">Design Sprint.</a>
+				and invited the participation of developers, the Product Manager, and other relevant stakeholders.
+				Since the participants were located remotely, we used
+				<a href="http://www.gv.com/sprint/">Miro</a> as a collaboration tool to ensure that everyone
+				had an equal opportunity to contribute.
 			</p>
 			<figure>
 				<img
@@ -101,28 +99,28 @@
 			<h2 class="m">The winner</h2>
 
 			<p>
-				We voted and the idea that received the most votes was an idea about a recruitment tool for
-				employers. The goal was to match employers' need for competencies with qualified candidates
-				from the TRR's wide range of job-seekers.
+				After voting, the idea that received the most support was a recruitment tool for employers.
+				Our goal was to match the competencies required by employers with qualified job-seekers from
+				TRR's extensive pool of candidates.
 			</p>
 
 			<p>
-				Next, I tested the prototype with 5 HR managers. We wanted to evaluate the main concept and
-				its viability. Our riskiest assumptions was that HR managers would be interested in
-				recruiting job-seekers from TRR. Therefore, the focus with the test was to evaluate if HR
-				managers would actually use the recruitment tool in their daily work.
+				To test the prototype, I evaluated the main concept's viability by conducting tests with 5
+				HR managers. Our riskiest assumption was that HR managers would be interested in recruiting
+				job-seekers from TRR. The focus of the test was to determine if HR managers would use the
+				recruitment tool in their daily work.
 			</p>
 
 			<p>
-				Great new to us, they were excited about our proposed concept. They said they found it
-				especially useful to find competencies which are hard to find. HR managers saw a great
-				benefit in getting in touch with candidates through TRR before they reached the official
+				Fortunately, the HR managers were enthusiastic about our proposed concept. They found it
+				particularly useful for finding competencies that are difficult to find and saw a
+				significant benefit in contacting candidates through TRR before they entered the official
 				labor market.
 			</p>
 
 			<p>
-				Leaving the Design Sprint, we had a tested prototype and a bunch of fresh hypotheses which
-				we needed to evaluate further.
+				As a result of the Design Sprint, we developed a tested prototype and several new hypotheses
+				that we needed to evaluate further.
 			</p>
 
 			<div class="divider">
@@ -131,34 +129,35 @@
 
 			<h2 class="m" id="Refinements">Part III: Refinements ♻️</h2>
 			<p>
-				I revised the prototypes based on the feedback and included more refined ideas as we went. I
-				continued to test the prototype with employers. We also learned that recruitment agencies
-				was interested to get access to TRR's candidates.
+				Based on the feedback received, I revised the prototypes and included more refined ideas as
+				we progressed. The prototype was further tested with employers, which revealed that
+				recruitment agencies were also interested in gaining access to TRR's candidates.
 			</p>
 
 			<p>
-				We developed a first iteration with only the most important features. In parallel with
-				development, we continued to refine the functionality. We wanted to know what features were
-				the most important and how the service would fit in the user's daily work.
+				To develop the first iteration, we focused on including only the most essential features. At
+				the same time, we continued to refine the functionality to determine which other features
+				were most important and how the service could be seamlessly integrated into the user's daily
+				work.
 			</p>
 			<p>
-				The hypotheses was evaluated iteratively through user tests with prototypes and user
-				interviews. From our research, we knew we needed to accomplish three things:
+				To evaluate our hypotheses, we conducted iterative user tests with prototypes and user
+				interviews. Based on our research, we identified three key goals that we needed to achieve:
 			</p>
 
 			<ul class="margin">
 				<li>
-					Make employers able to find candidates with industry specific competencies. For example,
-					programming languages or industry specific software.
+					Enable employers to find candidates with industry-specific competencies, such as
+					programming languages or industry-specific software.
 				</li>
 				<li>
-					Make it possible for recruiters to quickly evaluate if the candidate is a good fit for the
-					role and the company. Many recruiters also told us they wanted to review the career goals
-					of the candidates before considering contacting them.
+					Allow recruiters to quickly evaluate whether a candidate is a good fit for both the role
+					and the company. Many recruiters expressed a desire to review the career goals of
+					candidates before considering reaching out to them.
 				</li>
 				<li>
-					Provide the search results at high speed, not keeping the user waiting when adding and
-					removing search filters.
+					Provide search results at high speed to avoid making users wait when adding or removing
+					search filters.
 				</li>
 			</ul>
 

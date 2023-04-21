@@ -9,6 +9,7 @@
 	let srcPopcorn = '/guiding-job-seekers/popcorn-session.png';
 	let srcVideo = '/guiding-job-seekers/trr-tour.mov';
 	let srcDivider = 'divider.svg';
+	let userjourney = '/guiding-job-seekers/jobbsokarprocess.png';
 </script>
 
 <svelte:head>
@@ -23,71 +24,76 @@
 	<div class="container">
 		<div class="description">
 			<p class="xxs">TRR (2020)</p>
-			<h1 class="xl">Guiding job-seekers</h1>
+			<h1 class="xl">Empowering job-seekers</h1>
 
 			<p class="xs">
-				TRR is a personal job coach. They are not looking for people to jump from job to job; they
-				want you to find the career that works best for you and help you blossom into a new version
-				of yourself. TRR achieves this through personalized coaching, guidance and training.
+				TRR is a personalized job coaching service that helps individuals find their ideal career
+				path and supports them in their professional development. Rather than encouraging
+				job-hopping, TRR aims to enable people to flourish in their chosen careers through
+				personalized coaching, guidance, and training.
 			</p>
 
 			<div class="summary rounded ">
 				<p>Summary</p>
 				<p>
-					I was UX Designer in a team of content creators producing web content to guide job seekers
-					through the process to take the next step in their career. My responsibility was to make
-					ensure the content was digestible and findable by making the team empathizing with their
-					readers.
+					As a UX Designer working with a team of content creators, my role was to ensure that the
+					website content was easily digestible and accessible for job-seekers. I facilitated the
+					design process and made sure the team empathized with their readers to make the content
+					more relatable.
 				</p>
 			</div>
 
-			<h2 class="m">Covid hits the labor market</h2>
+			<h2 class="m">Impact of COVID-19 on the Labor Market</h2>
 			<p>
-				This project with TRR started in 2020 when the Covid pandemic hit the job market. TRR
-				realized they needed to enable job-seekers with more independence. They already had a
-				pre-existing web application but as it had grown organically it was difficult to navigate.
-				We started off with conducting user research and looked into the quantitative data to learn
-				about the user needs and how the current website was performing.
+				The TRR project began in 2020 when the COVID-19 pandemic caused significant upheaval in the
+				job market. TRR recognized that job-seekers needed more independence and support, and
+				although they had an existing website, it had grown organically, making it difficult to
+				navigate. I started off with conducting user research to learn more. We interviewd 5
+				job-seekers about their struggles.
+			</p>
+			<p>The issues identified from the research were:</p>
+			<ul>
+				<li>Job-seekers didn’t find the website to be useful</li>
+				<li>Difficult to find what they were looking for</li>
+				<li>Lack of a personalized approach</li>
+				<li>Outdated content</li>
+				<li>Low use frequency</li>
+			</ul>
+			<p>
+				The obvious solution based on our time constraints was to provide with readable content to
+				guide users trough the job-seeking process. Allowing job-seekers to take the steps at their
+				own pace would also improve the quality of the 1-1 meetings with advisors.
 			</p>
 
 			<p>
-				With more and more job-seekers relying on TRR to reach their next step in their career, we
-				knew that redesigning the website would increase its efficacy. The issues identified from
-				our research were:
+				We analyzed quantitative data to understand user needs and evaluate the website's
+				performance. Job-seekers were typically directed to relevant pages by their advisors, and we
+				used the number of page views as an indicator of the content's significance.
 			</p>
-			<ul>
-				<li>Job-seekers didn’t find the content to be useful</li>
-				<li>Bad website navigation</li>
-				<li>Low use frequency</li>
-				<li>Outdated content</li>
-				<li>No personal approach</li>
-			</ul>
 
 			<div class="divider">
 				<img src={srcDivider} alt="Divider svg" />
 			</div>
 			<h2 class="m" id="Creating-guiding-content">Part I: Creating Guiding Content</h2>
 			<p>
-				It's not easy to go through a job loss. With so much uncertainty in the air, you want to
-				know what to do next and how to get back on your feet. The aim of this project was to guide
-				job-seekers to take the next step in their careers. We wanted to provide the users with a
-				basic guide to help them; a guide that provides easily-digestible resources and enables them
-				to take more control of their own journey. The process went like this:
+				Losing a job can be a daunting experience, especially in times of uncertainty. The objective
+				of our project was to provide job-seekers with a basic guide that would assist them in
+				taking the next step in their career by offering easily-digestible resources and empowering
+				them to take control of their journey. Here's how we achieved that:
 			</p>
 
 			<h3 class="s">1) Sketching the User Story from Best Practise</h3>
 			<p>
-				The first thing we did was to examine the current journey for our users together with
-				advisors from TRR who have experience guiding job-seekers. I facilitated <a
-					href="https://www.nngroup.com/articles/user-story-mapping/">User Story Mapping</a
-				>
-				sessions together with the advisors to sketch the journey from the point when an individual lost
-				their job, to setting a goal and ultimately reaching it.
+				To begin, we used <a href="https://www.nngroup.com/articles/user-story-mapping/"
+					>User Story Mapping</a
+				> as a method and collaborated with TRR advisors who had experience guiding job-seekers. Together,
+				we examined the current journey of users and mapped out the journey from the point when an individual
+				loses their job to setting a goal and achieving it. We also highlighted the pain points of the
+				job-seekers during different stages of their journey.
 			</p>
 			<figure>
-				<img src={srcHero} class="rounded" alt="People standing infront of whiteboard" />
-
-				<figcaption class="xxs light">Workshop with the team and stakeholders.</figcaption>
+				<img src={userjourney} class="" alt="Creating Jobs-to-be-done in Miro" />
+				<figcaption class="xxs light">The user journey to find a job</figcaption>
 			</figure>
 
 			<div class="divider">
@@ -96,21 +102,27 @@
 
 			<h3 class="s">2) Interview job-seekers and collect quantitative data</h3>
 			<p>
-				I interviewed current job-seekers and collected quantitative data from Google Analytics in
-				order to better understand the biggest pain points during the different phases of the
-				job-search process. These insights were used by the team to prioritize what to start with
-				first.
+				To gain a better understanding of the major pain points during the various phases of
+				job-search process, I conducted interviews with current job-seekers and collected
+				quantitative data from Google Analytics. The insights I gathered were used by the team to
+				prioritize their approach and determine which content to focus on first.
 			</p>
+
+			<figure>
+				<img src={srcHero} class="rounded" alt="People standing infront of whiteboard" />
+
+				<figcaption class="xxs light">Workshop with the team and stakeholders.</figcaption>
+			</figure>
 
 			<h3 class="s">3) Define Jobs-to-be-done</h3>
 			<p>
-				For the next step, I introduced the <a href="https://strategyn.com/jobs-to-be-done"
+				In the following step, I introduced the <a href="https://strategyn.com/jobs-to-be-done"
 					>Jobs-to-be-done method</a
-				>. The method is best defined as a perspective, a lens through which you can define user
-				goals. Job-seekers use our product to get a job done. In our case, examples of goals are to
-				create the perfect resume or Linkedin profile. The content we created is intended to help
-				them accomplish their goals. Through this method we were able to keep focused on what's most
-				important and cut out unnecessary content.
+				> to guide our content creation process. This approach allows us to define user goals and identify
+				what job-seekers are trying to accomplish when using our product. By understanding their goals,
+				such as creating the perfect resume or LinkedIn profile, we were able to create content that
+				is tailored to their needs. This framework helped us stay focused on the most critical content
+				and eliminate any unnecessary information.
 			</p>
 
 			<figure>
@@ -158,16 +170,21 @@
 			</p>
 			<ul class="margin">
 				<li>
-					Make sure headlines are clear and direct. Use bullet points and highlight important
-					information.
+					Bullet points break down complex concepts into manageable segments, making information
+					easier to comprehend. Highlighting key takeaways and critical points draws readers'
+					attention to the most important information. These techniques create a more accessible and
+					engaging reading experience.
 				</li>
 				<li>
-					Don’t bore the audience. Use an active voice, describe exactly what the reader needs to do
-					next and how they can accomplish it.
+					Utilize an active voice and provide precise instructions on what the reader should do next
+					to progress in their job search. Clarify the next step in their journey and guide them
+					through the process of accomplishing it. This approach will keep your audience focused and
+					motivated towards achieving their employment goals.
 				</li>
 				<li>
-					Provide links to other pages with additional information for readers who want to learn
-					more about at topic.
+					Including links to additional resources is a helpful practice for providing readers with
+					more comprehensive information on a topic. By adding relevant links, readers who want to
+					delve deeper into a subject can access more detailed resources.
 				</li>
 			</ul>
 

@@ -35,12 +35,12 @@
 			>
 				<img
 					src={srcGuidingJobSeekers}
-					class="box-shadow"
+					class="box-shadow border"
 					alt="Guiding content showing text and a video."
 				/>
 				<figcaption>
 					<p class="uppercase xxs">TRR (2020)</p>
-					<h3 class="l nomargin {enter1 ? 'underline' : ''}">Guiding job-seekers</h3>
+					<h3 class="l nomargin {enter1 ? 'underline' : ''}">Empowering job-seekers</h3>
 					<p>A new experience to enable job-seekers to take the next step in their career.</p>
 					<div class="tags">
 						<div><span>JTBD</span> <span>User Story Mapping</span> <span>User Test</span></div>
@@ -59,7 +59,11 @@
 				}}
 				class="item"
 			>
-				<img src={srcFindingTalent} class="" alt="Searching tool to find candidates to recruit" />
+				<img
+					src={srcFindingTalent}
+					class="border"
+					alt="Searching tool to find candidates to recruit"
+				/>
 				<figcaption>
 					<p class="uppercase xxs">TRR (2019)</p>
 					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
@@ -138,6 +142,10 @@
 		margin: 0px;
 		width: 100%;
 		transition: transform 0.2s;
+	}
+
+	.border {
+		border: solid 2px var(--text-color);
 	}
 
 	img {
