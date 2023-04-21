@@ -22,7 +22,7 @@
 			<h1 class="xl">Hey, I'm Rebecca.</h1>
 			<p class="xs">
 				I’m a Product Designer who enjoys translating thoughtful design strategies into beautiful
-				and impactful experiences. 5+ years working with a range of different clients.
+				and impactful experiences. 7+ years working with a range of different clients.
 			</p>
 
 			<p class="xs">
@@ -38,67 +38,64 @@
 
 	<div class="container">
 		<div class="description">
-			<h2 class="l">It all started...</h2>
+			<h2 class="l">It all began...</h2>
 			<p>
-				In high school. What I enjoyed the most was creating presentations, experimenting with
-				typography and my favorite project: creating a design for a news paper magazine. In art
-				class, I spent hours exploring the materials, textures and techniques. It took me to a world
-				of imagination – giving shape and colors to what is in your mind is challenging and equally
-				rewarding, all of it fascinated me.
+				In high school, where my passion for design first took root. I found joy in creating
+				presentations, experimenting with typography, and my favorite project of all, designing a
+				newspaper magazine. In art class, I would spend hours exploring different materials,
+				textures, and techniques. This allowed me to delve into a world of imagination, where
+				bringing shape and color to ideas was both challenging and rewarding. I was fascinated by it
+				all.
 			</p>
 
 			<p>
-				When my art teacher suggested that I apply to art school, I never considered it as a valid
-				career path. Instead, I persued studies in economics. It was great, but after one year I
-				missed being creative. I discovered the Bachelor program <a
-					href="https://www.hh.se/utbildning/program/digital-design-och-innovation.html"
-					>Digital Design and Innovation</a
-				>, created by <a href="http://warnestal.com/">Pontus Wärnestål</a> – an award-winning Service
-				Designer and Human-Computer Interaction researcher. I applied and got in. I had an aha-moment
-				when I realized that I could design methodology to solve business problems. The rest is history.
+				Despite my art teacher's suggestion to apply to art school, I pursued studies in economics.
+				However, after a year, I realized that I missed being creative. That's when I discovered the
+				Bachelor program in Digital Design and Innovation created by award-winning Service Designer
+				and Human-Computer Interaction researcher, <a href="http://warnestal.com/"
+					>Pontus Wärnestål</a
+				>. It was a game-changer for me. I had an epiphany that I could use design methodology to
+				solve business problems.
 			</p>
 
 			<p>
-				My design training in combination with my studies in economics has shaped me into the
-				designer I am today. I’m obsessed with details that makes a design lovable but I don’t drift
-				away from the business values.
+				Combining my design training with my economics education has helped shape me into the
+				designer I am today. I obsess over the details that make a design lovable, while still
+				staying true to business values.
 			</p>
 
 			<h2 class="l" id="10-random-facts">10 random facts about me</h2>
 			<ul class="margin">
-				<li>My cat’s name is Zelda, but I have never played the game.</li>
+				<li>My cat's name is Zelda, but I have never played the game.</li>
 				<li>
 					Favorite food: Barbecue. Nothing beats cooking food outside in fresh air and beautiful
 					weather.
 				</li>
 				<li>
-					I've never been in a project where I haven’t done user research. Qualitative research is a
-					key method in my toolbox, I have never been in a design project where I haven’t conduct
-					user research. Qualitative research is a key method in my toolbox, talking to real users
-					is my bread and butter.
+					Qualitative research is a key method in my toolbox, and I have never been in a design
+					project where I haven't conducted user research. Talking to real users is my bread and
+					butter.
 				</li>
 
 				<li>
-					I get easily obsessed with diving into and learning things on a regular basis. This
-					sometimes worries my partner who reminds me to eat when I’m in hyper-focused.
+					I easily become obsessed with diving into and learning new things on a regular basis. This
+					sometimes worries my partner, who reminds me to eat when I'm hyper-focused.
+				</li>
+				<li>I've always had difficulty learning new languages. It doesn't come naturally to me.</li>
+				<li>
+					I've always been interested in programming. That's why I took a leave of absence in 2020
+					to attend a web development boot camp for three months. I loved every second of it.
+				</li>
+				<li>I'm highly influenced by the Lean Startup Methodology by Eric Ries and Steve Blank.</li>
+				<li>
+					I have a big interest in wine. My long-term goal is to become a sommelier, but for the
+					short-term, I want to attend as many wine tasting events as possible.
 				</li>
 				<li>
-					I’ve always had difficult times learning new languages, it doesn’t come naturally to me.
+					I'm a self-proclaimed psychologist, watching reality dating shows and giving relationship
+					advice to people I've never met
 				</li>
-				<li>
-					I’ve always been interested in programming. That’s why I took a leave of absence in 2020
-					to attend a web development boot camp for 3 months. I loved every second of it.
-				</li>
-				<li>I’m highly influenced by the Lean Startup Methodology by Eric Ries and Steve Blank.</li>
-				<li>
-					I have a big interest in wine, my long-term goal is to become a sommelier. For the
-					short-term: Attending as many wine tasting events as possible.
-				</li>
-				<li>
-					I’m a self-proclaimed psychologist watching reality dating shows and giving relationship
-					advice to people I’ve never met.
-				</li>
-				<li>If it tells you anything I’m an ESTJ, an Executive.</li>
+				<li>If it tells you anything, I'm an ESTJ, an Executive.</li>
 			</ul>
 		</div>
 	</div>
