@@ -19,7 +19,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="l">I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden</h1>
+	<h1 class="xl">I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden</h1>
 </section>
 
 <section class="works">
@@ -184,7 +184,6 @@
 		flex-direction: column;
 		justify-content: center;
 		text-align: left;
-		min-width: 350px;
 	}
 
 	figcaption h3 {
@@ -250,5 +249,11 @@
 		span {
 			font-size: 12px;
 		}
+
+		figure h3 {
+			text-decoration: underline;
+		}
+
+	
 	}
 </style>

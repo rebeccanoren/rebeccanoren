@@ -52,10 +52,8 @@
 				Despite my art teacher's suggestion to apply to art school, I pursued studies in economics.
 				However, after a year, I realized that I missed being creative. That's when I discovered the
 				Bachelor program in Digital Design and Innovation created by award-winning Service Designer
-				and Human-Computer Interaction researcher, <a href="http://warnestal.com/"
-					>Pontus Wärnestål</a
-				>. It was a game-changer for me. I had an epiphany that I could use design methodology to
-				solve business problems.
+				<a href="http://warnestal.com/">Pontus Wärnestål</a>. It was a game-changer for me. I had an
+				epiphany that I could use design methodology to solve business problems.
 			</p>
 
 			<p>
