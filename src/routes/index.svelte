@@ -6,10 +6,12 @@
 	let srcGuidingJobSeekers = '/guiding-job-seekers/guding-job-seekers.png';
 	let srcFindingTalent = '/finding-talent/finding-talent.png';
 	let srcMeetings = '/book-meetings/book-meetings.png';
-	let srcSinch = '/sinch/sinch.png';
+	let srcSinch = '/sinch/vision/sinch.svg';
+	let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
 
 	let enter1 = false;
 	let enter2 = false;
+	let enter3 = false;
 </script>
 
 <svelte:head>
@@ -17,12 +19,34 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section class="intro">
-	<h1 class="l">I'm a strategic & hands-on Product Designer. Based in France, working globally.</h1>
-	<p>My works are just a scroll away.</p>
+	<h1 class="l">I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden</h1>
 </section>
 
 <section class="works">
 	<div class="works-grid">
+		<a sveltekit:prefetch href="/sinch-vision">
+			<figure
+				on:mouseenter={() => {
+					enter2 = !enter2;
+				}}
+				on:mouseleave={() => {
+					enter2 = false;
+				}}
+				class="item"
+			>
+				<img src={srcSinch} class="box-shadow border" alt="Design of Sinch Vision" />
+				<figcaption>
+					<p class="uppercase xxs">Sinch (2024)</p>
+					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
+						Improve the process to buy phone numbers in Sinch Enterprise Platform
+					</h3>
+					<div class="tags">
+						<span>Design Strategy</span> <span>User Research</span>
+					</div>
+				</figcaption>
+			</figure>
+		</a>
+
 		<a sveltekit:prefetch href="/guiding-job-seekers">
 			<figure
 				on:mouseenter={() => {
@@ -87,17 +111,6 @@
 				<p>Performing interviews and analysis to learn.</p>
 				<div class="tags">
 					<span>User Research</span>
-				</div>
-			</figcaption>
-		</figure>
-
-		<figure class="item">
-			<img src={srcSinch} class="" alt="Design of Sinch Vision" />
-			<figcaption>
-				<p class="uppercase xxs">Sinch (2023)</p>
-				<h3 class="l nomargin {enter2 ? 'underline' : ''}">Redesigning the Sinch Platform</h3>
-				<div class="tags">
-					<span>Design Strategy</span> <span>User research</span> <span>SaaS</span>
 				</div>
 			</figcaption>
 		</figure> -->

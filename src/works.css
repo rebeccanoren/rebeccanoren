@@ -1,8 +1,8 @@
 .infobox {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 24px;
-margin: 80px 0;
-max-width: 100%;
+    margin: 80px 0;
+    max-width: 100%;
 }
 
 .infobox a {
@@ -10,7 +10,7 @@ max-width: 100%;
     text-decoration: underline;
 }
 
-.infobox >:first-child{
+.infobox>:first-child {
     padding: 0px 0px;
     margin: 0px;
 }
@@ -20,7 +20,8 @@ max-width: 100%;
 }
 
 .intro {
-margin: 120px 0 120px 0;}
+    margin: 120px 0 120px 0;
+}
 
 h1 {
     margin: 40px 0;
@@ -28,7 +29,7 @@ h1 {
 
 
 .case img {
-width: 100%;
+    width: 100%;
 
 
 }
@@ -45,7 +46,7 @@ video {
 }
 
 .container img {
-    margin-top:40px;
+    margin: 48px 0 20px;
 }
 
 .description {
@@ -64,7 +65,7 @@ h3 {
 
 .description h2,
 h3 {
-    margin: 32px 0px 8px 0px;
+    margin: 56px 0px 8px 0px;
 }
 
 
@@ -83,6 +84,12 @@ h3 {
     margin: 10px 0px 60px 0px;
 }
 
+figcaption {
+    font-size: 12px;
+    margin-top: 0px;
+    color: #585858;
+}
+
 .sidebar a {
     color: var(--tertiary-color);
 }
@@ -96,7 +103,7 @@ h3 {
 }
 
 .Link h3 {
-margin: 40px 0 10px 0;
+    margin: 40px 0 10px 0;
 }
 
 .container {
@@ -112,7 +119,7 @@ margin: 40px 0 10px 0;
 
 
 .small {
-	max-width: 500px;
+    max-width: 500px;
 }
 
 .margin li {
@@ -127,7 +134,7 @@ margin: 40px 0 10px 0;
 
 .navigation {
     background-color: var(--background-with-opacity);
-    box-shadow:  inset 1px 1px 1px 0 hsl(0deg 0% 100% / 50%), 0 15px 30px 0 rgb(22 13 61 / 4%) 0px 0px 0px 0px rgb(53 7 69 / 3%), 0px 9px 19px 0px rgb(53 7 69 / 3%), -2px 34px 34px 0px rgb(53 7 69 / 3%), -4px 77px 46px 0px rgb(53 7 69 / 2%), -6px 136px 54px 0px rgb(53 7 69 / 0%), -10px 213px 60px 0px rgb(53 7 69 / 0%); 
+    box-shadow: inset 1px 1px 1px 0 hsl(0deg 0% 100% / 50%), 0 15px 30px 0 rgb(22 13 61 / 4%) 0px 0px 0px 0px rgb(53 7 69 / 3%), 0px 9px 19px 0px rgb(53 7 69 / 3%), -2px 34px 34px 0px rgb(53 7 69 / 3%), -4px 77px 46px 0px rgb(53 7 69 / 2%), -6px 136px 54px 0px rgb(53 7 69 / 0%), -10px 213px 60px 0px rgb(53 7 69 / 0%);
     opacity: 98%;
     padding: 16px;
     position: sticky;
@@ -149,18 +156,19 @@ margin: 40px 0 10px 0;
 .navigation li {
     list-style: none;
     text-decoration: none;
-    font-size: 1.2rem;
-    line-height: 3rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 1rem;
 }
 
 .summary {
-background-color: var(--background-with-opacity);
-padding: 24px;
-margin: 80px 0;
+    background-color: var(--background-with-opacity);
+    padding: 24px;
+    margin: 80px 0;
 }
 
 
-.summary >:first-child{
+.summary>:first-child {
     padding: 0px 0px;
     margin: 0px;
 }
@@ -182,23 +190,24 @@ a:hover {
 
 .description ul {
     margin: 30px 0px 50px 0px;
-    }
+}
 
 .description p {
-        margin: 16px 0px 0px 0px;
+    margin: 16px 0px 0px 0px;
 }
 
 
 @media (max-width: 1025px) {
-.case {
-    padding: 8px;
-}
+    .case {
+        padding: 8px;
+    }
 
     .container {
         flex-direction: column-reverse;
         justify-content: center;
     }
-    .container > :first-child {
+
+    .container> :first-child {
         min-width: 100%;
     }
 
@@ -206,11 +215,11 @@ a:hover {
         margin-top: 40px;
         margin: auto;
         padding: 16px;
-        }
+    }
 
-.case img {
-    margin: 30px 0 20px 0;
-}
+    .case img {
+        margin: 30px 0 20px 0;
+    }
 
 
 }

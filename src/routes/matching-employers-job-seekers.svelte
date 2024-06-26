@@ -82,9 +82,9 @@
 			<p>
 				The Product Manager determined that our primary persona's need for hiring qualified
 				employees required a solution. To address this challenge, I facilitated a remote
-				<a href="http://www.gv.com/sprint/">Design Sprint.</a>
-				and invited the participation of developers, the Product Manager, and other relevant stakeholders.
-				Since the participants were located remotely, we used
+				<a href="http://www.gv.com/sprint/">Design Sprint</a>
+				and invited the developers, the Product Manager, and other relevant stakeholders. Since the participants
+				were located remotely, we used
 				<a href="http://www.gv.com/sprint/">Miro</a> as a collaboration tool to ensure that everyone
 				had an equal opportunity to contribute.
 			</p>
