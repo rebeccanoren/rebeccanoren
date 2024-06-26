@@ -265,7 +265,7 @@
 						</a>
 					</li>
 					<li><a href="#Result">Result</a></li>
-					<li><a href="#About-Sinch">About TRR</a></li>
+					<li><a href="#About-Sinch">About Sinch</a></li>
 				</ul>
 			</div>
 		</div>
