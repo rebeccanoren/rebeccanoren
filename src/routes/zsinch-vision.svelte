@@ -75,18 +75,6 @@
 				interacting with various features.
 			</p>
 
-			<figure>
-				<img
-					src={srcApiToken}
-					class="box-shadow rounded"
-					alt="Illustrating a developer struggeling to find the API token"
-				/>
-				<figcaption>
-					Presentation slide from User Research Findings, developers struggles to find the API
-					token.
-				</figcaption>
-			</figure>
-
 			<div class="divider">
 				<img src={srcDivider} alt="Divider svg" />
 			</div>
@@ -143,7 +131,6 @@
 				that we did a lot of good work, and are proud of what we achieved:
 			</p>
 
-			
 			<ul class="margin">
 				<li>
 					A simle and smooth UI for searching for candidates. The user research showed that
