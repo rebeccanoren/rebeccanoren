@@ -17,6 +17,8 @@
 	let srcSelectlanguage = '/sinch/onboarding/select-language.gif';
 	let srcNewPage = '/sinch/onboarding/new-page.svg';
 	let srcOptimalJourney = '/sinch/onboarding/optimal-journey.svg';
+	let srcCompetitorresearch = '/sinch/onboarding/competitor-research.svg';
+	let srcCompetitors = '/sinch/onboarding/competitors.svg';
 
 	let srcApiToken = '/sinch/vision/api-token.png';
 	let srcCandidates = '/finding-talent/present-candidates.svg';
@@ -89,7 +91,7 @@
 				<img src={srcUserJoruney} class="" alt="Illustrations of different number types" />
 			</figure>
 
-			<h3>Research insights</h3>
+			<h2>Research insights</h2>
 			<p>
 				We found that only 3 out of the 10 participants successfully sent an SMS to themselves,
 				which was below our expectations. Our goal was to achieve a 100% success rate, with each
@@ -187,13 +189,37 @@
 				have low motivation at the start and need quick proof it works. If it fails, they will
 				quickly abandon it. A smooth first experience builds trust, leading to more conversions.
 			</p>
+
 			<figure>
 				<img src={srcMotivation} class="" alt="Illustrations showing why developers drops off" />
 			</figure>
+
+			<h3>Benchmarking & setting goals</h3>
 			<p>
-				Next, we focused on solving the biggest challenges. Our goal was to remove roadblocks on the
-				highway, making sure the process was smooth for developers. We worked systematically and in
-				fast iterations to remove frictions and optimize the funnel.
+				I conducted a competitor analysis to compare our onboarding experience with that of our main
+				competitors. This involved benchmarking their processes alongside our own. The goal was to
+				understand how our experience stacks up since developers often try different providers. This
+				insight helped identify areas for improvement and align our onboarding process with industry
+				standards.
+			</p>
+
+			<figure>
+				<img src={srcCompetitorresearch} class="" alt="" />
+				<figcaption>Example of a competitor's onboarding process</figcaption>
+			</figure>
+
+			<figure>
+				<img src={srcCompetitors} class="" alt="" />
+				<figcaption>Comparison of competitors</figcaption>
+			</figure>
+
+			<p>
+				Fueled by insights from competitor research and user tests, we set clear goals to address
+				the biggest challenges in our onboarding process. Our primary objective was to remove
+				roadblocks and ensure a smooth experience for developers. We systematically tackled these
+				issues by working in fast iterations, focusing on eliminating friction and optimizing the
+				onboarding funnel., and optimize the onboarding funnel for a smoother and more
+				developer-friendly experience.
 			</p>
 
 			<h3>Goal 1: Reduce API Errors & help users solve them if they occur</h3>
