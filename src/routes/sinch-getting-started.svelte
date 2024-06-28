@@ -218,7 +218,7 @@
 				the biggest challenges in our onboarding process. Our primary objective was to remove
 				roadblocks and ensure a smooth experience for developers. We systematically tackled these
 				issues by working in fast iterations, focusing on eliminating friction and optimizing the
-				onboarding funnel., and optimize the onboarding funnel for a smoother and more
+				onboarding funnel, and optimize the onboarding funnel for a smoother and more
 				developer-friendly experience.
 			</p>
 
