@@ -26,11 +26,8 @@
 </script>
 
 <svelte:head>
-	<title>Matching employers with job-seekers</title>
-	<meta
-		name="description"
-		content="UX Case Study: How might we simplify the process to buy numbers with Sinch?"
-	/>
+	<title>Developers Getting started with Sinch SMS AP</title>
+	<meta name="description" content="Developers Getting started with Sinch SMS API" />
 </svelte:head>
 
 <section class="case">
@@ -52,7 +49,7 @@
 				<p>
 					As the UX Design Lead, I led my team to enhance the onboarding experience for Sinch's SMS
 					API through user tests to identify pain points. With an agile approach, we improved the
-					joruney by making it easier to locate API parameters, enhancing documentation, and adding
+					journey by making it easier to locate API parameters, enhancing documentation, and adding
 					better error handling. These changes streamlined the onboarding process, reducing the time
 					to "Aha-moment". The result was a smoother, more reliable experience, increasing user
 					satisfaction and conversion rates. This is still an ongoing project.
@@ -149,10 +146,9 @@
 
 			<p>
 				During the user test, UK numbers were blocked, but there was no notification about this
-				restriction. Participants simply didn't receive an SMS without any explanation, and they
-				were not informed about their region being blocked. This created uncertainty about their
-				verified phone numbers, leading some to think they had entered the wrong number upon
-				registration.
+				restriction. Participants simply didn't receive an SMS. They were not informed about their
+				region being blocked. This created uncertainty about their verified phone numbers, leading
+				some to think they had entered the wrong number upon registration.
 			</p>
 
 			<p>

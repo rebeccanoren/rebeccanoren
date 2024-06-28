@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-	<title>Matching employers with job-seekers</title>
+	<title>Defining the vision for numbers & senders</title>
 	<meta
 		name="description"
 		content="UX Case Study: How might we simplify the process to buy numbers with Sinch?"
@@ -171,12 +171,11 @@
 
 			<h3>Smoother process to register numbers</h3>
 			<p>
-				A significant improvement would be to integrate registration actions directly into the
-				detailed page of each number. In telecom terms, a "campaign" means registering a number with
-				operators. Operators need to know: 1) who is sending the messages and 2) what messages will
-				be sent. This information is crucial for regulatory compliance and preventing spam. By using
-				clear labels and step-by-step instructions, users can easily see if their number is ready to
-				use and understand the actions they need to take.
+				In telecom terms, a "campaign" means registering a number with operators. Operators need to
+				know: 1) who is sending the messages and 2) what messages will be sent. This information is
+				crucial for regulatory compliance and preventing spam. By using clear labels and
+				step-by-step instructions, users can easily see if their number is ready to use and
+				understand the actions they need to take.
 			</p>
 
 			<figure>
