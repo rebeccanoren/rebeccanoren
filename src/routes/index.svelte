@@ -34,7 +34,7 @@
 				}}
 				class="item"
 			>
-				<img src={srcSinch} class="box-shadow border" alt="Design of Sinch Vision" />
+				<img src={srcSinchOnboarding} class="box-shadow border" alt="Design of Sinch Vision" />
 				<figcaption>
 					<p class="uppercase xxs">Sinch (2024)</p>
 					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
