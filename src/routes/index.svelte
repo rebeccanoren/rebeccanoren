@@ -41,7 +41,7 @@
 						Getting started with Sinch SMS API
 					</h3>
 					<div class="tags">
-						 <span>User Research</span> <span>Onboarding</span>
+						 <span>User Research</span> <span>Usability</span> <span>Onboarding</span>
 					</div>
 				</figcaption>
 			</figure>

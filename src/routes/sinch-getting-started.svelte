@@ -61,7 +61,7 @@
 			<h2 class="m" id="Part1">Part I: What is the current onboarding experience like?</h2>
 			<h3>Sending a test SMS</h3>
 			<p>
-				I began by examining the current experience. I conducted 10 user tests with developers.
+				I began by examining the current experience. I conducted user tests with 10 developers.
 				These developers were tasked with using our SMS API to build a small application and send a
 				test SMS to themselves using their code editor. By doing this, we could examine the entire
 				journey and identify potential problems firsthand. This method allowed us to:
