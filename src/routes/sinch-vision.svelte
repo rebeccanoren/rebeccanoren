@@ -41,11 +41,9 @@
 			<div class="summary rounded">
 				<p>Summary</p>
 				<p>
-					As UX Design Lead, I am working on making it easier for users to buy numbers and senders
-					on our platform. I work with different teams and stakeholders to gather insights and align
-					design goals. By collaborating with developers, designers, and product managers, I use
-					user feedback to create a more cohesive and user-friendly experience. This project is
-					still in progress.
+					As the UX Design Lead, I am working to make it easier for users to buy numbers and senders
+					on our platform. I collaborate with stakeholders using an iterative approach to explore
+					and gather feedback on the vision. This is an ongoing project.
 				</p>
 			</div>
 
@@ -90,6 +88,13 @@
 				inefficient.
 			</p>
 
+			<p>
+				Additionally, customers often contact account managers with questions about purchasing phone
+				numbers, consuming significant time. This distraction prevents them from focusing on
+				strategic activities like developing client relationships, optimizing campaigns, and
+				addressing complex customer needs.
+			</p>
+
 			<figure>
 				<img src={srcQuotes} class="" alt="Illustrating the journey to buy a 10DLC number" />
 			</figure>
@@ -105,9 +110,9 @@
 				With the research insights in mind, I began envisioning an optimal path for buying numbers.
 				I sketched a high-level user journey focusing on these key phases: finding the right number,
 				understanding market regulations, purchasing the number, and getting approval to send SMS.
-				Then, I began prototyping various approaches to streamline and enhance this process. Please
-				note that this work is still in progress, and the following designs are preliminary
-				sketches, not final UI.
+				Then, I prototyped various approaches to streamline and enhance this process. Please note
+				that this work is still in progress, and the following designs are preliminary sketches, not
+				final UI.
 			</p>
 
 			<h3>Centrilized section for numbers & senders</h3>
@@ -239,6 +244,16 @@
 				These customers often require numbers in batch. Unlike SMS numbers, getting Voice numbers
 				usually doesn't involve as much registration.
 			</p>
+
+			<p>To experience this firsthand, you can try out the prototype below.</p>
+
+			<iframe
+				style="border: 1px solid rgba(0, 0, 0, 0.1);"
+				width="800"
+				height="450"
+				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXkUn58KXLZXp3gQt9uCWWG%2FUX-Future-Vision%3Fpage-id%3D2056%253A32544%26node-id%3D5354-66826%26viewport%3D-6126%252C7273%252C0.28%26t%3DkC49SuiONW905Lo0-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D5354%253A66826%26show-proto-sidebar%3D1"
+				allowfullscreen
+			/>
 
 			<div class="infobox rounded" id="About-Sinch">
 				<p>About Sinch</p>

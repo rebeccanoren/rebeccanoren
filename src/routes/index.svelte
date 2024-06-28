@@ -24,6 +24,29 @@
 
 <section class="works">
 	<div class="works-grid">
+		<a sveltekit:prefetch href="/sinch-getting-started">
+			<figure
+				on:mouseenter={() => {
+					enter2 = !enter2;
+				}}
+				on:mouseleave={() => {
+					enter2 = false;
+				}}
+				class="item"
+			>
+				<img src={srcSinch} class="box-shadow border" alt="Design of Sinch Vision" />
+				<figcaption>
+					<p class="uppercase xxs">Sinch (2024)</p>
+					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
+						Getting started with Sinch SMS API
+					</h3>
+					<div class="tags">
+						 <span>User Research</span> <span>Onboarding</span>
+					</div>
+				</figcaption>
+			</figure>
+		</a>
+
 		<a sveltekit:prefetch href="/sinch-vision">
 			<figure
 				on:mouseenter={() => {
