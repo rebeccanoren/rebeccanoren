@@ -16,7 +16,7 @@
 
 <svelte:head>
 	<title>Rebecca Norén – Product Designer</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Portfolio of Rebecca Norén, Product Designer based in Stockholm" />
 </svelte:head>
 <section class="intro">
 	<h1 class="xl">I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden</h1>

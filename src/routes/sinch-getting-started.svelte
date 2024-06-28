@@ -197,17 +197,27 @@
 			<h3>Benchmarking & setting goals</h3>
 			<p>
 				I conducted a competitor analysis to compare our onboarding experience with that of our main
-				competitors. This involved benchmarking their processes alongside our own. The goal was to
-				understand how our experience stacks up since developers often try different providers. This
-				insight helped identify areas for improvement and align our onboarding process with industry
-				standards.
+				competitors. This involved benchmarking their onboarding processes against ours, focusing on
+				key aspects such as ease of use, clarity of instructions, speed of completion, and overall
+				user satisfaction. By examining how competitors structured their onboarding journeys, what
+				support materials they provided, and how they guided new users, we gained valuable insights
+				into industry best practices.
 			</p>
 
 			<figure>
 				<img src={srcCompetitorresearch} class="" alt="" />
-				<figcaption>Example of a competitor's onboarding process</figcaption>
+				<figcaption>Example of a competitor's onboarding journey</figcaption>
 			</figure>
 
+			<p>
+				The goal was to understand how our experience measures up, recognizing that developers often
+				evaluate multiple providers before making a decision. This comparative analysis highlighted
+				our strengths and pinpointed areas where we lagged behind. It helped identify specific
+				improvements we could make to streamline our process, reduce friction, and enhance the
+				overall user experience. Leveraging these insights allowed us to align our onboarding
+				process more closely with industry standards and best practices, ultimately making it more
+				competitive and appealing to developers.
+			</p>
 			<figure>
 				<img src={srcCompetitors} class="" alt="" />
 				<figcaption>Comparison of competitors</figcaption>
