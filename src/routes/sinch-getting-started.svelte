@@ -103,7 +103,7 @@
 			<figure>
 				<img src={srcTime} class="" alt="Illustrations of different number types" />
 			</figure>
-			<p>From this analysis the primarily main issues was detected during the process:</p>
+			<p>From this analysis, the primary issues detected during the process were:</p>
 			<h3>Difficult to find the right section in documentation</h3>
 			<p>
 				Some participants struggled to find the correct section in our documentation, with two
@@ -147,7 +147,7 @@
 			</p>
 
 			<p>
-				During the user test, UK numbers were blocked, but there was no notification about this
+				During the user test, UK numbers were blocked but there was no notification about this
 				restriction. Participants simply didn't receive an SMS. They were not informed about their
 				region being blocked. This created uncertainty about their verified phone numbers, leading
 				some to think they had entered the wrong number upon registration.
@@ -186,12 +186,12 @@
 			<p>
 				Ensuring all participants can build an app and send a test SMS within 5 minutes is vital. It
 				shows the Sinch SMS API is easy and reliable, creating a strong first impression. Developers
-				have low motivation at the start and need quick proof it works. If it fails, they will
+				have low motivation at the start and need quick proof that it works. If it fails, they will
 				quickly abandon it. A smooth first experience builds trust, leading to more conversions.
 			</p>
 
 			<figure>
-				<img src={srcMotivation} class="" alt="Illustrations showing why developers drops off" />
+				<img src={srcMotivation} class="" alt="Illustration showing why developers drop off" />
 			</figure>
 
 			<h3>Benchmarking & setting goals</h3>

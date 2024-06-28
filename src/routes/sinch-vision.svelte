@@ -42,22 +42,22 @@
 				<p>Summary</p>
 				<p>
 					As the UX Design Lead, I am working to make it easier for users to buy numbers and senders
-					on our platform. I collaborate with stakeholders using an iterative approach to explore
-					and gather feedback on the vision. This is an ongoing project.
+					on our platform. I am collaborating with stakeholders using an iterative approach to
+					explore and gather feedback on the vision. This is an ongoing project.
 				</p>
 			</div>
 
 			<h2 class="m" id="Part1">Part I: Understanding the current state</h2>
 			<p>
-				To use an SMS API, you must have a phone number. Different markets and number types, such as
-				10DLC, Toll-free, Short Codes, and Alphanumeric Sender IDs, each come with their own
+				To use the SMS API, you must have a phone number. Different markets and number types, such
+				as 10DLC, Toll-free, Short Codes, and Alphanumeric Sender IDs, each come with their own
 				specific regulations and requirements. This complexity makes it challenging for users to
 				understand which type of number they need and how to comply with the various regulations in
 				different regions.
 			</p>
 			<figure>
 				<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
-				<figcaption>Examples of different types of numbers for SMS</figcaption>
+				<figcaption>EExamples of different number types for SMS</figcaption>
 			</figure>
 
 			<p>
@@ -76,7 +76,7 @@
 			</p>
 
 			<figure>
-				<img src={srcJourney} class="" alt="Illustrating the journey to buy a 10DLC number" />
+				<img src={srcJourney} class="" alt="Illustrating the journey to purchase a 10DLC number" />
 			</figure>
 
 			<h3>Poor navigation & broken journeys</h3>
@@ -115,7 +115,7 @@
 				final UI.
 			</p>
 
-			<h3>Centrilized section for numbers & senders</h3>
+			<h3>Centralized section for numbers & senders</h3>
 			<p>
 				After re-evaluating the current structure, I proposed a new information architecture to
 				enhance the user experience. Currently, numbers and senders are scattered across multiple
@@ -127,7 +127,7 @@
 				<img
 					src={srcNumbersOverview}
 					class="box-shadow rounded"
-					alt="Gif showing all number types together in one section"
+					alt="All number types together in one section"
 				/>
 				<figcaption>All numbers and senders together</figcaption>
 			</figure>
@@ -173,7 +173,7 @@
 			<p>
 				In telecom terms, a "campaign" means registering a number with operators. Operators need to
 				know: 1) who is sending the messages and 2) what messages will be sent. This information is
-				crucial for regulatory compliance and preventing spam. By using clear labels and
+				crucial for regulatory compliance and spam prevention. By using clear labels and
 				step-by-step instructions, users can easily see if their number is ready to use and
 				understand the actions they need to take.
 			</p>
@@ -223,8 +223,8 @@
 				organization through an iterative and collaborative process. Currently, we're at the early
 				stages of this initiative, focusing on research, design exploration, and gathering feedback
 				from stakeholders. This vision will guide us in making informed decisions that align with
-				our larger goals and foster cohesion and synergy across teams. During research and design
-				exploration, I've identified several key priorities:
+				our larger goals and foster cohesion and synergy across teams. Throughout the research and
+				design exploration, I've identified several key priorities:
 			</p>
 
 			<ul class="margin">
