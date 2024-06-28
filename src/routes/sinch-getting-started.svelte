@@ -122,7 +122,7 @@
 				<figcaption>Previous design of the "Getting started with Sinch SMS API"</figcaption>
 			</figure>
 
-			<h3>Dfficult to find the parameters in the platform</h3>
+			<h3>Difficult to find the parameters in the platform</h3>
 			<p>
 				To use the Sinch SMS API, participants needed to locate three parameters: 1) their API
 				token, 2) Service Plan ID, and 3) the Sinch test number provided for the trial. Most
@@ -206,7 +206,7 @@
 
 			<figure>
 				<img src={srcCompetitorresearch} class="" alt="" />
-				<figcaption>Example of a competitor's onboarding journey</figcaption>
+				<figcaption>Example of a competitor's onboarding process</figcaption>
 			</figure>
 
 			<p>
