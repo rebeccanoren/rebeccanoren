@@ -57,7 +57,7 @@
 			</p>
 			<figure>
 				<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
-				<figcaption>EExamples of different number types for SMS</figcaption>
+				<figcaption>Examples of different number types for SMS</figcaption>
 			</figure>
 
 			<p>

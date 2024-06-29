@@ -19,8 +19,8 @@
 		position: fixed;
 		z-index: 14;
 		background-color: var(--dark);
-		bottom: 32px;
-		border-radius: 16px;
+		bottom: 16px;
+		border-radius: 32px;
 
 		box-shadow: 0 1px 18px 0 rgb(0 0 0 / 12%), 0 6px 10px 0 rgb(0 0 0 / 14%),
 			0 3px 5px -1px rgb(0 0 0 / 20%);
@@ -31,7 +31,7 @@
 	ul {
 		display: flex;
 		list-style-type: none;
-		padding: 0 12px;
+		padding: 0 6px;
 	}
 
 	li {
@@ -44,12 +44,13 @@
 		text-decoration: none;
 		padding: 12px;
 		border-radius: 12px;
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	a:hover {
 		background-color: var(--text-color);
 		color: var(--pure-white);
 		text-decoration: none;
+		border-radius: 24px;
 	}
 </style>
