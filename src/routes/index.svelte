@@ -12,6 +12,7 @@
 	let enter1 = false;
 	let enter2 = false;
 	let enter3 = false;
+	let enter4 = false;
 </script>
 
 <svelte:head>
@@ -27,10 +28,10 @@
 		<a sveltekit:prefetch href="/sinch-getting-started">
 			<figure
 				on:mouseenter={() => {
-					enter2 = !enter2;
+					enter4 = !enter4;
 				}}
 				on:mouseleave={() => {
-					enter2 = false;
+					enter4 = false;
 				}}
 				class="item"
 			>
@@ -50,10 +51,10 @@
 		<a sveltekit:prefetch href="/sinch-vision">
 			<figure
 				on:mouseenter={() => {
-					enter2 = !enter2;
+					enter3 = !enter3;
 				}}
 				on:mouseleave={() => {
-					enter2 = false;
+					enter3 = false;
 				}}
 				class="item"
 			>
@@ -126,17 +127,7 @@
 			</figure>
 		</a>
 
-		<!-- <figure class="item">
-			<img src={srcMeetings} class="" alt="Screenshot of Insights in Miro" />
-			<figcaption>
-				<p class="uppercase xxs ">TRR (2021)</p>
-				<h3 class="l  nomargin">Defining a best practice for meetings</h3>
-				<p>Performing interviews and analysis to learn.</p>
-				<div class="tags">
-					<span>User Research</span>
-				</div>
-			</figcaption>
-		</figure> -->
+	
 	</div>
 </section>
 
