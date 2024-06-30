@@ -39,7 +39,7 @@
 				<figcaption>
 					<p class="uppercase xxs">Sinch (2024)</p>
 					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
-						Getting started with Sinch SMS API
+						Ongoing work: Getting started with Sinch SMS API
 					</h3>
 					<div class="tags">
 						 <span>User Research</span> <span>Usability</span> <span>Onboarding</span>
@@ -62,7 +62,7 @@
 				<figcaption>
 					<p class="uppercase xxs">Sinch (2024)</p>
 					<h3 class="l nomargin {enter2 ? 'underline' : ''}">
-						Improve the process to buy phone numbers in Sinch Enterprise Platform
+						Ongoing work: Improve the process to buy phone numbers
 					</h3>
 					<div class="tags">
 						<span>Design Strategy</span> <span>User Research</span>

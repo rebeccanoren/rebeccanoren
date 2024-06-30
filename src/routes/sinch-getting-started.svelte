@@ -36,32 +36,34 @@
 	<div class="container">
 		<div class="description">
 			<p class="xs">Sinch (2024)</p>
-			<h1 class="xl">Developers Getting started with Sinch SMS API</h1>
+			<h1 class="xl">Developers getting started with Sinch SMS API</h1>
 			<p class="s">
-				As Sinch adopts a Product-Led Growth (PLG) strategy, the focus has shifted towards
-				optimizing the user experience, particularly for developers integrating our SMS API.
-				Recognizing the critical role of a seamless onboarding process in driving user satisfaction
-				and conversion rates, a new Onboarding Team was established. This team's primary objective
-				is to streamline the journey for new sign-ups, enabling them to efficiently start using the
-				SMS API and ultimately convert into paying customers.
+				As Sinch adopts a Product-Led Growth (PLG) strategy, optimizing the user experience for developers integrating our SMS API is a priority. To enhance conversion rates, I led our newly established Onboarding Team to streamline the journey for new sign-ups, enabling them to quickly start using the SMS API and convert into paying customers.
+
+
+
+
+
+
+
 			</p>
 
 			<div class="summary rounded">
 				<p>Summary</p>
 				<p>
 					As the UX Design Lead, I led my team to enhance the onboarding experience for Sinch's SMS
-					API through user tests to identify pain points. With an agile approach, we improved the
-					journey by making it easier to locate API parameters, enhancing documentation, and adding
-					better error handling. These changes streamlined the onboarding process, reducing the time
-					to "Aha-moment". The result was a smoother, more reliable experience, increasing user
-					satisfaction and conversion rates. This is still an ongoing project.
+					API.
+					
+					I conducted user tests to identify pain points, and with an agile approach, we made significant improvements. We streamlined the process by making API parameters easier to locate, enhancing documentation, and adding better error handling. These changes reduced the time to the "Aha-moment," resulting in a smoother and more reliable experience. As a result, user satisfaction and conversion rates increased. 
+					
+					This is an ongoing project.
 				</p>
 			</div>
 
 			<h2 class="m" id="Part1">Part I: What is the current onboarding experience like?</h2>
 			<h3>Sending a test SMS</h3>
 			<p>
-				I began by examining the current experience. I conducted user tests with 10 developers.
+				I began by examining the current experience. I conducted user tests with 10 backend and full-stack developers of varying experience levels.
 				These developers were tasked with using our SMS API to build a small application and send a
 				test SMS to themselves using their code editor. By doing this, we could examine the entire
 				journey and identify potential problems firsthand. This method allowed us to:
@@ -69,19 +71,19 @@
 
 			<ul class="margin">
 				<li>
-					Observing developers in a natural setting using their own code editors provided insights
+					<b>Observing developers in a natural setting:</b> using their own code editors provided insights
 					into how our API is utilized in real-world scenarios.
 				</li>
 				<li>
-					Directly witnessing the challenges and frustrations developers faced helped us pinpoint
+					<b>Directly witnessing the challenges and frustrations</b> developers faced helped us pinpoint
 					specific areas that needed improvement.
 				</li>
 				<li>
-					Developers provided immediate, candid feedback about their experience, enabling us to
+					<b>Developers provided immediate, candid feedback</b> about their experience, enabling us to
 					understand their perspectives and needs better.
 				</li>
 				<li>
-					Assess how effectively our documentation and support resources assisted developers in
+					<b>Assess how effectively our documentation and support resources assisted</b> developers in
 					overcoming obstacles.
 				</li>
 			</ul>
@@ -91,26 +93,28 @@
 				<img src={srcUserJoruney} class="" alt="Illustrations of different number types" />
 			</figure>
 
-			<h2>Research insights</h2>
+			<h2>Key research insights</h2>
 			<p>
 				We found that only 3 out of the 10 participants successfully sent an SMS to themselves,
 				which was below our expectations. Our goal was to achieve a 100% success rate, with each
 				participant completing the process within 5 minutes. To understand the reasons behind this
-				outcome, we examined the entire user journeys. I conducted a detailed analysis of the tests,
-				measuring the time each participant spent on the main phases of the process:
+				outcome, we examined the entire user journey of each participant.
 			</p>
 
 			<figure>
 				<img src={srcTime} class="" alt="Illustrations of different number types" />
 			</figure>
-			<p>From this analysis, the primary issues detected during the process were:</p>
+			<figcaption>I conducted a detailed analysis of the tests,
+				measuring the time each participant spent on the main phases of the process.</figcaption>
+
+
+			<p> From the analysis, the pain points detected during the process were; Difficult to find the right section in documentation, difficult to find the parameters in the platform and lack of error handling.
+
+	</p>
 			<h3>Difficult to find the right section in documentation</h3>
 			<p>
-				Some participants struggled to find the correct section in our documentation, with two
-				spending 16 and 25 minutes respectively. This difficulty was primarily due to broken links
-				on the platform, making it challenging for them to navigate to the appropriate section. Once
-				they found the right place, it only took them a couple of minutes to understand what they
-				needed to do.
+				Some participants struggled to find the correct section for their preferred language in our documentation, with two spending 16 and 25 minutes respectively. This difficulty was primarily due to broken and confusing links on the platform, making it challenging for them to navigate to the appropriate section. However, once they found the right section in the documentation, it only took them a couple of minutes to understand what they needed to do.
+
 			</p>
 
 			<figure>
@@ -124,7 +128,7 @@
 
 			<h3>Difficult to find the parameters in the platform</h3>
 			<p>
-				To use the Sinch SMS API, participants needed to locate three parameters: 1) their API
+				To use the Sinch SMS API, participants needed to navigate the platform to locate three parameters: 1) their API
 				token, 2) Service Plan ID, and 3) the Sinch test number provided for the trial. Most
 				participants used links from the documentation to find them. However, they encountered
 				several challenges in the process and still struggled to navigate the platform to find these
@@ -154,7 +158,7 @@
 			</p>
 
 			<p>
-				As a result, participants tried to verify and change the "TO" number, which led to another
+				As a result, participants tried to verify and change the number which the SMS should be sent to, which led to another
 				error. The API responded with "Messages can only be sent to your verified number in test
 				mode." Users didn't understand what "in test mode" meant. This lack of clear communication
 				and transparency breaks trust. Participants felt uncertain and frustrated, doubting the

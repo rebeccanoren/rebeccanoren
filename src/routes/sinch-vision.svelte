@@ -13,10 +13,12 @@
 	let srcNumberDetails = '/sinch/vision/number-details.png';
 	let srcBrandProfile = '/sinch/vision/brand-profile.svg';
 	let srcApiToken = '/sinch/vision/api-token.png';
-	let srcCandidates = '/finding-talent/present-candidates.svg';
-	let srcWireframes = '/finding-talent/wireframes.svg';
-	let srcCandidate = '/finding-talent/candidate.svg';
+
 	let srcDivider = 'divider.svg';
+
+	let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
+
+	let enter1 = false;
 </script>
 
 <svelte:head>
@@ -76,7 +78,7 @@
 			</p>
 
 			<figure>
-				<img src={srcJourney} class="" alt="Illustrating the journey to purchase a 10DLC number" />
+				<img src={srcJourney} class="" alt="Illustrating the journey to buy a 10DLC number" />
 			</figure>
 
 			<h3>Poor navigation & broken journeys</h3>
@@ -88,16 +90,16 @@
 				inefficient.
 			</p>
 
-			<p>
-				Additionally, customers often contact account managers with questions about purchasing phone
-				numbers, consuming significant time. This distraction prevents them from focusing on
-				strategic activities like developing client relationships, optimizing campaigns, and
-				addressing complex customer needs.
-			</p>
-
 			<figure>
 				<img src={srcQuotes} class="" alt="Illustrating the journey to buy a 10DLC number" />
 			</figure>
+
+			<p>
+				Additionally, customers often contact account managers with questions about purchasing phone
+				numbers consuming significant time. This distraction prevents them from focusing on
+				strategic activities like developing client relationships, optimizing campaigns, and
+				addressing complex customer needs.
+			</p>
 
 			<div class="divider">
 				<img src={srcDivider} alt="Divider svg" />
@@ -107,15 +109,15 @@
 			</h2>
 
 			<p>
-				With the research insights in mind, I began envisioning an optimal path for buying numbers.
-				I sketched a high-level user journey focusing on these key phases: finding the right number,
-				understanding market regulations, purchasing the number, and getting approval to send SMS.
-				Then, I prototyped various approaches to streamline and enhance this process. Please note
-				that this work is still in progress, and the following designs are preliminary sketches, not
-				final UI.
+				With the key research insights in mind, I began envisioning an improved journey to buy
+				numbers. I sketched a high-level user journey focusing on the following key phases: finding
+				the right number, understanding market regulations, buying the number, and getting approval
+				to send SMS. Then, I prototyped various approaches to streamline and enhance this process.
+				Please note that this work is still in progress, and the following designs are preliminary
+				sketches, not final UI.
 			</p>
 
-			<h3>Centralized section for numbers & senders</h3>
+			<h3>Goal 1: Centralized section for numbers & senders</h3>
 			<p>
 				After re-evaluating the current structure, I proposed a new information architecture to
 				enhance the user experience. Currently, numbers and senders are scattered across multiple
@@ -132,7 +134,7 @@
 				<figcaption>All numbers and senders together</figcaption>
 			</figure>
 
-			<h3>Simplifying complex telecom terminology</h3>
+			<h3>Goal 2: Simplifying complex telecom terminology</h3>
 			<p>
 				If you're a telecom pro, terms like 10DLC, Campaigns, and Alphanumeric Sender ID might be
 				second nature. For the rest of us, they're a bit of a head-scratcher.
@@ -169,7 +171,7 @@
 				</figcaption>
 			</figure>
 
-			<h3>Smoother process to register numbers</h3>
+			<h3>Goal 3: Smoother process to register numbers</h3>
 			<p>
 				In telecom terms, a "campaign" means registering a number with operators. Operators need to
 				know: 1) who is sending the messages and 2) what messages will be sent. This information is
@@ -185,31 +187,26 @@
 					alt="Gif showing a table with all numbers types per region"
 				/>
 				<figcaption>
-					A detailed page for a 10DLC (US Local number) that outlines the steps required for
-					registration
+					My suggestion: Outline the steps required for registration in the detailed page for a
+					phone number
 				</figcaption>
 			</figure>
 
-			<h3>Streamline information collection</h3>
+			<h3>Goal 4: Streamline information collection</h3>
 			<p>
-				Operators often ask for the same details about companies, such as company name, registration
-				number, contact information, and business type. Currently, customers must enter this
-				information separately for each request, which is frustrating and time-consuming.
-			</p>
-
-			<p>
-				To make things easier, we need to align the information collection processes. By creating a
+				Operators often ask for the same details about companies. Currently, customers must enter
+				this information separately for each request, which is frustrating and time-consuming. To
+				make things easier, we need to align the information collection processes. By creating a
 				centralized "Brand Profile," we can store all this information in one place. This means that
 				once a customer sets up their Brand Profile, they won't need to re-enter their details for
-				each new request. This streamlined approach will not only speed up the registration process
-				but also reduce errors and inconsistencies in the information provided.
+				each new request.
 			</p>
 
 			<figure>
 				<img
 					src={srcBrandProfile}
 					class=""
-					alt="Gif showing a table with all numbers types per region"
+					alt="GIF showing a table with all numbers types per region"
 				/>
 			</figure>
 
@@ -219,30 +216,24 @@
 
 			<h2 class="m" id="Result">Result</h2>
 			<p>
-				The goal of this project is to define a shared vision that aligns multiple teams within our
-				organization through an iterative and collaborative process. Currently, we're at the early
-				stages of this initiative, focusing on research, design exploration, and gathering feedback
-				from stakeholders. This vision will guide us in making informed decisions that align with
-				our larger goals and foster cohesion and synergy across teams. Throughout the research and
-				design exploration, I've identified several key priorities:
+				The goal of this project is to define a shared vision of how we want the user experience for
+				buying numbers to be. This vision will foster cohesion and synergy across multiple teams
+				within our organization through an iterative and collaborative process. It will guide us in
+				making informed decisions that align with our larger goals throughout the research and
+				design exploration. I've identified several key priorities:
 			</p>
 
 			<ul class="margin">
 				<li>Optimize information architecture to support a smoother user journey.</li>
 				<li>
-					Educate users by explaining the different types of phone numbers across various markets.
+					Bridge the knowledge gap by explaining the different types of phone numbers across various
+					markets, and what users need to know about each type.
 				</li>
 				<li>
 					Streamline information registration processes using reusable brand profiles for
 					efficiency.
 				</li>
 			</ul>
-
-			<p>
-				Looking ahead, we'll also consider the needs of customers purchasing numbers for Voice APIs.
-				These customers often require numbers in batch. Unlike SMS numbers, getting Voice numbers
-				usually doesn't involve as much registration.
-			</p>
 
 			<p>To experience this firsthand, you can try out the prototype below.</p>
 
@@ -253,6 +244,15 @@
 				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXkUn58KXLZXp3gQt9uCWWG%2FUX-Future-Vision%3Fpage-id%3D2056%253A32544%26node-id%3D5354-66826%26viewport%3D-6126%252C7273%252C0.28%26t%3DkC49SuiONW905Lo0-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26starting-point-node-id%3D5354%253A66826%26show-proto-sidebar%3D1"
 				allowfullscreen
 			/>
+
+			<h2 class="s">Next steps</h2>
+			<p>
+				Currently, we're at the early stages of this initiative; focusing on research, design
+				exploration, and gathering feedback from stakeholders. Looking ahead, we'll also consider
+				the needs of customers buying numbers for Voice APIs. These customers often require numbers
+				in batch. Unlike SMS numbers, getting Voice numbers usually doesn't involve as much
+				registration.
+			</p>
 
 			<div class="infobox rounded" id="About-Sinch">
 				<p>About Sinch</p>
@@ -265,6 +265,36 @@
 						>Learn more about Sinch.</a
 					>
 				</p>
+			</div>
+
+			<div class="divider">
+				<img src={srcDivider} alt="Divider svg" />
+			</div>
+
+			<div class="next-case">
+				<h3>Next up</h3>
+				<a sveltekit:prefetch href="/sinch-getting-started">
+					<figure
+						on:mouseenter={() => {
+							enter1 = !enter1;
+						}}
+						on:mouseleave={() => {
+							enter1 = false;
+						}}
+						class="item"
+					>
+						<img src={srcSinchOnboarding} class="box-shadow border" alt="Design of Sinch Vision" />
+						<figcaption>
+							<p class="uppercase xxs">Sinch (2024)</p>
+							<h3 class="l nomargin {enter1 ? 'underline' : ''}">
+								Getting started with Sinch SMS API
+							</h3>
+							<div class="tags">
+								<span>User Research</span> <span>Usability</span> <span>Onboarding</span>
+							</div>
+						</figcaption>
+					</figure>
+				</a>
 			</div>
 		</div>
 
