@@ -44,7 +44,7 @@
 				<p>
 					As the UX Design Lead, I am working to make it easier for users to buy numbers and senders
 					on our platform. I am collaborating with stakeholders using an iterative approach to
-					explore and gather feedback on the vision. This is an ongoing project.
+					explore and gather feedback on the vision. This is an ongoing project...
 				</p>
 			</div>
 
