@@ -9,6 +9,9 @@
 	let srcWireframes = '/finding-talent/wireframes.svg';
 	let srcCandidate = '/finding-talent/candidate.svg';
 	let srcDivider = 'divider.svg';
+
+	let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
+	let enter1 = false;
 </script>
 
 <svelte:head>
@@ -254,6 +257,36 @@
 					are aimed at companies in the private labor market, trade union representatives, and
 					company employees. <a href="https://www.trr.se/">Learn more about TRR.</a>
 				</p>
+			</div>
+
+			<div class="next-case">
+				<h3>Next up</h3>
+				<a sveltekit:prefetch href="/sinch-getting-started">
+					<figure
+						on:mouseenter={() => {
+							enter1 = !enter1;
+						}}
+						on:mouseleave={() => {
+							enter1 = false;
+						}}
+						class="item"
+					>
+						<img
+							src={srcSinchOnboarding}
+							class="box-shadow border rounded-XL"
+							alt="Design of Sinch Vision"
+						/>
+						<figcaption>
+							<p class="uppercase xxs">Sinch (2024)</p>
+							<h3 class="l nomargin {enter1 ? 'underline' : ''}">
+								Getting started with Sinch SMS API
+							</h3>
+							<div class="tags">
+								<span>User Research</span> <span>Usability</span> <span>Onboarding</span>
+							</div>
+						</figcaption>
+					</figure>
+				</a>
 			</div>
 		</div>
 

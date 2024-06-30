@@ -200,6 +200,38 @@ iFrame {
     margin-top: 40px;
 }
 
+.next-case figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.next-case img {
+    max-width: 50%;
+}
+
+
+.next-case figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.next-case h3 {
+    text-align: center;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 @media (max-width: 1025px) {
     .case {
         padding: 8px;
@@ -225,6 +257,18 @@ iFrame {
 
     .margin li {
         margin: 8px 0px;
+    }
+
+    .next-case figure {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+    }
+
+    .next-case img {
+min-width: 350px;
     }
 
 

@@ -157,7 +157,7 @@
 		flex-direction: column;
 		flex: auto;
 		width: 100%;
-		gap: 200px;
+		gap: 100px;
 	}
 
 	.works-grid .item {
@@ -171,9 +171,7 @@
 		transition: transform 0.2s;
 	}
 
-	.border {
-		border: solid 2px var(--text-color);
-	}
+	
 
 	img {
 		max-width: 500px;
@@ -202,38 +200,6 @@
 
 	figcaption h3 {
 		margin-top: 10px;
-	}
-
-	.tags {
-		margin: 28px 0;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 12px;
-	}
-
-	span {
-		background-color: var(--background-with-opacity);
-		/* backdrop-filter: blur(8px); */
-		color: var(--dark);
-		padding: 8px 8px;
-		border-radius: 8px;
-		font-size: 14px;
-		white-space: nowrap;
-		box-shadow: 0 15px 30px 0 rgb(0 42 102 / 4%), inset 1px 1px 1px 0 hsl(0deg 0% 100% / 10%);
-	}
-
-	a:hover {
-		text-decoration: none;
-	}
-
-	.underline {
-		text-decoration: underline;
-	}
-
-	/* Animations */
-	.works-grid .item:hover {
-		transform: scale(0.95);
-		text-decoration: none;
 	}
 
 	/* Media Queries */

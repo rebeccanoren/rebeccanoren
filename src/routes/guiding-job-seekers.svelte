@@ -10,6 +10,9 @@
 	let srcVideo = '/guiding-job-seekers/trr-tour.mov';
 	let srcDivider = 'divider.svg';
 	let userjourney = '/guiding-job-seekers/jobbsokarprocess.png';
+
+	let srcSinch = '/sinch/vision/sinch.svg';
+	let enter1 = false;
 </script>
 
 <svelte:head>
@@ -282,6 +285,32 @@
 					are aimed at companies in the private labor market, trade union representatives, and
 					company employees. <a href="https://www.trr.se/">Learn more about TRR.</a>
 				</p>
+			</div>
+
+			<div class="next-case">
+				<h3>Next up</h3>
+				<a sveltekit:prefetch href="/sinch-vision">
+					<figure
+						on:mouseenter={() => {
+							enter1 = !enter3;
+						}}
+						on:mouseleave={() => {
+							enter1 = false;
+						}}
+						class="item"
+					>
+						<img src={srcSinch} class="box-shadow border rounded-XL" alt="Design of Sinch Vision" />
+						<figcaption>
+							<p class="uppercase xxs">Sinch (2024)</p>
+							<h3 class="l nomargin {enter1 ? 'underline' : ''}">
+								Ongoing work: Improve the process to buy phone numbers
+							</h3>
+							<div class="tags">
+								<span>Design Strategy</span> <span>User Research</span>
+							</div>
+						</figcaption>
+					</figure>
+				</a>
 			</div>
 		</div>
 

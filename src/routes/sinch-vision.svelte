@@ -17,7 +17,6 @@
 	let srcDivider = 'divider.svg';
 
 	let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
-
 	let enter1 = false;
 </script>
 
@@ -283,7 +282,11 @@
 						}}
 						class="item"
 					>
-						<img src={srcSinchOnboarding} class="box-shadow border" alt="Design of Sinch Vision" />
+						<img
+							src={srcSinchOnboarding}
+							class="box-shadow border rounded-XL"
+							alt="Design of Sinch Vision"
+						/>
 						<figcaption>
 							<p class="uppercase xxs">Sinch (2024)</p>
 							<h3 class="l nomargin {enter1 ? 'underline' : ''}">

@@ -9,6 +9,7 @@
 	let srcVideo = '/sinch/onboarding/API-key.mov';
 
 	let srcCurrentdesign = '/sinch/onboarding/current-design.svg';
+	let srcDocs= '/sinch/onboarding/docs.png';
 	let srcError = '/sinch/onboarding/error.png';
 	let srcMotivation = '/sinch/onboarding/motivation.svg';
 	let srcParameters = '/sinch/onboarding/parameters.svg';
@@ -20,11 +21,10 @@
 	let srcCompetitorresearch = '/sinch/onboarding/competitor-research.svg';
 	let srcCompetitors = '/sinch/onboarding/competitors.svg';
 
-	let srcApiToken = '/sinch/vision/api-token.png';
-	let srcCandidates = '/finding-talent/present-candidates.svg';
-	let srcWireframes = '/finding-talent/wireframes.svg';
-	let srcCandidate = '/finding-talent/candidate.svg';
 	let srcDivider = 'divider.svg';
+
+	let srcSinch = '/sinch/vision/sinch.svg';
+	let enter1 = false;
 </script>
 
 <svelte:head>
@@ -61,6 +61,31 @@
 			</div>
 
 			<h2 class="m" id="Part1">Part I: What is the current onboarding experience like?</h2>
+			
+			<p>After sign up, users needed to find the option "SMS" and "Getting Started" in the menu. In this page users could send test messages, explore links to documentation and learn about a few benefits about upgrading. </p>
+
+
+			<figure>
+				<img
+					src={srcCurrentdesign}
+					class="box-shadow rounded"
+					alt="An overview of the SMS Getting started page"
+				/>
+				<figcaption>Previous design of the Getting started page</figcaption>
+			</figure>
+
+			<p>
+				Another crucial resource when using the SMS API is the documentation. It offers step-by-step guidance and detailed explanations to ensure a smooth integration process. The "Getting Started" section is specifically tailored for new users, with guides and SDKs available in multiple programming languages, allowing users to find resources in their preferred language.
+			</p>
+			<figure>
+				<img
+					src={srcDocs}
+					class="box-shadow rounded"
+					alt="A screenshot of the SMS API Documentation"
+				/>
+				<figcaption>Getting started section in SMS API Documentation</figcaption>
+			</figure>
+			
 			<h3>Sending a test SMS</h3>
 			<p>
 				I began by examining the current experience. I conducted user tests with 10 backend and full-stack developers of varying experience levels.
@@ -117,14 +142,6 @@
 
 			</p>
 
-			<figure>
-				<img
-					src={srcCurrentdesign}
-					class="box-shadow rounded"
-					alt="Gif showing all number types together in one section"
-				/>
-				<figcaption>Previous design of the "Getting started with Sinch SMS API"</figcaption>
-			</figure>
 
 			<h3>Difficult to find the parameters in the platform</h3>
 			<p>
@@ -231,15 +248,14 @@
 				Fueled by insights from competitor research and user tests, we set clear goals to address
 				the biggest challenges in our onboarding process. Our primary objective was to remove
 				roadblocks and ensure a smooth experience for developers. We systematically tackled these
-				issues by working in fast iterations, focusing on eliminating friction and optimizing the
+				issues by working in fast iterations. Focusing on eliminating friction and optimizing the
 				onboarding funnel, and optimize the onboarding funnel for a smoother and more
 				developer-friendly experience.
 			</p>
 
 			<h3>Goal 1: Reduce API Errors & help users solve them if they occur</h3>
 			<p>
-				To ensure the API was stable and reliable, we closely monitored logs and user feedback to
-				identify and fix recurring issues.
+				To keep the API stable and reliable, we regularly checked logs and listened to user feedback to fix problems. Even though we don't want to block any regions, if we had to temporarily stop SMS sending in any area, we quickly informed users. This helped maintain trust by keeping users aware of any issues affecting message delivery. Our long-term goal is to avoid restricting any users while keeping our platform safe.
 			</p>
 
 			<h4>Help users solve errors</h4>
@@ -373,6 +389,32 @@
 						>Learn more about Sinch.</a
 					>
 				</p>
+			</div>
+
+			<div class="next-case">
+				<h3>Next up</h3>
+				<a sveltekit:prefetch href="/sinch-vision">
+					<figure
+						on:mouseenter={() => {
+							enter1 = !enter3;
+						}}
+						on:mouseleave={() => {
+							enter1 = false;
+						}}
+						class="item"
+					>
+						<img src={srcSinch} class="box-shadow border rounded-XL" alt="Design of Sinch Vision" />
+						<figcaption>
+							<p class="uppercase xxs">Sinch (2024)</p>
+							<h3 class="l nomargin {enter1 ? 'underline' : ''}">
+								Ongoing work: Improve the process to buy phone numbers
+							</h3>
+							<div class="tags">
+								<span>Design Strategy</span> <span>User Research</span>
+							</div>
+						</figcaption>
+					</figure>
+				</a>
 			</div>
 		</div>
 
