@@ -130,7 +130,7 @@
 				<img src={srcTime} class="" alt="Illustrations of different number types" />
 			</figure>
 			<figcaption>I conducted a detailed analysis of the tests,
-				measuring the time each participant spent on the main phases of the process.</figcaption>
+				measuring the time each participant spent on the tasks.</figcaption>
 
 
 			<p> From the analysis, the pain points detected during the process were; Difficult to find the right section in documentation, difficult to find the parameters in the platform and lack of error handling.
@@ -162,26 +162,18 @@
 			</figure>
 
 			<h3>Lack of error handling</h3>
+	
+
 			<p>
 				Due to fraud attacks on our platform, some regions are temporarily restricted from sending
-				SMS. Unfortunately, this means users in these regions aren't able to try the SMS API either.
-			</p>
-
-			<p>
-				During the user test, UK numbers were blocked but there was no notification about this
-				restriction. Participants simply didn't receive an SMS. They were not informed about their
-				region being blocked. This created uncertainty about their verified phone numbers, leading
-				some to think they had entered the wrong number upon registration.
-			</p>
-
-			<p>
-				As a result, participants tried to verify and change the number which the SMS should be sent to, which led to another
+				SMS. Unfortunately, this means users in these regions aren't able to try the SMS API either. During the user test, UK numbers were blocked. Participants simply didn't receive an SMS and they were not informed about it. This created uncertainty about their verified phone numbers, leading
+				some to think they had entered the wrong number upon registration. As a result, participants thought they made a mistake and therefore tried to change the number which the SMS should be sent to, which led to another
 				error. The API responded with "Messages can only be sent to your verified number in test
-				mode." Users didn't understand what "in test mode" meant. This lack of clear communication
-				and transparency breaks trust. Participants felt uncertain and frustrated, doubting the
-				reliability of the platform. They questioned whether their actions were correct and whether
-				the service was dependable. This eroded their confidence in the API and in the platform as a
-				whole, making them less likely to trust and use the service in the future.
+				mode." Users didn't understand what "in test mode" meant.
+			</p>
+
+			<p>
+				The lack of clear communication and transparency breaks trust. Participants felt uncertain and frustrated, doubting the reliability of the platform. They questioned whether their actions were correct and whether the service was dependable. The eroded confidence in the API and the platform as a whole makes them less likely to trust and use the service in the future.
 			</p>
 
 			<figure>
@@ -205,7 +197,7 @@
 				minutes?
 			</h2>
 			<p>
-				Ensuring all participants can build an app and send a test SMS within 5 minutes is vital. It
+				To reiterate, ensuring all participants can build an app and send a test SMS within 5 minutes is vital. It
 				shows the Sinch SMS API is easy and reliable, creating a strong first impression. Developers
 				have low motivation at the start and need quick proof that it works. If it fails, they will
 				quickly abandon it. A smooth first experience builds trust, leading to more conversions.
@@ -218,21 +210,34 @@
 			<h3>Benchmarking & setting goals</h3>
 			<p>
 				I conducted a competitor analysis to compare our onboarding experience with that of our main
-				competitors. This involved benchmarking their onboarding processes against ours, focusing on
-				key aspects such as ease of use, clarity of instructions, speed of completion, and overall
-				user satisfaction. By examining how competitors structured their onboarding journeys, what
+				competitors. The goal was to understand how our experience measures up, recognizing that developers often
+				evaluate multiple providers before making a decision. This involved benchmarking their onboarding processes against ours, focusing on
+				key aspects:</p>
+				
+				<ul>
+					<li>How users were guided through the first encounter with the SMS API					</li>
+					<li>How important concepts like test numbers were explained
+					</li>
+					<li>The clarity and accessibility of documentation
+					</li>
+					<li>The availability and quality of tutorial videos or interactive guides
+					</li>
+					<li>The effectiveness of the UI
+					</li>
+				</ul>
+				<p>
+				By examining how competitors structured their onboarding journeys, what
 				support materials they provided, and how they guided new users, we gained valuable insights
 				into industry best practices.
 			</p>
 
 			<figure>
 				<img src={srcCompetitorresearch} class="" alt="" />
-				<figcaption>Example of a competitor's onboarding process</figcaption>
+				<figcaption>I mapped the onboarding journeys of all major competitors. Here is one example.</figcaption>
 			</figure>
 
 			<p>
-				The goal was to understand how our experience measures up, recognizing that developers often
-				evaluate multiple providers before making a decision. This comparative analysis highlighted
+				 The comparative analysis highlighted
 				our strengths and pinpointed areas where we lagged behind. It helped identify specific
 				improvements we could make to streamline our process, reduce friction, and enhance the
 				overall user experience. Leveraging these insights allowed us to align our onboarding
@@ -245,9 +250,8 @@
 			</figure>
 
 			<p>
-				Fueled by insights from competitor research and user tests, we set clear goals to address
-				the biggest challenges in our onboarding process. Our primary objective was to remove
-				roadblocks and ensure a smooth experience for developers. We systematically tackled these
+				Fueled by insights from competitor analysis and the user tests, we set clear goals to address
+				the biggest challenges in our onboarding process. Our primary objective was to remove roadblocks and ensure a smooth, competitive experience for developers We systematically tackled these
 				issues by working in fast iterations. Focusing on eliminating friction and optimizing the
 				onboarding funnel, and optimize the onboarding funnel for a smoother and more
 				developer-friendly experience.
@@ -255,10 +259,10 @@
 
 			<h3>Goal 1: Reduce API Errors & help users solve them if they occur</h3>
 			<p>
-				To keep the API stable and reliable, we regularly checked logs and listened to user feedback to fix problems. Even though we don't want to block any regions, if we had to temporarily stop SMS sending in any area, we quickly informed users. This helped maintain trust by keeping users aware of any issues affecting message delivery. Our long-term goal is to avoid restricting any users while keeping our platform safe.
+				To keep the API stable and reliable, we regularly checked logs and listened to user feedback to fix problems. I users weren't able to send SMS we made sure to inform users. This helped maintain trust by keeping users aware of any issues affecting message delivery.
 			</p>
 
-			<h4>Help users solve errors</h4>
+			<h4>Analytics & help users solve errors</h4>
 			<p>
 				Users lacked sufficient information about issues, so we added a link to our analytics tool,
 				Message Search, when the API request was sent. Message Search provides detailed SMS logs,
