@@ -1,5 +1,7 @@
 <script context="module">
 	export const prerender = true;
+
+	import { Lightbox } from 'svelte-lightbox';
 </script>
 
 <script>
@@ -38,6 +40,10 @@
 				However, the separate management of these numbers by different internal teams has led to a
 				fragmented and inconsistent user experience.
 			</p>
+
+			<Lightbox description="Simple lightbox">
+				<img src="srcNumbertypes" alt="Simple lightbox" />
+			</Lightbox>
 
 			<div class="summary rounded">
 				<p>Summary</p>
