@@ -136,14 +136,14 @@
 			<p> From the analysis, the pain points detected during the process were; Difficult to find the right section in documentation, difficult to find the parameters in the platform and lack of error handling.
 
 	</p>
-			<h3>Difficult to find the right section in documentation</h3>
+			<h3>Pain point 1: Difficult to find the right section in documentation</h3>
 			<p>
 				Some participants struggled to find the correct section for their preferred language in our documentation, with two spending 16 and 25 minutes respectively. This difficulty was primarily due to broken and confusing links on the platform, making it challenging for them to navigate to the appropriate section. However, once they found the right section in the documentation, it only took them a couple of minutes to understand what they needed to do.
 
 			</p>
 
 
-			<h3>Difficult to find the parameters in the platform</h3>
+			<h3>Pain point 2: Difficult to find the parameters in the platform</h3>
 			<p>
 				To use the Sinch SMS API, participants needed to navigate the platform to locate three parameters: 1) their API
 				token, 2) Service Plan ID, and 3) the Sinch test number provided for the trial. Most
@@ -161,7 +161,7 @@
 				</figcaption>
 			</figure>
 
-			<h3>Lack of error handling</h3>
+			<h3>Pain point 2: Lack of error handling</h3>
 	
 
 			<p>
@@ -264,16 +264,11 @@
 
 			<h4>Analytics & help users solve errors</h4>
 			<p>
-				Users lacked sufficient information about issues, so we added a link to our analytics tool,
-				Message Search, when the API request was sent. Message Search provides detailed SMS logs,
-				including error code descriptions, timestamps, delivery status, and fees. This allows users
-				to understand and resolve issues related to the API request and increases the
-				discoverability of Message Search. Long term, we plan to display this data directly in the
-				UI on this page, but that is a later milestone.
+				To provide users with better insights into the details of sent SMS messages, we integrated a link to our powerful analytics tool, Message Search, within the API request process. Message Search offers comprehensive SMS logs, including error code descriptions, timestamps, delivery status, and fees. This enhancement enables users to quickly diagnose and resolve API request issues while increasing the visibility and utilization of Message Search. In the long term, we plan to display this data directly on this page, which is a future milestone.
 			</p>
 
 			<p>
-				Additionally, we added the API response directly in the UI because we noticed some
+				Additionally, we added the API response because we noticed some
 				participants were using the browser console to view it. This change ensures users can easily
 				access important information without resorting to technical workarounds.
 			</p>
@@ -378,7 +373,7 @@
 			<figure>
 				<img src={srcNewPage} class="box-shadow rounded" alt="" />
 				<figcaption>
-					Current design of the SMS Getting started page after the improvements
+					The SMS Getting started page after the improvements
 				</figcaption>
 			</figure>
 

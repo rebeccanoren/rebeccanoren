@@ -42,9 +42,14 @@
 			<div class="summary rounded">
 				<p>Summary</p>
 				<p>
-					As the UX Design Lead, I am working to make it easier for users to buy numbers and senders
-					on our platform. I am collaborating with stakeholders using an iterative approach to
-					explore and gather feedback on the vision. This is an ongoing project.
+					As the UX Design Lead, I am defining a vision to simplify buying numbers and senders on
+					our platform. Through user interviews and competitor analysis I am collaborating with
+					stakeholders iteratively. This project aims to address fragmented user experiences and
+					complex telecom regulations. We are focusing on centralizing numbers and senders,
+					simplifying telecom terminology, streamlining number registration, and improving
+					information collection. By optimizing the information architecture and providing clearer
+					guidance, we aim to enhance user satisfaction and efficiency. This is an ongoing project,
+					continuously evolving through feedback and iteration.
 				</p>
 			</div>
 
