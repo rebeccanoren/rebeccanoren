@@ -42,7 +42,7 @@
 			</p>
 
 			<Lightbox description="Simple lightbox">
-				<img src="srcNumbertypes" alt="Simple lightbox" />
+				<img src={srcNumbertypes} alt="Simple lightbox" />
 			</Lightbox>
 
 			<div class="summary rounded">
