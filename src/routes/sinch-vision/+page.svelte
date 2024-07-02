@@ -5,6 +5,7 @@
 
 <script>
 	let srcNumbertypes = '/sinch/vision/numbertypes.svg';
+
 	let srcJourney = '/sinch/vision/user-journey.png';
 	let srcQuotes = '/sinch/vision/quotes.svg';
 	let srcCurrentOverivew = '/sinch/vision/current-overview.png';
@@ -56,14 +57,22 @@
 				different regions.
 			</p>
 
-			  <!-- Lightbox with image same as thumbnail -->
-			  <Lightbox description="">
+			<div class="lightbox">
+			<Lightbox description="Illustrations of different number types">
+			<enhanced:img src="$lib/assets/sinch/vision/numbertypes.svg" alt="Image Alt" />
+			
+		</Lightbox>
+		<p class="image-description">Illustrations of different number types</p>
+	</div>
+
+			  <!-- <Lightbox description="">
 				<figure>
 					<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
 					<figcaption>Illustrations of different number types</figcaption>
 				</figure>
+				
 
-			</Lightbox>
+			</Lightbox> -->
 
 
 			<p>

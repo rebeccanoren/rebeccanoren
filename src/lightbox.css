@@ -12,6 +12,18 @@
 }
 
 .svelte-lightbox-overlay{
-	background-color: rgba(255, 255, 255, 0.10) !important;
+	background-color: rgba(255, 255, 255, 0.05) !important;
 	backdrop-filter: blur(100px);
+}
+
+.svelte-lightbox-footer h5 {
+	font-family: 'GT-America';
+	text-align: center;
+}
+
+.lightbox .image-description {
+	text-align: center;
+	font-size: 12px;
+	margin: 0px 0px 40px 0;
+	color: #585858;
 }
