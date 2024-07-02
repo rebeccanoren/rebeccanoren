@@ -4,9 +4,9 @@
 
 <div class="floating-actions">
 	<ul>
-		<li class:active={$page.url.pathname === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+		<li class:active={$page.url.pathname === '/'}><a data-sveltekit-prefetch href="/">Home</a></li>
 		<li class:active={$page.url.pathname === '/about'}>
-			<a sveltekit:prefetch href="/about">About</a>
+			<a data-sveltekit-prefetch href="/about">About</a>
 		</li>
 		<li class:active={$page.url.pathname === '/about'}>
 			<a href="#top">👆</a>

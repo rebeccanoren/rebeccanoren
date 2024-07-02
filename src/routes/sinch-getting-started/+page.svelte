@@ -1,5 +1,5 @@
 <script context="module">
-	export const prerender = true;
+
 </script>
 
 <script>
@@ -128,9 +128,10 @@
 
 			<figure>
 				<img src={srcTime} class="" alt="Illustrations of different number types" />
+				<figcaption>I conducted a detailed analysis of the tests,
+					measuring the time each participant spent on the tasks.</figcaption>
 			</figure>
-			<figcaption>I conducted a detailed analysis of the tests,
-				measuring the time each participant spent on the tasks.</figcaption>
+			
 
 
 			<p> From the analysis, the pain points detected during the process were; Difficult to find the right section in documentation, difficult to find the parameters in the platform and lack of error handling.
@@ -397,10 +398,10 @@
 
 			<div class="next-case">
 				<h3>Next up</h3>
-				<a sveltekit:prefetch href="/sinch-vision">
+				<a data-sveltekit-prefetch href="/sinch-vision">
 					<figure
 						on:mouseenter={() => {
-							enter1 = !enter3;
+							enter1 = !enter1;
 						}}
 						on:mouseleave={() => {
 							enter1 = false;

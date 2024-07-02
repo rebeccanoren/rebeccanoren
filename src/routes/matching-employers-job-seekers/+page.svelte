@@ -261,7 +261,7 @@
 
 			<div class="next-case">
 				<h3>Next up</h3>
-				<a sveltekit:prefetch href="/sinch-getting-started">
+				<a data-sveltekit-prefetch href="/sinch-getting-started">
 					<figure
 						on:mouseenter={() => {
 							enter1 = !enter1;

@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
 	let srcGuidingJobSeekers = '/guiding-job-seekers/guding-job-seekers.png';
 	let srcFindingTalent = '/finding-talent/finding-talent.png';

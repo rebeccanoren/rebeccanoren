@@ -289,10 +289,10 @@
 
 			<div class="next-case">
 				<h3>Next up</h3>
-				<a sveltekit:prefetch href="/sinch-vision">
+				<a data-sveltekit-prefetch href="/sinch-vision">
 					<figure
 						on:mouseenter={() => {
-							enter1 = !enter3;
+							enter1 = !enter1;
 						}}
 						on:mouseleave={() => {
 							enter1 = false;
@@ -325,12 +325,7 @@
 				</ul>
 			</div>
 
-			<div class="Link">
-				<h3 class="s">Link</h3>
-				<p>
-					<a href="https://www.trr.se/uppsagd/sok-jobb/">Visit the website </a>(Only in Swedish 🇸🇪)
-				</p>
-			</div>
+
 		</div>
 	</div>
 </section>

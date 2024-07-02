@@ -5,7 +5,7 @@
 
 <header>
 	<nav>
-		<a class="vibrate" sveltekit:prefetch href="/">
+		<a class="vibrate" data-sveltekit-prefetch href="/">
 			<img src={srcPointer} class="shadow" alt="Pointer" /><span>Rebecca Norén</span>
 		</a>
 		<FloatingActions />

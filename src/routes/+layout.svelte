@@ -1,16 +1,16 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
-
 	import '../app.css';
 	import '../works.css';
 	import '../typography.css';
 </script>
 
-<Header />
+<div class="app">
+	<Header />
 
-<main>
-	<slot />
-</main>
+	<main>
+		<slot />
+	</main>
 
 <footer>
 	<div class="social">
@@ -24,6 +24,7 @@
 		>
 	</div>
 </footer>
+</div>
 
 <style>
 	main {
@@ -52,6 +53,12 @@
 		font-weight: bold;
 		color: var(--accent-color);
 		padding: 20px;
+	}
+
+	footer span {
+		padding: 0;
+		background-color: transparent;
+		font-size: 16px;
 	}
 
 	.contact {
