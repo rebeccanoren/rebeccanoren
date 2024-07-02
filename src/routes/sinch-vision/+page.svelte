@@ -41,7 +41,7 @@
 
   let numberDetails = {
     img: '/sinch/vision/number-details.png',
-    imgMobile: '/sinch/vision/number-details-mobile.png', // Assuming you have a mobile version
+    imgMobile: '/sinch/vision/number-details.png', // Assuming you have a mobile version
     desc: 'My suggestion: Outline the steps required for registration in the detailed page for a phone number',
   };
 

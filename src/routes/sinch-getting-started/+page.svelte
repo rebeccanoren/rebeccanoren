@@ -216,6 +216,10 @@
       <div class="lightbox">
         <Lightbox description="{userJourney.desc}">
           <picture>
+            <source
+              srcset="{userJourney.imgMobile}"
+              media="(max-width: 600px)"
+            />
             <source srcset="{userJourney.img}" media="(min-width: 601px)" />
             <img src="{userJourney.img}" alt="{userJourney.desc}" />
           </picture>
