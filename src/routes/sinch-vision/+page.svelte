@@ -1,5 +1,5 @@
 <script context="module">
-	// export const prerender = true;
+
 	import { Lightbox } from 'svelte-lightbox';
 </script>
 
