@@ -21,7 +21,7 @@
 
 <section class="works">
 	<div class="works-grid">
-		<a sveltekit:prefetch href="/sinch-getting-started">
+		<a data-sveltekit-prefetch href="/sinch-getting-started">
 			<figure
 				on:mouseenter={() => {
 					enter4 = !enter4;
@@ -44,7 +44,7 @@
 			</figure>
 		</a>
 
-		<a sveltekit:prefetch href="/sinch-vision">
+		<a data-sveltekit-prefetch href="/sinch-vision">
 			<figure
 				on:mouseenter={() => {
 					enter3 = !enter3;
@@ -67,7 +67,7 @@
 			</figure>
 		</a>
 
-		<a sveltekit:prefetch href="/guiding-job-seekers">
+		<a data-sveltekit-prefetch href="/guiding-job-seekers">
 			<figure
 				on:mouseenter={() => {
 					enter1 = !enter1;
@@ -93,7 +93,7 @@
 			</figure>
 		</a>
 
-		<a sveltekit:prefetch href="/matching-employers-job-seekers">
+		<a data-sveltekit-prefetch href="/matching-employers-job-seekers">
 			<figure
 				on:mouseenter={() => {
 					enter2 = !enter2;

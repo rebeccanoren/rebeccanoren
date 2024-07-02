@@ -1,9 +1,9 @@
 <script context="module">
-	export const prerender = true;
+	// export const prerender = true;
+	import { Lightbox } from 'svelte-lightbox';
 </script>
 
 <script>
-	let srcHero = '/sinch/vision/api-token.png';
 	let srcNumbertypes = '/sinch/vision/numbertypes.svg';
 	let srcJourney = '/sinch/vision/user-journey.png';
 	let srcQuotes = '/sinch/vision/quotes.svg';
@@ -12,7 +12,6 @@
 	let srcNumbersOverview = '/sinch/vision/numbers-overview.gif';
 	let srcNumberDetails = '/sinch/vision/number-details.png';
 	let srcBrandProfile = '/sinch/vision/brand-profile.svg';
-	let srcApiToken = '/sinch/vision/api-token.png';
 
 	let srcDivider = 'divider.svg';
 
@@ -56,10 +55,19 @@
 				understand which type of number they need and how to comply with the various regulations in
 				different regions.
 			</p>
-			<figure>
-				<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
-				<figcaption>Examples of different number types for SMS</figcaption>
-			</figure>
+
+			  <!-- Lightbox with image same as thumbnail -->
+			  <Lightbox description="">
+				<figure>
+					<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
+					<figcaption>Illustrations of different number types</figcaption>
+				</figure>
+
+			</Lightbox>
+
+			<div class="lightbox-test">
+				<p>HELLO</p>
+			</div>
 
 			<p>
 				This project started with a deep dive into research, blending stakeholder and user
@@ -236,7 +244,7 @@
 
 			<p>To experience this firsthand, you can try out the prototype below.</p>
 
-			<iframe
+			<iframe title="figma"
 				style="border: 1px solid rgba(0, 0, 0, 0.1);"
 				width="800"
 				height="450"
@@ -272,7 +280,7 @@
 
 			<div class="next-case">
 				<h3>Next up</h3>
-				<a sveltekit:prefetch href="/sinch-getting-started">
+				<a data-sveltekit-prefetch href="/sinch-getting-started">
 					<figure
 						on:mouseenter={() => {
 							enter1 = !enter1;

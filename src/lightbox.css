@@ -1,0 +1,17 @@
+.svelte-lightbox-footer {
+	color: white;
+}
+
+.svelte-lightbox-body figcaption {
+	padding-top: 80px;
+	color: #000000;
+}
+
+.svelte-lightbox-header button {
+	color: #715469 !important;
+}
+
+.svelte-lightbox-overlay{
+	background-color: rgba(255, 255, 255, 0.10) !important;
+	backdrop-filter: blur(100px);
+}

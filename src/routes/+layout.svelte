@@ -1,8 +1,11 @@
 <script>
 	import Header from '$lib/header/Header.svelte';
+	import '../lightbox.css';
 	import '../app.css';
 	import '../works.css';
 	import '../typography.css';
+
+	// import '../styles.css';
 </script>
 
 <div class="app">
