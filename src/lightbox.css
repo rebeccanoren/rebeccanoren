@@ -1,13 +1,26 @@
+.full-size {
+	background-color: red;
+	padding: 50px;
+}
+
 .svelte-lightbox-footer {
 	color: white;
 }
 
+.svelte-lightbox-header {
+	background-color: transparent;
+	}
+	
 .svelte-lightbox-body {
-padding: 32px;
+padding: 80px 32px;
+overflow-x:scroll;
+width: 100% !important;
+margin: auto;
 }
 
 .svelte-lightbox-body picture img {
-	max-width: 100%;
+	max-width: 90%;
+
 }
 
 .svelte-lightbox-body figcaption {
@@ -24,9 +37,30 @@ padding: 32px;
 	backdrop-filter: blur(100px);
 }
 
+.svelte-lightbox-footer {
+	position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 14;
+	max-height: 40px;
+}
+
+
 .svelte-lightbox-footer h5 {
 	font-family: 'GT-America';
-	text-align: center;
+	text-align: center !important;
+	background-color: rgba(255, 255, 255, 0.8) !important;
+	backdrop-filter: blur(50px);
+	padding: 12px 8px;
+	border-radius: 8px;
+
+
+
 }
 
 .lightbox .image-description {

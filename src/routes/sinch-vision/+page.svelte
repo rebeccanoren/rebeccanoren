@@ -4,7 +4,6 @@
 </script>
 
 <script>
-	let srcNumbertypes = '/sinch/vision/numbertypes.png';
 
 	let numbertypes = {
   img: '/sinch/vision/numbertypes.png',
@@ -17,16 +16,55 @@
   imgMobile:  '/sinch/vision/user-journey-small.png',
   desc: 'The steps to buy a local US number (also called 10DLC)',
 };
-	let srcQuotes = '/sinch/vision/quotes.svg';
-	let srcCurrentOverivew = '/sinch/vision/current-overview.png';
-	let srcCompareNumbers = '/sinch/vision/compare-numbers.gif';
-	let srcNumbersOverview = '/sinch/vision/numbers-overview.gif';
+
+let quotes = {
+  img: '/sinch/vision/quotes.svg',
+  imgMobile: '/sinch/vision/quotes.svg', // no smaller version yet
+  desc: 'Quotes from user tests & interviews'
+};
+
+let numbersOverview = {
+  img: '/sinch/vision/numbers-overview.gif',
+  imgMobile: '/sinch/vision/numbers-overview.gif',  // no smaller version yet
+  desc: 'All number types together in one section'
+};
+
+let compareNumbers = {
+  img: '/sinch/vision/compare-numbers.gif',
+  imgMobile: '/sinch/vision/compare-numbers.gif',  // no smaller version yet
+  desc: 'GIF showing a table with all numbers types per region'
+};
+	
+let srcCompareNumbers = '/sinch/vision/compare-numbers.gif';
+
+let currentOverview = {
+  img: '/sinch/vision/current-overview.png',
+  imgMobile: '/sinch/vision/current-overview.png',  // no smaller version yet
+  desc: 'The current overview page does not effectively guide users in understaning what number type they need or explain the steps'
+};
+
+
+
+	let numberDetails = {
+  img: '/sinch/vision/number-details.png',
+  imgMobile: '/sinch/vision/number-details-mobile.png', // Assuming you have a mobile version
+  desc: 'Details of a specific number'
+};
+
 	let srcNumberDetails = '/sinch/vision/number-details.png';
+
+	let brandProfile = {
+  img: '/sinch/vision/brand-profile.svg',
+  imgMobile: '/sinch/vision/brand-profile-mobile.svg', // Assuming you have a mobile version
+  desc: 'Brand profile'
+};
 	let srcBrandProfile = '/sinch/vision/brand-profile.svg';
 
 	let srcDivider = 'divider.svg';
 
 	let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
+
+
 	let enter1 = false;
 </script>
 
@@ -120,9 +158,19 @@
 				inefficient.
 			</p>
 
-			<figure>
-				<img src={srcQuotes} class="" alt="Illustrating the journey to buy a 10DLC number" />
-			</figure>
+
+			<div class="lightbox">
+				<Lightbox description={quotes.desc}>
+					<picture>
+						<source srcset={quotes.imgMobile} media="(max-width: 600px)">
+						<source srcset={quotes.img} media="(min-width: 601px)">
+						<img src={quotes.img} alt={quotes.desc}>
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{quotes.desc}</p>
+		</div>
+
+	
 
 			<p>
 				Additionally, customers often contact account managers with questions about purchasing phone
@@ -155,14 +203,19 @@
 				section, users can easily manage all their numbers and senders within their account.
 			</p>
 
-			<figure>
-				<img
-					src={srcNumbersOverview}
-					class="box-shadow rounded"
-					alt="All number types together in one section"
-				/>
-				<figcaption>All numbers and senders together</figcaption>
-			</figure>
+
+			<div class="lightbox">
+				<Lightbox description={numbersOverview.desc}>
+					<picture>
+						<source srcset={numbersOverview.imgMobile} media="(max-width: 600px)">
+						<source srcset={numbersOverview.img} media="(min-width: 601px)">
+						<img src={numbersOverview.img} alt={numbersOverview.desc} class="rounded box-shadow">
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{numbersOverview.desc}</p>
+		</div>
+
+	
 
 			<h3>Goal 2: Simplifying complex telecom terminology</h3>
 			<p>
@@ -170,17 +223,18 @@
 				second nature. For the rest of us, they're a bit of a head-scratcher.
 			</p>
 
-			<figure>
-				<img
-					src={srcCurrentOverivew}
-					class="box-shadow rounded"
-					alt="Screenshot of current overview page for numbers"
-				/>
-				<figcaption>
-					The current overview page doesn't effectively guide users in understanding what number
-					type they need or explains the steps
-				</figcaption>
-			</figure>
+			<div class="lightbox">
+				<Lightbox description={currentOverview.desc}>
+					<picture>
+						<source srcset={currentOverview.imgMobile} media="(max-width: 600px)">
+						<source srcset={currentOverview.img} media="(min-width: 601px)">
+						<img src={currentOverview.img} alt={currentOverview.desc} class="rounded box-shadow">
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{currentOverview.desc}</p>
+		</div>
+
+	
 
 			<p>
 				To simplify these terms, I proposed using interactive tables for comparing number types and
@@ -190,16 +244,19 @@
 				the target country, message type (marketing, verification, alerts) and whether recipients
 				need to reply.
 			</p>
-			<figure>
-				<img
-					src={srcCompareNumbers}
-					class="box-shadow rounded"
-					alt="Gif showing a table with all numbers types per region"
-				/>
-				<figcaption>
-					Enable users to view and compare available numbers in different markets
-				</figcaption>
-			</figure>
+
+			<div class="lightbox">
+				<Lightbox description={compareNumbers.desc}>
+					<picture>
+						<source srcset={compareNumbers.imgMobile} media="(max-width: 600px)">
+						<source srcset={compareNumbers.img} media="(min-width: 601px)">
+						<img src={compareNumbers.img} alt={compareNumbers.desc} class="rounded box-shadow">
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{compareNumbers.desc}</p>
+		</div>
+
+			
 
 			<h3>Goal 3: Smoother process to register numbers</h3>
 			<p>

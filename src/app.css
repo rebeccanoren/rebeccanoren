@@ -35,12 +35,17 @@
 	--column-margin-top: 4rem;
 }
 
+html, body {
+	overflow-x: hidden;
+  }
+
 body {
 	min-height: 100vh;
 	background: linear-gradient(-45deg, #eef4ff, #fbf2fe, #eae4ff, #f9f3ff, #e9e1ff, #e5e1fc);
 	animation: gradient 15s ease infinite;
 	background-size: 400% 400%;
 	margin: 0;
+	position: relative
 }
 
 body::before {
