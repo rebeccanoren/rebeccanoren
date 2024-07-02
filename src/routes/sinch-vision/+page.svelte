@@ -59,7 +59,7 @@
 
   let srcDivider = 'divider.svg';
 
-  let srcSinchOnboarding = '/sinch/onboarding/onboarding.svg';
+  let srcSinchOnboarding = '/sinch/onboarding/onboarding.png';
 
   let enter1 = false;
 </script>
