@@ -65,9 +65,6 @@
 
 			</Lightbox>
 
-			<div class="lightbox-test">
-				<p>HELLO</p>
-			</div>
 
 			<p>
 				This project started with a deep dive into research, blending stakeholder and user
