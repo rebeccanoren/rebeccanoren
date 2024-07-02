@@ -1,27 +1,35 @@
-.full-size {
-	background-color: red;
-	padding: 50px;
-}
-
 .svelte-lightbox-footer {
 	color: white;
 }
 
 .svelte-lightbox-header {
 	background-color: transparent;
-	}
+}
 	
 .svelte-lightbox-body {
-padding: 80px 32px;
-overflow-x:scroll;
-width: 100% !important;
-margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 16px;
+	overflow-x: scroll;
+	width: 100% !important;
+	height: 100vh; /* Ensure the lightbox takes the full height of the viewport */
+	margin: auto !important;
+	margin-right: 0px !important;
+}
+
+.svelte-lightbox-body * {
+	object-fit: contain !important;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .svelte-lightbox-body picture img {
 	max-width: 90%;
-
+	margin: auto;
 }
+
 
 .svelte-lightbox-body figcaption {
 	padding-top: 80px;

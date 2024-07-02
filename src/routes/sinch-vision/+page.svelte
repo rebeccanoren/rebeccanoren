@@ -19,7 +19,7 @@
 
 let quotes = {
   img: '/sinch/vision/quotes.svg',
-  imgMobile: '/sinch/vision/quotes.svg', // no smaller version yet
+  imgMobile: '/sinch/vision/quotes-small.png', // no smaller version yet
   desc: 'Quotes from user tests & interviews'
 };
 
@@ -34,31 +34,31 @@ let compareNumbers = {
   imgMobile: '/sinch/vision/compare-numbers.gif',  // no smaller version yet
   desc: 'GIF showing a table with all numbers types per region'
 };
-	
-let srcCompareNumbers = '/sinch/vision/compare-numbers.gif';
 
 let currentOverview = {
   img: '/sinch/vision/current-overview.png',
   imgMobile: '/sinch/vision/current-overview.png',  // no smaller version yet
-  desc: 'The current overview page does not effectively guide users in understaning what number type they need or explain the steps'
+  desc: 'The current overview page does not effectively guide users in understaning what number type they need or explain the steps',
 };
-
-
 
 	let numberDetails = {
   img: '/sinch/vision/number-details.png',
   imgMobile: '/sinch/vision/number-details-mobile.png', // Assuming you have a mobile version
-  desc: 'Details of a specific number'
+  desc: 'My suggestion: Outline the steps required for registration in the detailed page for a phone number'
 };
 
-	let srcNumberDetails = '/sinch/vision/number-details.png';
 
 	let brandProfile = {
   img: '/sinch/vision/brand-profile.svg',
-  imgMobile: '/sinch/vision/brand-profile-mobile.svg', // Assuming you have a mobile version
-  desc: 'Brand profile'
+  imgMobile: '/sinch/vision/brand-profile-mobile.png', // Assuming you have a mobile version
+  desc: 'The customer creates a Brand Profile to register a 10DLC (local US phone number)...'
 };
-	let srcBrandProfile = '/sinch/vision/brand-profile.svg';
+
+let alphatag = {
+  img: '/sinch/vision/alphatag.svg',
+  imgMobile: '/sinch/vision/alphatag.png', // Assuming you have a mobile version
+  desc: '...and later uses it to pre-fill the registration for another type of sender'
+};
 
 	let srcDivider = 'divider.svg';
 
@@ -267,17 +267,18 @@ let currentOverview = {
 				understand the actions they need to take.
 			</p>
 
-			<figure>
-				<img
-					src={srcNumberDetails}
-					class="box-shadow rounded"
-					alt="Gif showing a table with all numbers types per region"
-				/>
-				<figcaption>
-					My suggestion: Outline the steps required for registration in the detailed page for a
-					phone number
-				</figcaption>
-			</figure>
+			<div class="lightbox">
+				<Lightbox description={numberDetails.desc}>
+					<picture>
+						<source srcset={numberDetails.imgMobile} media="(max-width: 600px)">
+						<source srcset={numberDetails.img} media="(min-width: 601px)">
+						<img src={numberDetails.img} alt={numberDetails.desc} class="rounded box-shadow">
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{numberDetails.desc}</p>
+		</div>
+
+	
 
 			<h3>Goal 4: Streamline information collection</h3>
 			<p>
@@ -289,13 +290,38 @@ let currentOverview = {
 				each new request.
 			</p>
 
-			<figure>
-				<img
-					src={srcBrandProfile}
-					class=""
-					alt="GIF showing a table with all numbers types per region"
-				/>
-			</figure>
+			<div class="lightbox">
+				<Lightbox description={brandProfile.desc}>
+					<picture>
+						<source srcset={brandProfile.imgMobile} media="(max-width: 600px)">
+						<source srcset={brandProfile.img} media="(min-width: 601px)">
+						<img src={brandProfile.img} alt={brandProfile.desc} class="rounded box-shadow">
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{brandProfile.desc}</p>
+		</div>
+
+		<div class="lightbox">
+			<Lightbox description={brandProfile.desc}>
+				<picture>
+					<source srcset={brandProfile.imgMobile} media="(max-width: 600px)">
+					<source srcset={brandProfile.img} media="(min-width: 601px)">
+					<img src={brandProfile.img} alt={brandProfile.desc} class="rounded box-shadow">
+				  </picture>
+		</Lightbox>
+		<p class="image-description">{brandProfile.desc}</p>
+	</div>
+
+	<div class="lightbox">
+		<Lightbox description={alphatag.desc}>
+			<picture>
+				<source srcset={alphatag.imgMobile} media="(max-width: 600px)">
+				<source srcset={alphatag.img} media="(min-width: 601px)">
+				<img src={alphatag.img} alt={alphatag.desc} class="rounded box-shadow">
+			  </picture>
+	</Lightbox>
+	<p class="image-description">{alphatag.desc}</p>
+</div>
 
 			<div class="divider">
 				<img src={srcDivider} alt="Divider svg" />
