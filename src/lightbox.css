@@ -2,6 +2,14 @@
 	color: white;
 }
 
+.svelte-lightbox-body {
+padding: 32px;
+}
+
+.svelte-lightbox-body picture img {
+	max-width: 100%;
+}
+
 .svelte-lightbox-body figcaption {
 	padding-top: 80px;
 	color: #000000;

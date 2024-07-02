@@ -4,9 +4,19 @@
 </script>
 
 <script>
-	let srcNumbertypes = '/sinch/vision/numbertypes.svg';
+	let srcNumbertypes = '/sinch/vision/numbertypes.png';
 
-	let srcJourney = '/sinch/vision/user-journey.png';
+	let numbertypes = {
+  img: '/sinch/vision/numbertypes.png',
+  imgMobile:  '/sinch/vision/numbertypes-small.png',
+  desc: 'Different number type for SMS',
+};
+
+	let journey = {
+  img: '/sinch/vision/user-journey.png',
+  imgMobile:  '/sinch/vision/user-journey-small.png',
+  desc: 'The steps to buy a local US number (also called 10DLC)',
+};
 	let srcQuotes = '/sinch/vision/quotes.svg';
 	let srcCurrentOverivew = '/sinch/vision/current-overview.png';
 	let srcCompareNumbers = '/sinch/vision/compare-numbers.gif';
@@ -57,22 +67,18 @@
 				different regions.
 			</p>
 
+
 			<div class="lightbox">
-			<Lightbox description="Illustrations of different number types">
-			<enhanced:img src="$lib/assets/sinch/vision/numbertypes.svg" alt="Image Alt" />
-			
-		</Lightbox>
-		<p class="image-description">Illustrations of different number types</p>
-	</div>
+				<Lightbox description={numbertypes.desc}>
+					<picture>
+						<source srcset={numbertypes.imgMobile} media="(max-width: 600px)">
+						<source srcset={numbertypes.img} media="(min-width: 601px)">
+						<img src={numbertypes.img} alt={numbertypes.desc}>
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{numbertypes.desc}</p>
+		</div>
 
-			  <!-- <Lightbox description="">
-				<figure>
-					<img src={srcNumbertypes} class="" alt="Illustrations of different number types" />
-					<figcaption>Illustrations of different number types</figcaption>
-				</figure>
-				
-
-			</Lightbox> -->
 
 
 			<p>
@@ -90,9 +96,20 @@
 				guidance.
 			</p>
 
-			<figure>
-				<img src={srcJourney} class="" alt="Illustrating the journey to buy a 10DLC number" />
-			</figure>
+
+			<div class="lightbox">
+				<Lightbox description={journey.desc}>
+					<picture>
+						<source srcset={journey.imgMobile} media="(max-width: 600px)">
+						<source srcset={journey.img} media="(min-width: 601px)">
+						<img src={journey.img} alt={journey.desc}>
+					  </picture>
+			</Lightbox>
+			<p class="image-description">{journey.desc}</p>
+		</div>
+
+		
+		
 
 			<h3>Poor navigation & broken journeys</h3>
 			<p>
