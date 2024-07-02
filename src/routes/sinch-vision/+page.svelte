@@ -56,7 +56,7 @@ let currentOverview = {
 
 let alphatag = {
   img: '/sinch/vision/alphatag.svg',
-  imgMobile: '/sinch/vision/alphatag.png', // Assuming you have a mobile version
+  imgMobile: '/sinch/vision/alphatag-mobile.png', // Assuming you have a mobile version
   desc: '...and later uses it to pre-fill the registration for another type of sender'
 };
 
