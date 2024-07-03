@@ -76,7 +76,7 @@
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 420px) {
 	.svelte-lightbox-body {
 		overflow: hidden;
 	}

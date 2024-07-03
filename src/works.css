@@ -24,7 +24,7 @@
 }
 
 .intro {
-    margin: 120px 0 120px 0;
+    margin: 80px 0;
 }
 
 h1 {
@@ -247,9 +247,7 @@ a:hover {
         justify-content: center;
     }
 
-    .container> :first-child {
-        min-width: 100%;
-    }
+   
 
     .infobox {
         margin-top: 40px;

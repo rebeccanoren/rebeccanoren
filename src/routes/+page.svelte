@@ -65,7 +65,7 @@
 
   .intro {
     margin-top: 100px;
-    padding: 32px;
+    padding: 0 32px;
   }
 
   .intro h1 {
@@ -127,7 +127,7 @@
 </svelte:head>
 <section class="intro">
   <h1 class="xl">
-    I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden
+    I'm a strategic & hands-on Product Designer. Based in Stockholm, Sweden 🇸🇪
   </h1>
 </section>
 
