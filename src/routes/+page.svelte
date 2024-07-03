@@ -93,6 +93,10 @@
       gap: 100px;
     }
 
+    .works {
+      padding: 8px;
+    }
+
     .works-grid .item {
       flex-direction: column;
       align-content: center;
@@ -213,10 +217,8 @@
             their career.
           </p>
           <div class="tags">
-            <div>
-              <span>JTBD</span> <span>User Story Mapping</span>
-              <span>User Test</span>
-            </div>
+            <span>Job-to-be-done</span> <span>User Story Mapping</span>
+            <span>User Test</span>
           </div>
         </figcaption>
       </figure>
