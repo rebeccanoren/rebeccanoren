@@ -65,6 +65,7 @@
 
   .intro {
     margin-top: 100px;
+    padding: 32px;
   }
 
   .intro h1 {
