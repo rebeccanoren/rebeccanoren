@@ -4,14 +4,14 @@
 
 <script>
   let numbertypes = {
-    img: '/sinch/vision/numbertypes.png',
+    img: '/sinch/vision/numbertypes.svg',
     imgMobile: '/sinch/vision/numbertypes-small.png',
     desc: 'Different number type for SMS',
   };
 
   let journey = {
     img: '/sinch/vision/user-journey.png',
-    imgMobile: '/sinch/vision/user-journey-small.png',
+    imgMobile: '/sinch/vision/user-journey.png', // no smaller version yet
     desc: 'The steps to buy a local US number (also called 10DLC)',
   };
 
@@ -228,12 +228,7 @@
       </p>
 
       <div class="lightbox">
-        <Lightbox
-          description="{currentOverview.desc}"
-          keepBodyScroll="false"
-          enableImageExpand="true"
-          ImagePrest="fullscreen"
-        >
+        <Lightbox description="{currentOverview.desc}">
           <picture>
             <source
               srcset="{currentOverview.imgMobile}"
