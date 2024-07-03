@@ -35,9 +35,6 @@
 	--column-margin-top: 4rem;
 }
 
-html, body {
-	overflow-x: hidden;
-  }
 
 body {
 	min-height: 100vh;

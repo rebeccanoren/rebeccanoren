@@ -1,3 +1,7 @@
+.no-scroll {
+    overflow: hidden;
+}
+
 .infobox {
     background-color: rgba(0, 0, 0, 0.05);
     padding: 24px;
@@ -27,6 +31,9 @@ h1 {
     margin: 40px 0;
 }
 
+.case {
+    overflow-x: hidden;
+    }
 
 .case img {
     width: 100%;
@@ -109,7 +116,6 @@ figcaption {
 .container {
     flex-basis: 0;
     flex-grow: 999;
-    min-width: 320px;
 }
 
 .hero {
@@ -140,7 +146,6 @@ figcaption {
     position: sticky;
     top: 32px;
     max-width: 350px;
-    min-width: 250px;
     margin-top: 24px;
 }
 

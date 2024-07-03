@@ -228,7 +228,12 @@
       </p>
 
       <div class="lightbox">
-        <Lightbox description="{currentOverview.desc}">
+        <Lightbox
+          description="{currentOverview.desc}"
+          keepBodyScroll="false"
+          enableImageExpand="true"
+          ImagePrest="fullscreen"
+        >
           <picture>
             <source
               srcset="{currentOverview.imgMobile}"

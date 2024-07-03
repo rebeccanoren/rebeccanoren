@@ -2,21 +2,19 @@
 	color: white;
 }
 
+
+
 .svelte-lightbox-header {
 	background-color: transparent;
+	overflow: hidden;
 }
 	
 .svelte-lightbox-body {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 40px 16px;
-	overflow-x: scroll;
-	width: 100% !important;
-	height: 100vh; /* Ensure the lightbox takes the full height of the viewport */
+	padding: 16px;
+	overflow: scroll;
 	margin: auto !important;
 	margin-right: 0px !important;
+	max-height: 95vh !important;
 }
 
 .svelte-lightbox-body * {
@@ -26,8 +24,7 @@
 }
 
 .svelte-lightbox-body picture img {
-	max-width: 90%;
-	margin: auto;
+	margin: 80px auto;
 }
 
 
@@ -38,6 +35,7 @@
 
 .svelte-lightbox-header button {
 	color: #715469 !important;
+
 }
 
 .svelte-lightbox-overlay{
@@ -48,7 +46,7 @@
 .svelte-lightbox-footer {
 	position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 16px;
   width: 100%;
   text-align: center;
 	display: flex;
@@ -66,6 +64,7 @@
 	backdrop-filter: blur(50px);
 	padding: 12px 8px;
 	border-radius: 8px;
+	margin-bottom: 8px;
 
 
 
